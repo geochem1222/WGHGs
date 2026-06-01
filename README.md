@@ -29,8 +29,8 @@ https://你的用户名.github.io/WGHGs/
 
 `.github/workflows/update-and-deploy.yml` 默认每天 UTC 21:18 运行一次，对应中国时间次日 05:18。它会：
 
-1. 从 Semantic Scholar、OpenAlex、Crossref、PubMed 发现论文。
-2. 用 DOI 或 PMID 到 Semantic Scholar 统一回填引用数、参考文献数、开放 PDF、代表性参考文献和相似文章。
+1. 从 Semantic Scholar 发现论文。
+2. 用 Semantic Scholar 统一回填引用数、参考文献数、开放 PDF、代表性参考文献和相似文章。
 3. 合并到 `data/papers.json`。
 4. 发布静态网页到 `gh-pages` 分支。
 
@@ -74,8 +74,6 @@ http://localhost:8010
 本项目使用开放学术数据服务构建文献追踪页面。感谢这些服务提供 API、元数据和开放学术基础设施：
 
 - Semantic Scholar：统一回填引用数、参考文献数、代表性参考文献、开放 PDF、摘要、相似文章和学术图谱信息。
-- OpenAlex：发现环境科学、生态学、地球科学与交叉学科文献及 DOI。
-- Crossref：发现 DOI 和出版社元数据。
-- PubMed：补充生命科学、生态系统、微生物与温室气体相关记录及 PMID。
+- OpenAlex、Crossref、PubMed：当前不作为默认数据源；如以后需要扩大覆盖，可手动启用。
 
 网页不会在浏览器端直接调用 Semantic Scholar API，因此不会暴露 API key。相似文章、引用指标和参考文献信息由 GitHub Actions 在后台预计算后写入 `data/papers.json`。
