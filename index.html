@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>内陆水体温室气体论文追踪</title>
+    <meta
+      name="description"
+      content="自动追踪内陆水体 CO2、CH4、N2O 等温室气体相关论文。"
+    >
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar" aria-label="页面导航">
+        <a class="brand" href="./" aria-label="回到首页">
+          <span class="brand-mark">G</span>
+          <span>WGHGs Paper Tracker</span>
+        </a>
+        <div class="nav-actions">
+          <a href="#papers">论文</a>
+          <a href="#about">方向</a>
+          <a href="data/papers.json">数据</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">自动更新的研究文献表</p>
+          <h1>内陆水体温室气体文献追踪</h1>
+          <p class="lead">
+            聚焦河流、湖泊、水库、池塘、溪流、沟渠、潮沟、湿地等水体中的 CO2、CH4、N2O 研究。检索词只围绕水体与温室气体，过程、通量、同位素、营养盐、微生物、城市和农业作为分类标签。
+          </p>
+        </div>
+        <aside class="hero-panel" aria-label="追踪状态">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <p class="panel-label">最近更新</p>
+            <strong id="last-updated">读取中</strong>
+          </div>
+          <div>
+            <p class="panel-label">已收录论文</p>
+            <strong id="paper-count">0</strong>
+          </div>
+          <div>
+            <p class="panel-label">数据来源</p>
+            <strong id="source-count">OpenAlex + Crossref</strong>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section class="focus-strip" id="about" aria-label="研究方向">
+        <article>
+          <span>01</span>
+          <h2>内陆与潮汐水体</h2>
+          <p>覆盖 river、lake、reservoir、pond、stream、creek、ditch、tidal creek、wetland 等水体。</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h2>温室气体</h2>
+          <p>追踪 CO2、CH4、N2O 及 greenhouse gas emissions、exchange、evasion 等研究。</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h2>分类视角</h2>
+          <p>按 process、flux、isotope、nutrient、microbial、urban、agriculture 等标签组织文献。</p>
+        </article>
+      </section>
+
+      <section class="toolbar" id="papers" aria-label="论文筛选">
+        <div class="search-box">
+          <label for="search">搜索论文</label>
+          <input id="search" type="search" placeholder="输入关键词、作者、期刊、DOI 或数据库 ID">
+        </div>
+        <div class="search-box">
+          <label for="source-filter">数据来源</label>
+          <select id="source-filter">
+            <option value="all">全部来源</option>
+          </select>
+        </div>
+        <div class="filter-row" aria-label="按主题筛选">
+          <button class="chip active" type="button" data-filter="all">全部</button>
+          <button class="chip" type="button" data-filter="inland_water">内陆水体</button>
+          <button class="chip" type="button" data-filter="river_stream">河流/溪流</button>
+          <button class="chip" type="button" data-filter="lake_reservoir">湖泊/水库</button>
+          <button class="chip" type="button" data-filter="pond_ditch">池塘/沟渠</button>
+          <button class="chip" type="button" data-filter="tidal">潮沟/河口</button>
+          <button class="chip" type="button" data-filter="wetland">湿地</button>
+          <button class="chip" type="button" data-filter="co2">CO2</button>
+          <button class="chip" type="button" data-filter="ch4">CH4</button>
+          <button class="chip" type="button" data-filter="n2o">N2O</button>
+          <button class="chip" type="button" data-filter="process">Process</button>
+          <button class="chip" type="button" data-filter="flux">Flux</button>
+          <button class="chip" type="button" data-filter="isotope">Isotope</button>
+          <button class="chip" type="button" data-filter="nutrient">Nutrient</button>
+          <button class="chip" type="button" data-filter="microbial">Microbial</button>
+          <button class="chip" type="button" data-filter="urban">Urban</button>
+          <button class="chip" type="button" data-filter="agriculture">Agriculture</button>
+        </div>
+      </section>
+
+      <section class="summary-grid" aria-label="论文统计">
+        <div>
+          <p>近一周发表</p>
+          <strong id="week-count">0</strong>
+        </div>
+        <div>
+          <p>近一月发表</p>
+          <strong id="month-count">0</strong>
+        </div>
+        <div>
+          <p>近一年发表</p>
+          <strong id="year-count">0</strong>
+        </div>
+        <div>
+          <p>总引用数</p>
+          <strong id="citation-total">0</strong>
+        </div>
+        <div>
+          <p>开放 PDF</p>
+          <strong id="pdf-count">0</strong>
+        </div>
+        <div>
+          <p>GHG 相关</p>
+          <strong id="ghg-count">0</strong>
+        </div>
+      </section>
+
+      <section class="paper-list" aria-live="polite">
+        <div class="list-header">
+          <h2>最新论文表格</h2>
+          <p id="result-count">正在读取数据</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th><button type="button" data-sort="publication_date">日期 <span></span></button></th>
+                <th><button type="button" data-sort="title">题名 <span></span></button></th>
+                <th><button type="button" data-sort="authors">作者 <span></span></button></th>
+                <th><button type="button" data-sort="journal">期刊 <span></span></button></th>
+                <th><button type="button" data-sort="citation_count">引用 <span></span></button></th>
+                <th><button type="button" data-sort="reference_count">参考 <span></span></button></th>
+                <th><button type="button" data-sort="source">来源 <span></span></button></th>
+                <th>链接</th>
+              </tr>
+            </thead>
+            <tbody id="papers-body"></tbody>
+          </table>
+        </div>
+        <p id="empty-state" class="empty-state" hidden>没有匹配的论文，换一个关键词试试。</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>由 GitHub Actions 定期更新，适合部署到 GitHub Pages、Netlify 或 Cloudflare Pages。</p>
+      <a href="data/papers.json">下载 JSON 数据</a>
+    </footer>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>
