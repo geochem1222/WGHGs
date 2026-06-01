@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T16:23:17.232290+00:00",
+  "updated_at": "2026-06-01T23:17:27.876654+00:00",
   "sources": [
     "Semantic Scholar"
   ],
@@ -1406,7 +1406,7 @@
       "abstract": "Organic and inorganic solute fluxes from soils to rivers follow a hydrological continuum linking terrestrial and aquatic compartments, yet this cascade remains poorly constrained in permafrost regions despite its importance for carbon and greenhouse gas (GHG) cycling. We investigated six hydrological continuums-soil water, fen, lake, riparian zone, stream, and river-across a 1500 km north-south transect of the Western Siberian Lowland, spanning the full gradient from permafrost-free taiga to continuous permafrost tundra. During summer baseflow, surface and soil waters were analyzed for dissolved organic carbon (DOC), CO2, CH4, and 40 major and trace elements. DOC, CO2, and CH4 concentrations systematically decreased from soils and fens toward lakes and rivers, highlighting headwaters as dominant sources of carbon and GHGs. Aluminum covaried with DOC, consistent with organic complexation and downstream pH increases, whereas Fe and Mn reflected local redox variability. In contrast, Ca, Mg, Sr, and soluble anions increased downstream in southern, permafrost-free systems, indicating active groundwater inputs, while no such trend was observed in tundra sites under continuous permafrost, pointing to strong hydrological isolation. DOC declined with increasing drainage area, whereas CO2 and CH4 showed no consistent dependence on watershed size. Nutrients (Si, P) increased downstream mainly within discontinuous permafrost zones, suggesting enhanced subsurface contributions. Principal component analysis revealed two dominant patterns of covariation: one linking DOC, Fe, Al, and low-mobility lithogenic trace elements, consistent with colloidal transport of organic and organo-ferric complexes, and a second associated with electrical conductivity and labile ions, reflecting variable groundwater influence and subsurface-surface connectivity. GHG concentrations were largely independent of these patterns and instead related to local redox conditions and subsoil CO₂-CH₄ inputs. Overall, this study provides the first integrated, pan-regional assessment of coupled organic carbon, greenhouse gases, and major-trace element dynamics along complete hydrological continuums spanning the full permafrost gradient of the Western Siberian Lowland. By combining multi-compartment sampling with a space-for-time framework, we identify two fundamental controls-colloidal transport limitation and groundwater-driven source limitation-that unify solute behavior across climate zones. The results demonstrate how permafrost extent governs hydrological connectivity, biogeochemical processing, and GHG regimes, offering a mechanistic basis for predicting Arctic river responses to thaw, warming, and changing water-groundwater exchange.",
       "url": "https://www.semanticscholar.org/paper/ef6f42cd0747c0d54acedd86458ca3eab59ae1c6",
       "pdf_url": "",
-      "citation_count": 2,
+      "citation_count": 3,
       "influential_citation_count": 0,
       "reference_count": 152,
       "references": [],
@@ -4306,7 +4306,7 @@
       "abstract": "Abstract. Salt marshes are blue carbon (C) ecosystems characterized by intense atmospheric CO2 uptake and C sequestration but also by organic and inorganic C exports through the tide. However, uncertainties about the main biotic factors controlling these vertical and horizontal C fluxes imply studying terrestrial and aquatic metabolisms simultaneously at small timescales (diurnal and tidal) to distinguish their contributions to net ecosystem CO2 exchange (NEE). In a temperate salt marsh, four sampling 24 h cycles were performed to measure all water C biogeochemical parameters (including CO2 partial pressures, pCO2), nutrients, and aquatic metabolism simultaneously to NEE from high tide during marsh immersion (imported coastal waters influenced by the continental shelf) to low tide during marsh emersion (exported channel waters influenced by the marsh drainage). At high tide, water CO2 oversaturation (water pCO2 > air pCO2) due to marsh aquatic heterotrophy and CO2-concentrated water inputs from the coastal end-member induced water–air CO2 emissions during marsh immersion. At low tide, water pCO2 in the channel were also mainly controlled by the marsh aquatic metabolism, inducing a water CO2 oversaturation in winter due to dominant heterotrophy and a water CO2 undersaturation in spring and summer due to dominant autotrophy. In winter, the greatest increases in dissolved inorganic carbon (DIC; from 2354 to 3963 µmol kg−1), total alkalinity (TA; from 2508 to 4016 µmol kg−1) and dissolved inorganic nitrogen (DIN; from 27.7 to 68.4 µM) were measured simultaneously during low tide at night, probably due to intense aerobic/anaerobic microbial respiration of organic matter in channel waters and/or sediments resulting in the greatest water pCO2 increase (from 533 to 1461 ppmv). On the contrary, in spring and summer, large water pCO2 decreases (down to 83 ppmv) and dissolved organic carbon (DOC) increases (up to 1040 µM) from high to low tide could be related to intense autochthonous and allochthonous marsh primary production, including benthic microalgae, phytoplankton and macroalgae. This study suggests that the horizontal exchanges of coastal waters with the salt marsh significantly modify water C dynamics and associated water CO2 sink/source state in the channel due to an intense marsh metabolism (production and respiration). At the daily scale, plant and phytoplankton metabolism rates played a major and a minor role, respectively, in the marsh CO2 sink measured by atmospheric eddy covariance at the ecosystem scale (NEE), even during immersion where emerged plants located on the highest marsh levels can maintain a low CO2 uptake, despite aquatic heterotrophy and associated water–air CO2 emissions.\n",
       "url": "https://www.semanticscholar.org/paper/fd1cf1d1a588bbb669d264e0dd3a983c60bb916d",
       "pdf_url": "",
-      "citation_count": 1,
+      "citation_count": 2,
       "influential_citation_count": 0,
       "reference_count": 93,
       "references": [],
@@ -10743,6 +10743,51 @@
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/7e7080d0c0d99620e0bde9eea1de8613ad2d054c"
     },
     {
+      "id": "0451580df7af4a1f8ebdcd55ad97a1349446d079",
+      "source": "Semantic Scholar",
+      "pmid": "",
+      "doi": "10.1016/j.jwpe.2024.106696",
+      "title": "A systematic review on greenhouse gas emissions from constructed wetlands: Focusing on effects of planting strategies and emission reduction measures",
+      "authors": [
+        "Qianyin Yuan",
+        "Jianjun Lian",
+        "Fei Yang",
+        "Maocai Shen",
+        "Yulai Wang",
+        "Qiaoping Kong",
+        "Bo Chen",
+        "Xiao Cai",
+        "Haocheng Tao",
+        "Haiming Wu"
+      ],
+      "journal": "Journal of Water Process Engineering",
+      "publication_date": "2025-01-01",
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/0451580df7af4a1f8ebdcd55ad97a1349446d079",
+      "pdf_url": "",
+      "citation_count": 9,
+      "influential_citation_count": 0,
+      "reference_count": 116,
+      "references": [],
+      "similar_papers": [],
+      "fields_of_study": [],
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "tldr": "",
+      "metrics_source": "Semantic Scholar",
+      "tags": [
+        "flux",
+        "ghg",
+        "process",
+        "tidal",
+        "wetland"
+      ],
+      "semantic_scholar_id": "0451580df7af4a1f8ebdcd55ad97a1349446d079",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/0451580df7af4a1f8ebdcd55ad97a1349446d079"
+    },
+    {
       "id": "707010e404efba122d2d698717a56fc2d7bd25fa",
       "source": "Semantic Scholar",
       "pmid": "39894178",
@@ -12318,7 +12363,7 @@
       "abstract": "Climate-sensitive northern cryosphere inland waters emit greenhouse gases (GHGs) into the atmosphere, yet their total emissions remain poorly constrained. We present a data-driven synthesis of GHG emissions from northern cryosphere inland waters considering water body types, cryosphere zones, and seasonality. We find that annual GHG emissions are dominated by carbon dioxide (1149.21004.81307.5 teragrams of CO2; medianQ1Q3) and methane (14.210.118.5 teragrams of CH4), while the nitrous oxide emission (5.4−1.412.2 gigagrams of N2O) is minor. The annual CO2–equivalent (CO2e) GHG emissions from northern cryosphere inland waters total 1.51.31.8 or 2.31.82.8 petagrams of CO2e using the 100- or 20-year global warming potentials, respectively. Rivers emit 64% more CO2e GHGs than lakes, despite having only one-fifth of their surface area. The continuous permafrost zone contributed half of the inland water GHG emissions. Annual CO2e emissions from northern cryosphere inland waters exceed the region’s terrestrial net ecosystem exchange, highlighting the important role of inland waters in the cryospheric land-aquatic continuum under a warming climate.",
       "url": "https://www.semanticscholar.org/paper/9eccf13f4f4b26a930e1f0f96e52fb9c74499338",
       "pdf_url": "https://doi.org/10.1126/sciadv.adp0024",
-      "citation_count": 30,
+      "citation_count": 31,
       "influential_citation_count": 1,
       "reference_count": 99,
       "references": [
@@ -12928,7 +12973,7 @@
       "abstract": "Aquaculture systems are expected to act as potential hotspots for nitrous oxide (N2O) emissions, largely attributed to substantial nutrient loading from aquafeed applications. However, the specific patterns and contributions of N2O fluxes from these systems to the global emissions inventory are not well characterized due to limited data. This study investigates the patterns of N2O flux across 127 freshwater systems in China to elucidate the role of aquaculture ponds and lakes/reservoirs in landscape N2O emission. Our findings show that the average N2O flux from aquaculture ponds was 3.63 times higher (28.73 μg N2O m-2 h-1) than that from non-aquaculture ponds. Additionally, the average N2O flux from aquaculture lakes/reservoirs (15.65 μg N2O m-2 h-1) increased 3.05 times compared to non-aquaculture lakes/reservoirs. The transition from non-aquaculture to aquaculture practices has resulted in a net annual increase of 7589 ± 2409 Mg N2O emissions in China's freshwater systems from 2003 to 2022, equivalent to 20% of total N2O emissions from China's inland water. Particularly, the robust negative regression relationship between N2O emission intensity and water area suggests that small ponds are hotspots of N2O emissions, a result of both elevated nutrient concentrations and more vigorous biogeochemical cycles. This indicates that N2O emissions from smaller aquaculture ponds are larger per unit area compared to equivalent larger water bodies. Our findings highlight that N2O emissions from aquaculture systems can not be proxied by those from natural water bodies, especially small water bodies exhibiting significant but largely unquantified N2O emissions. In the context of the rapid global expansion of aquaculture, this underscores the critical need to integrate aquaculture into global assessments of inland water N2O emissions to advance towards a low-carbon future.",
       "url": "https://www.semanticscholar.org/paper/6dbbf1af349065e9dfe9d00729af4a83e466d4d5",
       "pdf_url": "",
-      "citation_count": 10,
+      "citation_count": 11,
       "influential_citation_count": 1,
       "reference_count": 57,
       "references": [],
@@ -13391,7 +13436,7 @@
       "abstract": "In order to foresee the impact of permafrost thaw on CO2 emissions by high-latitude rivers, in-situ measurements across a permafrost and climate/vegetation gradient, coupled with assessment of possible physico-chemical and landscape controlling factors are necessary. Here we chose 34 catchments of variable stream order (1 to 9) and watershed size (1 to >105 km2) located across a permafrost and biome gradient in the Western Siberian Lowland (WSL), from the permafrost-free southern taiga to the continuous permafrost zone of tundra. Across the south-north transect, maximal CO2 emissions (2.2 ± 1.1 g C-CO2 m-2 d-1) occurred from rivers of the discontinuous/sporadic permafrost zone, i.e., geographical permafrost thawing boundary. In this transitional zone, fluvial C emission to downstream export ratio was as high as 8.0, which greatly (x 10) exceeded the ratio in the permafrost free and continuous permafrost zones. Such a high evasion at the permafrost thawing front can stem from an optimal combination of multiple environmental factors: maximal active layer thickness, sizable C stock in soils, and mobilization of labile organic nutrients from dispersed peat ice that enhanced DOC and POC processing in the water column, likely due to priming effect. Via a substituting space for time approach, we foresee an increase in CO2 and CH4 fluvial evasion in the continuous and discontinuous permafrost zone, which is notably linked to the greening of tundra increases in biomass of the riparian vegetation, river water warming and thermokarst lake formation on the watershed.",
       "url": "https://www.semanticscholar.org/paper/6123fdcb4be75ac0ff4033a3a3827fda8d114c91",
       "pdf_url": "",
-      "citation_count": 7,
+      "citation_count": 8,
       "influential_citation_count": 0,
       "reference_count": 0,
       "references": [],
@@ -17762,62 +17807,6 @@
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/818f725b48cb240dbe9b07a34028bf18741614a0"
     },
     {
-      "id": "02203201cdb415780287b33358db18e9838329b9",
-      "source": "Semantic Scholar",
-      "pmid": "",
-      "doi": "10.1029/2022GB007657",
-      "title": "Inland Water Greenhouse Gas Budgets for RECCAP2: 1. State‐Of‐The‐Art of Global Scale Assessments",
-      "authors": [
-        "R. Lauerwald",
-        "G. Allen",
-        "B. Deemer",
-        "Shaoda Liu",
-        "T. Maavara",
-        "P. Raymond",
-        "L. Alcott",
-        "D. Bastviken",
-        "A. Hastie",
-        "M. Holgerson",
-        "Matthew S. Johnson",
-        "B. Lehner",
-        "P. Lin",
-        "A. Marzadri",
-        "L. Ran",
-        "H. Tian",
-        "Xiao Yang",
-        "Yuanzhi Yao",
-        "P. Régnier"
-      ],
-      "journal": "Global Biogeochemical Cycles",
-      "publication_date": "2023-04-25",
-      "abstract": "Inland waters are important emitters of the greenhouse gasses (GHGs) carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) to the atmosphere. In the framework of the 2nd phase of the REgional Carbon Cycle Assessment and Processes (RECCAP‐2) initiative, we review the state of the art in estimating inland water GHG budgets at global scale, which has substantially advanced since the first phase of RECCAP nearly 10 years ago. The development of increasingly sophisticated upscaling techniques, including statistical prediction and process‐based models, allows for spatially explicit estimates that are needed for regionalized assessments of continental GHG budgets such as those established for RECCAP. A few recent estimates also resolve the seasonal and/or interannual variability in inland water GHG emissions. Nonetheless, the global‐scale assessment of inland water emissions remains challenging because of limited spatial and temporal coverage of observations and persisting uncertainties in the abundance and distribution of inland water surface areas. To decrease these uncertainties, more empirical work on the contributions of hot‐spots and hot‐moments to overall inland water GHG emissions is particularly needed.",
-      "url": "https://www.semanticscholar.org/paper/02203201cdb415780287b33358db18e9838329b9",
-      "pdf_url": "",
-      "citation_count": 69,
-      "influential_citation_count": 9,
-      "reference_count": 212,
-      "references": [],
-      "similar_papers": [],
-      "fields_of_study": [],
-      "publication_types": [
-        "JournalArticle",
-        "Review"
-      ],
-      "tldr": "",
-      "metrics_source": "Semantic Scholar",
-      "tags": [
-        "ch4",
-        "co2",
-        "flux",
-        "ghg",
-        "inland_water",
-        "n2o",
-        "process"
-      ],
-      "semantic_scholar_id": "02203201cdb415780287b33358db18e9838329b9",
-      "semantic_scholar_url": "https://www.semanticscholar.org/paper/02203201cdb415780287b33358db18e9838329b9"
-    },
-    {
       "id": "60b25c188e782439af367516e5255f82f50d8ecf",
       "source": "Semantic Scholar",
       "pmid": "",
@@ -17873,6 +17862,62 @@
       ],
       "semantic_scholar_id": "60b25c188e782439af367516e5255f82f50d8ecf",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/60b25c188e782439af367516e5255f82f50d8ecf"
+    },
+    {
+      "id": "02203201cdb415780287b33358db18e9838329b9",
+      "source": "Semantic Scholar",
+      "pmid": "",
+      "doi": "10.1029/2022GB007657",
+      "title": "Inland Water Greenhouse Gas Budgets for RECCAP2: 1. State‐Of‐The‐Art of Global Scale Assessments",
+      "authors": [
+        "R. Lauerwald",
+        "G. Allen",
+        "B. Deemer",
+        "Shaoda Liu",
+        "T. Maavara",
+        "P. Raymond",
+        "L. Alcott",
+        "D. Bastviken",
+        "A. Hastie",
+        "M. Holgerson",
+        "Matthew S. Johnson",
+        "B. Lehner",
+        "P. Lin",
+        "A. Marzadri",
+        "L. Ran",
+        "H. Tian",
+        "Xiao Yang",
+        "Yuanzhi Yao",
+        "P. Régnier"
+      ],
+      "journal": "Global Biogeochemical Cycles",
+      "publication_date": "2023-04-25",
+      "abstract": "Inland waters are important emitters of the greenhouse gasses (GHGs) carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) to the atmosphere. In the framework of the 2nd phase of the REgional Carbon Cycle Assessment and Processes (RECCAP‐2) initiative, we review the state of the art in estimating inland water GHG budgets at global scale, which has substantially advanced since the first phase of RECCAP nearly 10 years ago. The development of increasingly sophisticated upscaling techniques, including statistical prediction and process‐based models, allows for spatially explicit estimates that are needed for regionalized assessments of continental GHG budgets such as those established for RECCAP. A few recent estimates also resolve the seasonal and/or interannual variability in inland water GHG emissions. Nonetheless, the global‐scale assessment of inland water emissions remains challenging because of limited spatial and temporal coverage of observations and persisting uncertainties in the abundance and distribution of inland water surface areas. To decrease these uncertainties, more empirical work on the contributions of hot‐spots and hot‐moments to overall inland water GHG emissions is particularly needed.",
+      "url": "https://www.semanticscholar.org/paper/02203201cdb415780287b33358db18e9838329b9",
+      "pdf_url": "",
+      "citation_count": 69,
+      "influential_citation_count": 9,
+      "reference_count": 212,
+      "references": [],
+      "similar_papers": [],
+      "fields_of_study": [],
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "tldr": "",
+      "metrics_source": "Semantic Scholar",
+      "tags": [
+        "ch4",
+        "co2",
+        "flux",
+        "ghg",
+        "inland_water",
+        "n2o",
+        "process"
+      ],
+      "semantic_scholar_id": "02203201cdb415780287b33358db18e9838329b9",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/02203201cdb415780287b33358db18e9838329b9"
     },
     {
       "id": "b75eee0236070e03aff712c8c0e9607e23acb684",
@@ -18728,7 +18773,7 @@
       "abstract": "Biodegradable dissolved organic carbon (BDOC) constitutes the most labile fraction of dissolved organic matter (DOM), which also functions as a source of CO2 emissions from inland waters. However, no systematic review is available on DOM indicators of BDOC and CO2 production potential. Optical and molecular indices can be used to track small changes in DOM composition during biodegradation. In this review, we identified four different methods for measuring BDOC together with their strengths and limitations. In addition, we discuss the potential of using documented optical indices based on absorption and fluorescence spectroscopy and molecular indices based on Fourier transform ion cyclotron mass spectrometry as proxies for estimating BDOC and biodegradation-induced CO2 production based on previously reported relationships in the literature. Many absorbance- and fluorescence-based indices showed inconsistent relationships with BDOC depending on watershed characteristics, hydrology, and anthropogenic impacts. Nevertheless, several indices, including specific UV absorbance at 254 nm (SUVA254), humification index (HIX), and terrestrial humic-like fluorescent DOM (FDOM) components, tended to have negative relationships with BDOC in tropical and temperate watersheds under baseflow or drought periods. Protein-like FDOM exhibited the strongest correlation with BDOC in different systems, except during storms and flood events. Despite the limited number of studies, DOM molecular indices exhibited consistent relationships with BDOC, suggesting that the relative abundance of aliphatic formulas and the molecular lability index could act as reliable proxies. The DOM optical indices explain up to 96% and 78% variability in BDOC and CO2, respectively; nonetheless, there were limited studies on molecular indices, which explain up to 74% variability in BDOC. Based on literature survey, we recommend several sensitive indices such as SUVA254, HIX, and terrestrial humic- and protein-like FDOM, which could be useful indicators of BDOC and dissolved CO2 in inland water. Future research should incorporate a wider range of geographic regions with various land use, hydrology, and anthropogenic disturbances to develop system- or condition-specific DOM optical or molecular proxies for better prediction of BDOC and CO2 emissions.",
       "url": "https://www.semanticscholar.org/paper/9ce6b7ef6531216516d10afbd9e7354c2d93cc40",
       "pdf_url": "",
-      "citation_count": 83,
+      "citation_count": 84,
       "influential_citation_count": 1,
       "reference_count": 113,
       "references": [],
@@ -19286,7 +19331,7 @@
       "abstract": "",
       "url": "https://www.semanticscholar.org/paper/61bcd79fef7ea3c6a069c8ad264a93c1acf3c581",
       "pdf_url": "",
-      "citation_count": 24,
+      "citation_count": 25,
       "influential_citation_count": 1,
       "reference_count": 74,
       "references": [],
@@ -20588,6 +20633,48 @@
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/748c0899f938e1859b39b06d172096c3d1d78a95"
     },
     {
+      "id": "298bb9066662f3f38020aadf7e8811ce0f7866b6",
+      "source": "Semantic Scholar",
+      "pmid": "34863740",
+      "doi": "10.1016/j.scitotenv.2021.152133",
+      "title": "Assessing the role of deltaic flood plain wetlands on regulating methane and carbon balance.",
+      "authors": [
+        "Sandipta Debanshi",
+        "Swades Pal"
+      ],
+      "journal": "Science of the Total Environment",
+      "publication_date": "2021-12-01",
+      "abstract": "Present study deals with the role of wetland for regulating greenhouse gases (GHG) particularly methane (CH4) emission and carbon (C) sequestration in mature Ganges deltaic environment. The annual total amount of emission and sequestration in wetlands of varying types was estimated along with the seasonal variation. Result showed that the streams were the highest emitter of CH4 followed by ox-bow lakes in all the seasons whereas the bheries (embanked pisciculture arresting tidal water) consistently exhibited the lowest average emission. The average sequestration of C was the highest in ox-bow lakes followed by marshes and mudflats. The average emission in monsoon season was 43% and 78% higher than the average emission of pre and post-monsoon seasons respectively. The yearly total emission was 8.01 × 103 ton and yearly total sequestration was estimated 908.98 × 103 ton. From the perspective of GHG regulation, the wetlands were found to yearly uptake four times higher carbon dioxide (CO2) than the CO2 equivalent (CO2e) of emitted CH4. After offsetting the fixation cost of emitted CH4, the yearly surplus sequestrated C in the wetlands of the entire region was worthy of 68.46 million US dollar (USD). So, wetland plays positive role for reducing greenhouse gas effect and associated temperature rise which is considered to be serious issue. Such result has made a good agreement on the debated issue of wetland CH4 emission and C sequestration and will encourage restoring wetland for even mediating GHG issue.",
+      "url": "https://www.semanticscholar.org/paper/298bb9066662f3f38020aadf7e8811ce0f7866b6",
+      "pdf_url": "",
+      "citation_count": 24,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "references": [],
+      "similar_papers": [],
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_types": [
+        "JournalArticle"
+      ],
+      "tldr": "",
+      "metrics_source": "Semantic Scholar",
+      "tags": [
+        "ch4",
+        "co2",
+        "flux",
+        "ghg",
+        "lake_reservoir",
+        "process",
+        "river_stream",
+        "tidal",
+        "wetland"
+      ],
+      "semantic_scholar_id": "298bb9066662f3f38020aadf7e8811ce0f7866b6",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/298bb9066662f3f38020aadf7e8811ce0f7866b6"
+    },
+    {
       "id": "9ee6bd7fecde46ce9aa7c30408cfa00b220a501a",
       "source": "Semantic Scholar",
       "pmid": "",
@@ -20629,48 +20716,6 @@
       ],
       "semantic_scholar_id": "9ee6bd7fecde46ce9aa7c30408cfa00b220a501a",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/9ee6bd7fecde46ce9aa7c30408cfa00b220a501a"
-    },
-    {
-      "id": "298bb9066662f3f38020aadf7e8811ce0f7866b6",
-      "source": "Semantic Scholar",
-      "pmid": "34863740",
-      "doi": "10.1016/j.scitotenv.2021.152133",
-      "title": "Assessing the role of deltaic flood plain wetlands on regulating methane and carbon balance.",
-      "authors": [
-        "Sandipta Debanshi",
-        "Swades Pal"
-      ],
-      "journal": "Science of the Total Environment",
-      "publication_date": "2021-12-01",
-      "abstract": "Present study deals with the role of wetland for regulating greenhouse gases (GHG) particularly methane (CH4) emission and carbon (C) sequestration in mature Ganges deltaic environment. The annual total amount of emission and sequestration in wetlands of varying types was estimated along with the seasonal variation. Result showed that the streams were the highest emitter of CH4 followed by ox-bow lakes in all the seasons whereas the bheries (embanked pisciculture arresting tidal water) consistently exhibited the lowest average emission. The average sequestration of C was the highest in ox-bow lakes followed by marshes and mudflats. The average emission in monsoon season was 43% and 78% higher than the average emission of pre and post-monsoon seasons respectively. The yearly total emission was 8.01 × 103 ton and yearly total sequestration was estimated 908.98 × 103 ton. From the perspective of GHG regulation, the wetlands were found to yearly uptake four times higher carbon dioxide (CO2) than the CO2 equivalent (CO2e) of emitted CH4. After offsetting the fixation cost of emitted CH4, the yearly surplus sequestrated C in the wetlands of the entire region was worthy of 68.46 million US dollar (USD). So, wetland plays positive role for reducing greenhouse gas effect and associated temperature rise which is considered to be serious issue. Such result has made a good agreement on the debated issue of wetland CH4 emission and C sequestration and will encourage restoring wetland for even mediating GHG issue.",
-      "url": "https://www.semanticscholar.org/paper/298bb9066662f3f38020aadf7e8811ce0f7866b6",
-      "pdf_url": "",
-      "citation_count": 24,
-      "influential_citation_count": 0,
-      "reference_count": 0,
-      "references": [],
-      "similar_papers": [],
-      "fields_of_study": [
-        "Medicine"
-      ],
-      "publication_types": [
-        "JournalArticle"
-      ],
-      "tldr": "",
-      "metrics_source": "Semantic Scholar",
-      "tags": [
-        "ch4",
-        "co2",
-        "flux",
-        "ghg",
-        "lake_reservoir",
-        "process",
-        "river_stream",
-        "tidal",
-        "wetland"
-      ],
-      "semantic_scholar_id": "298bb9066662f3f38020aadf7e8811ce0f7866b6",
-      "semantic_scholar_url": "https://www.semanticscholar.org/paper/298bb9066662f3f38020aadf7e8811ce0f7866b6"
     },
     {
       "id": "394a1bdabc962c39646b4f844da896ad753276a1",
@@ -21377,7 +21422,7 @@
       "abstract": "Methane (CH4), a potent greenhouse gas, is the second most important greenhouse gas contributor to climate change after carbon dioxide (CO2). The biological emissions of CH4 from wetlands are a major uncertainty in CH4 budgets. Microbial methanogenesis by Archaea is an anaerobic process accounting for most biological CH4 production in nature, yet recent observations indicate that large emissions can originate from oxygenated or frequently oxygenated wetland soil layers. To determine how oxygen (O2) can stimulate CH4 emissions, we used incubations of Sphagnum peat to demonstrate that the temporary exposure of peat to O2 can increase CH4 yields up to 2000‐fold during subsequent anoxic conditions relative to peat without O2 exposure. Geochemical (including ion cyclotron resonance mass spectrometry, X‐ray absorbance spectroscopy) and microbiome (16S rDNA amplicons, metagenomics) analyses of peat showed that higher CH4 yields of redox‐oscillated peat were due to functional shifts in the peat microbiome arising during redox oscillation that enhanced peat carbon (C) degradation. Novosphingobium species with O2‐dependent aromatic oxygenase genes increased greatly in relative abundance during the oxygenation period in redox‐oscillated peat compared to anoxic controls. Acidobacteria species were particularly important for anaerobic processing of peat C, including in the production of methanogenic substrates H2 and CO2. Higher CO2 production during the anoxic phase of redox‐oscillated peat stimulated hydrogenotrophic CH4 production by Methanobacterium species. The persistence of reduced iron (Fe(II)) during prolonged oxygenation in redox‐oscillated peat may further enhance C degradation through abiotic mechanisms (e.g., Fenton reactions). The results indicate that specific functional shifts in the peat microbiome underlie O2 enhancement of CH4 production in acidic, Sphagnum‐rich wetland soils. They also imply that understanding microbial dynamics spanning temporal and spatial redox transitions in peatlands is critical for constraining CH4 budgets; predicting feedbacks between climate change, hydrologic variability, and wetland CH4 emissions; and guiding wetland C management strategies.",
       "url": "https://www.semanticscholar.org/paper/028b574267d7470c01077e39366e5c20030b3efb",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/gcb.15831",
-      "citation_count": 63,
+      "citation_count": 64,
       "influential_citation_count": 0,
       "reference_count": 88,
       "references": [
@@ -21803,7 +21848,7 @@
       "abstract": "Inland waters play an active role in the global carbon cycle and emit large volumes of the greenhouse gases (GHGs), methane (CH4) and carbon dioxide (CO2). A considerable body of research has improved emissions estimates from lakes, reservoirs and rivers but recent attention has been drawn to the importance of small, artificial waterbodies as poorly quantified but potentially important emission hotspots. Of particular interest are emissions from drainage ditches and constructed ponds. These waterbody types are prevalent in many landscapes and their cumulative surface areas can be substantial. Furthermore, GHG emissions from constructed waterbodies are anthropogenic in origin and form part of national emissions reporting, whereas emissions from natural waterbodies do not (according to Intergovernmental Panel on Climate Change guidelines). Here, we present GHG data from two complementary studies covering a range of land uses. In the first, we measured emissions from nine ponds and seven ditches over a full year. Annual emissions varied considerably: 0.1–44.3 g CH4 m−2 year−1 and −36–4421 g CO2 m−2 year−1. In the second, we measured GHG concentrations in 96 ponds and 64 ditches across seven countries, covering subtropical, temperate and sub‐arctic biomes. When CH4 emissions were converted to CO2 equivalents, 93% of waterbodies were GHG sources. In both studies, GHGs were positively related to nutrient status (C, N, P), and pond GHG concentrations were highest in smallest waterbodies. Ditch and pond emissions were larger per unit area when compared to equivalent natural systems (streams, natural ponds). We show that GHG emissions from natural systems should not be used as proxies for those from artificial waterbodies, and that artificial waterbodies have the potential to make a substantial but largely unquantified contribution to emissions from the Agriculture, Forestry and Other Land Use sector, and the global carbon cycle.",
       "url": "https://www.semanticscholar.org/paper/bb6830588445e2706c437ee84a08eae13e8bb797",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/gcb.15762",
-      "citation_count": 121,
+      "citation_count": 122,
       "influential_citation_count": 10,
       "reference_count": 104,
       "references": [
@@ -22461,7 +22506,7 @@
       "abstract": "Abstract. Methane (CH4) emissions from the Boreal and Arctic region are globally significant and highly sensitive to climate change. There is currently a wide range in estimates of high-latitude annual CH4 fluxes, where estimates based on land cover inventories and empirical CH4 flux data or process models (bottom-up approaches) generally are greater than atmospheric inversions (top-down approaches). A limitation of bottom-up approaches has been the lack of harmonization between inventories of site-level CH4 flux data and the land cover classes present in high-latitude spatial datasets. Here we present a comprehensive dataset of small-scale, surface CH4 flux data from 540 terrestrial sites (wetland and non-wetland) and 1247 aquatic sites (lakes and ponds), compiled from 189 studies. The Boreal-Arctic Wetland and Lake Methane Dataset (BAWLD-CH4) was constructed in parallel with a compatible land cover dataset, sharing the same land cover classes to enable refined bottom-up assessments. BAWLD-CH4 includes information on site-level CH4 fluxes, but also on study design (measurement method, timing, and frequency) and site characteristics (vegetation, climate, hydrology, soil, and sediment types, permafrost conditions, lake size and depth, and our determination of land cover class). The different land cover classes had distinct CH4 fluxes, resulting from definitions that were either based on or co-varied with key environmental controls. Fluxes of CH4 from terrestrial ecosystems were primarily influenced by water table position, soil temperature, and vegetation composition, while CH4 fluxes from aquatic ecosystems were primarily influenced by water temperature, lake size, and lake genesis. Models could explain more of the between-site variability in CH4 fluxes for terrestrial than aquatic ecosystems, likely due to both less precise assessments of lake CH4 fluxes and fewer consistently reported lake site characteristics. Analysis of BAWLD-CH4 identified both land cover classes and regions within the Boreal and Arctic domain where future studies should be focused, alongside methodological approaches. Overall, BAWLD-CH4 provides a comprehensive dataset of CH4 emissions from high-latitude ecosystems that are useful for identifying research opportunities, for comparison against new field data, and model parameterization or validation. BAWLD-CH4 can be downloaded from https://doi.org/10.18739/A27H1DN5S.\n",
       "url": "https://www.semanticscholar.org/paper/34453970a48e740c50633b0a7564247e4e217c9a",
       "pdf_url": "https://doi.org/10.5194/essd-2021-141",
-      "citation_count": 100,
+      "citation_count": 101,
       "influential_citation_count": 11,
       "reference_count": 158,
       "references": [
@@ -22656,7 +22701,7 @@
       "abstract": "",
       "url": "https://www.semanticscholar.org/paper/3a0fa9d9e0b0f4079ebb5ed74934f334b43f9649",
       "pdf_url": "",
-      "citation_count": 839,
+      "citation_count": 840,
       "influential_citation_count": 70,
       "reference_count": 74,
       "references": [],
@@ -23824,7 +23869,7 @@
       "abstract": "Although an increasing number of reports have revealed that rivers are important sources of greenhouse gases (GHGs), the magnitude and underlying mechanism of riverine GHG emissions are still poorly understood. The global extent of the headwater stream ecosystem may represent one of the important GHG emitters. A global database of GHG measurements from 595 rivers, indicated that the concentrations of riverine GHGs continually decrease as the stream order increases. Further analysis suggested that high GHG emissions from headwater streams (Strahler stream orders of 1 to 3) could be related to the low levels of dissolved oxygen, massive terrestrially derived carbon/nitrogen inputs and large gas exchange velocity. Through a combination of the predicted river surface areas and gas transfer velocities, we estimated that globally, the rivers emit approximately 6.6 (5.5-7.8) Pg CO2, 29.5 (19.6-37.3) Tg CH4, and 0.6 (0.2-0.9) Tg N2O per year, and totally emit 7.6 (6.1-9.1) CO2 equivalent into atmosphere per year. The headwater streams contribute 72.3%, 75.5%, and 77.2% of the global riverine CO2, CH4, and N2O emissions, respectively. This study presents a systematic estimation of GHG emissions from river ecosystems worldwide and highlights the dominant role played by headwater streams in GHG evasions from global rivers.",
       "url": "https://www.semanticscholar.org/paper/e593bb8d84ca3ce8890f4877f2cc030bd5efe6b9",
       "pdf_url": "",
-      "citation_count": 110,
+      "citation_count": 111,
       "influential_citation_count": 6,
       "reference_count": 61,
       "references": [],
@@ -28887,7 +28932,7 @@
       "abstract": "",
       "url": "https://www.semanticscholar.org/paper/0a88af7c9b6a8205850244643d6fc65abf4d718a",
       "pdf_url": "",
-      "citation_count": 849,
+      "citation_count": 850,
       "influential_citation_count": 117,
       "reference_count": 47,
       "references": [],
@@ -29286,7 +29331,7 @@
       "abstract": "Aquatic ecosystems are a globally significant source of nitrous oxide (N2O), a potent greenhouse gas, but estimates are largely based on studies conducted in streams and rivers with relatively less known about N2O dynamics in reservoirs. Due to long water residence times and high nitrogen (N) loading rates, reservoirs support substantial N processing and therefore may be particularly important sites of N2O production. Predicting N2O emissions from reservoirs is difficult due to complex interactions between microbial N processing in the oxygen‐poor hypolimnion and oxygen‐rich epilimnion. Here we present the results of a survey of N2O depth profiles in 20 reservoirs draining a broad range of land use conditions in four states in the U.S. Nitrous oxide was supersaturated in the epilimnion of 80% of the reservoirs and was undersaturated in only one, indicating that reservoirs in this region are generally a source of N2O to the atmosphere. Nitrous oxide was undersaturated in the hypolimnion of 10 reservoirs, supersaturated in 9, and transitioned from supersaturation to undersaturation in 1 reservoir that was monitored periodically from midsummer to fall. All reservoirs with a mean hypolimnion nitrate concentration less than 50 µg N L−1 showed evidence of net N2O consumption in the hypolimnion. All reservoirs sampled during lake turnover supported N2O production throughout the water column. These results indicate that N2O dynamics in reservoirs differ widely both among systems and through time but can be predicted based on N and oxygen availability and degree of thermal stratification.",
       "url": "https://www.semanticscholar.org/paper/529e2077fa2f19022541817a75e62788fa6a1920",
       "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2015JG002941",
-      "citation_count": 66,
+      "citation_count": 67,
       "influential_citation_count": 11,
       "reference_count": 60,
       "references": [
@@ -29884,7 +29929,7 @@
       "abstract": "",
       "url": "https://www.semanticscholar.org/paper/1131d23550cd0cd40b92cde58e8b095e3e041969",
       "pdf_url": "http://uu.diva-portal.org/smash/get/diva2:683602/FULLTEXT01",
-      "citation_count": 2299,
+      "citation_count": 2300,
       "influential_citation_count": 238,
       "reference_count": 63,
       "references": [],
