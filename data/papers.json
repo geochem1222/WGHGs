@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T16:07:01.950140+00:00",
+  "updated_at": "2026-06-01T16:23:17.232290+00:00",
   "sources": [
     "Semantic Scholar"
   ],
@@ -16731,6 +16731,7 @@
         "river_stream",
         "wetland"
       ],
+      "seed": true,
       "semantic_scholar_id": "288c6a748082b221824b54f53b1440b3871a33d0",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/288c6a748082b221824b54f53b1440b3871a33d0"
     },
@@ -17042,6 +17043,45 @@
       ],
       "semantic_scholar_id": "b4a8451b477a77c6954944e4b871a896b55cead8",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/b4a8451b477a77c6954944e4b871a896b55cead8"
+    },
+    {
+      "id": "f9e31ed29df072b6c1633db77a492ee7ce2d834d",
+      "source": "Semantic Scholar",
+      "pmid": "",
+      "doi": "10.1007/s11631-023-00625-7",
+      "title": "Carbon dioxide partial pressure and its diffusion flux in karst surface aquatic ecosystems: a review",
+      "authors": [
+        "Xingxing Cao",
+        "Qixin Wu",
+        "Wanfa Wang",
+        "Pan Wu"
+      ],
+      "journal": "Acta Geochimica",
+      "publication_date": "2023-07-07",
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/f9e31ed29df072b6c1633db77a492ee7ce2d834d",
+      "pdf_url": "",
+      "citation_count": 11,
+      "influential_citation_count": 0,
+      "reference_count": 129,
+      "references": [],
+      "similar_papers": [],
+      "fields_of_study": [],
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "tldr": "",
+      "metrics_source": "Semantic Scholar",
+      "tags": [
+        "co2",
+        "flux",
+        "inland_water",
+        "lake_reservoir",
+        "pond_ditch"
+      ],
+      "semantic_scholar_id": "f9e31ed29df072b6c1633db77a492ee7ce2d834d",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/f9e31ed29df072b6c1633db77a492ee7ce2d834d"
     },
     {
       "id": "5a10712dd6cc747217f282f64d84257d4a4af4df",
@@ -17722,6 +17762,62 @@
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/818f725b48cb240dbe9b07a34028bf18741614a0"
     },
     {
+      "id": "02203201cdb415780287b33358db18e9838329b9",
+      "source": "Semantic Scholar",
+      "pmid": "",
+      "doi": "10.1029/2022GB007657",
+      "title": "Inland Water Greenhouse Gas Budgets for RECCAP2: 1. State‐Of‐The‐Art of Global Scale Assessments",
+      "authors": [
+        "R. Lauerwald",
+        "G. Allen",
+        "B. Deemer",
+        "Shaoda Liu",
+        "T. Maavara",
+        "P. Raymond",
+        "L. Alcott",
+        "D. Bastviken",
+        "A. Hastie",
+        "M. Holgerson",
+        "Matthew S. Johnson",
+        "B. Lehner",
+        "P. Lin",
+        "A. Marzadri",
+        "L. Ran",
+        "H. Tian",
+        "Xiao Yang",
+        "Yuanzhi Yao",
+        "P. Régnier"
+      ],
+      "journal": "Global Biogeochemical Cycles",
+      "publication_date": "2023-04-25",
+      "abstract": "Inland waters are important emitters of the greenhouse gasses (GHGs) carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) to the atmosphere. In the framework of the 2nd phase of the REgional Carbon Cycle Assessment and Processes (RECCAP‐2) initiative, we review the state of the art in estimating inland water GHG budgets at global scale, which has substantially advanced since the first phase of RECCAP nearly 10 years ago. The development of increasingly sophisticated upscaling techniques, including statistical prediction and process‐based models, allows for spatially explicit estimates that are needed for regionalized assessments of continental GHG budgets such as those established for RECCAP. A few recent estimates also resolve the seasonal and/or interannual variability in inland water GHG emissions. Nonetheless, the global‐scale assessment of inland water emissions remains challenging because of limited spatial and temporal coverage of observations and persisting uncertainties in the abundance and distribution of inland water surface areas. To decrease these uncertainties, more empirical work on the contributions of hot‐spots and hot‐moments to overall inland water GHG emissions is particularly needed.",
+      "url": "https://www.semanticscholar.org/paper/02203201cdb415780287b33358db18e9838329b9",
+      "pdf_url": "",
+      "citation_count": 69,
+      "influential_citation_count": 9,
+      "reference_count": 212,
+      "references": [],
+      "similar_papers": [],
+      "fields_of_study": [],
+      "publication_types": [
+        "JournalArticle",
+        "Review"
+      ],
+      "tldr": "",
+      "metrics_source": "Semantic Scholar",
+      "tags": [
+        "ch4",
+        "co2",
+        "flux",
+        "ghg",
+        "inland_water",
+        "n2o",
+        "process"
+      ],
+      "semantic_scholar_id": "02203201cdb415780287b33358db18e9838329b9",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/02203201cdb415780287b33358db18e9838329b9"
+    },
+    {
       "id": "60b25c188e782439af367516e5255f82f50d8ecf",
       "source": "Semantic Scholar",
       "pmid": "",
@@ -17777,62 +17873,6 @@
       ],
       "semantic_scholar_id": "60b25c188e782439af367516e5255f82f50d8ecf",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/60b25c188e782439af367516e5255f82f50d8ecf"
-    },
-    {
-      "id": "02203201cdb415780287b33358db18e9838329b9",
-      "source": "Semantic Scholar",
-      "pmid": "",
-      "doi": "10.1029/2022GB007657",
-      "title": "Inland Water Greenhouse Gas Budgets for RECCAP2: 1. State‐Of‐The‐Art of Global Scale Assessments",
-      "authors": [
-        "R. Lauerwald",
-        "G. Allen",
-        "B. Deemer",
-        "Shaoda Liu",
-        "T. Maavara",
-        "P. Raymond",
-        "L. Alcott",
-        "D. Bastviken",
-        "A. Hastie",
-        "M. Holgerson",
-        "Matthew S. Johnson",
-        "B. Lehner",
-        "P. Lin",
-        "A. Marzadri",
-        "L. Ran",
-        "H. Tian",
-        "Xiao Yang",
-        "Yuanzhi Yao",
-        "P. Régnier"
-      ],
-      "journal": "Global Biogeochemical Cycles",
-      "publication_date": "2023-04-25",
-      "abstract": "Inland waters are important emitters of the greenhouse gasses (GHGs) carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) to the atmosphere. In the framework of the 2nd phase of the REgional Carbon Cycle Assessment and Processes (RECCAP‐2) initiative, we review the state of the art in estimating inland water GHG budgets at global scale, which has substantially advanced since the first phase of RECCAP nearly 10 years ago. The development of increasingly sophisticated upscaling techniques, including statistical prediction and process‐based models, allows for spatially explicit estimates that are needed for regionalized assessments of continental GHG budgets such as those established for RECCAP. A few recent estimates also resolve the seasonal and/or interannual variability in inland water GHG emissions. Nonetheless, the global‐scale assessment of inland water emissions remains challenging because of limited spatial and temporal coverage of observations and persisting uncertainties in the abundance and distribution of inland water surface areas. To decrease these uncertainties, more empirical work on the contributions of hot‐spots and hot‐moments to overall inland water GHG emissions is particularly needed.",
-      "url": "https://www.semanticscholar.org/paper/02203201cdb415780287b33358db18e9838329b9",
-      "pdf_url": "",
-      "citation_count": 69,
-      "influential_citation_count": 9,
-      "reference_count": 212,
-      "references": [],
-      "similar_papers": [],
-      "fields_of_study": [],
-      "publication_types": [
-        "JournalArticle",
-        "Review"
-      ],
-      "tldr": "",
-      "metrics_source": "Semantic Scholar",
-      "tags": [
-        "ch4",
-        "co2",
-        "flux",
-        "ghg",
-        "inland_water",
-        "n2o",
-        "process"
-      ],
-      "semantic_scholar_id": "02203201cdb415780287b33358db18e9838329b9",
-      "semantic_scholar_url": "https://www.semanticscholar.org/paper/02203201cdb415780287b33358db18e9838329b9"
     },
     {
       "id": "b75eee0236070e03aff712c8c0e9607e23acb684",
@@ -22590,6 +22630,53 @@
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/2c37cf1427d3f0f4e8100bd28d68cb258d43bd2b"
     },
     {
+      "id": "3a0fa9d9e0b0f4079ebb5ed74934f334b43f9649",
+      "source": "Semantic Scholar",
+      "pmid": "",
+      "doi": "10.1038/s41561-021-00715-2",
+      "title": "Half of global methane emissions come from highly variable aquatic ecosystem sources",
+      "authors": [
+        "J. Rosentreter",
+        "A. Borges",
+        "B. Deemer",
+        "M. Holgerson",
+        "Shaoda Liu",
+        "Chunlin Song",
+        "J. Melack",
+        "P. Raymond",
+        "C. Duarte",
+        "G. Allen",
+        "D. Olefeldt",
+        "B. Poulter",
+        "T. Battin",
+        "B. Eyre"
+      ],
+      "journal": "Nature Geoscience",
+      "publication_date": "2021-04-01",
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/3a0fa9d9e0b0f4079ebb5ed74934f334b43f9649",
+      "pdf_url": "",
+      "citation_count": 839,
+      "influential_citation_count": 70,
+      "reference_count": 74,
+      "references": [],
+      "similar_papers": [],
+      "fields_of_study": [],
+      "publication_types": [],
+      "tldr": "",
+      "metrics_source": "Semantic Scholar",
+      "tags": [
+        "ch4",
+        "flux",
+        "ghg",
+        "inland_water",
+        "process"
+      ],
+      "seed": true,
+      "semantic_scholar_id": "3a0fa9d9e0b0f4079ebb5ed74934f334b43f9649",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/3a0fa9d9e0b0f4079ebb5ed74934f334b43f9649"
+    },
+    {
       "id": "67fc281188bde5bcb3aa0d821f7740cf04a90cd2",
       "source": "Semantic Scholar",
       "pmid": "",
@@ -24224,6 +24311,95 @@
       ],
       "semantic_scholar_id": "b71063c6b7922550ab83072e259de7bfb06c3da6",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/b71063c6b7922550ab83072e259de7bfb06c3da6"
+    },
+    {
+      "id": "6b5c572399498e485b017acfb842db3f6515b6b2",
+      "source": "Semantic Scholar",
+      "pmid": "",
+      "doi": "10.5194/bg-2020-177-supplement",
+      "title": "Hysteretic temperature sensitivity of wetland CH4 fluxes explained by substrate availability and microbial activity",
+      "authors": [
+        "Kuang‐Yu Chang",
+        "W. Riley",
+        "P. Crill",
+        "R. Grant",
+        "S. Saleska"
+      ],
+      "journal": "Biogeosciences",
+      "publication_date": "2020-07-03",
+      "abstract": "Abstract. Methane (CH4) emissions from wetlands are likely increasing and\nimportant in global climate change assessments. However, contemporary\nterrestrial biogeochemical model predictions of CH4 emissions are very\nuncertain, at least in part due to prescribed temperature sensitivity of\nCH4 production and emission. While statistically consistent apparent\nCH4 emission temperature dependencies have been inferred from\nmeta-analyses across microbial to ecosystem scales, year-round\necosystem-scale observations have contradicted that finding. Here, we show\nthat apparent CH4 emission temperature dependencies inferred from\nyear-round chamber measurements exhibit substantial intra-seasonal\nvariability, suggesting that using static temperature relations to predict\nCH4 emissions is mechanistically flawed. Our model results indicate\nthat such intra-seasonal variability is driven by substrate-mediated\nmicrobial and abiotic interactions: seasonal cycles in substrate\navailability favors CH4 production later in the season, leading to\nhysteretic temperature sensitivity of CH4 production and emission.\nOur findings demonstrate the uncertainty of inferring CH4 emission or\nproduction rates from temperature alone and highlight the need to represent\nmicrobial and abiotic interactions in wetland biogeochemical models.\n",
+      "url": "https://www.semanticscholar.org/paper/6b5c572399498e485b017acfb842db3f6515b6b2",
+      "pdf_url": "https://bg.copernicus.org/articles/17/5849/2020/bg-17-5849-2020.pdf",
+      "citation_count": 42,
+      "influential_citation_count": 3,
+      "reference_count": 112,
+      "references": [
+        {
+          "title": "The Effects of pH, Temperature, and Humic-Like Substances on Anaerobic Carbon Degradation and Methanogenesis in Ombrotrophic and Minerotrophic Alaskan Peatlands",
+          "year": 2020,
+          "url": "https://www.semanticscholar.org/paper/eb33e61dd4e4a21a4b5fb3df85227d5656363a4b",
+          "doi": "10.1007/s10498-020-09372-0"
+        },
+        {
+          "title": "Thaw Transitions and Redox Conditions Drive Methane Oxidation in a Permafrost Peatland",
+          "year": 2020,
+          "url": "https://www.semanticscholar.org/paper/02f010fbae5c9a011b49fc41256dcecff08dcf33",
+          "doi": "10.1029/2019JG005526"
+        },
+        {
+          "title": "Methane Production Pathway Regulated Proximally by Substrate Availability and Distally by Temperature in a High‐Latitude Mire Complex",
+          "year": 2019,
+          "url": "https://www.semanticscholar.org/paper/e63fcb9a7c0a09c082e84ab3097a6fbb5b1ab872",
+          "doi": "10.1029/2019JG005355"
+        },
+        {
+          "title": "The Global Methane Budget 2000–2017",
+          "year": 2019,
+          "url": "https://www.semanticscholar.org/paper/86879727925fd7fa39b20c8b29436e5ff34e14d2",
+          "doi": "10.5194/essd-2019-128"
+        },
+        {
+          "title": "Modeling Climate Change Impacts on an Arctic Polygonal Tundra: 2. Changes in CO2 and CH4 Exchange Depend on Rates of Permafrost Thaw as Affected by Changes in Vegetation and Drainage",
+          "year": 2019,
+          "url": "https://www.semanticscholar.org/paper/2fb1e094cc52d3d9352d512d9522b7dd24133537",
+          "doi": "10.1029/2018JG004645"
+        },
+        {
+          "title": "Permafrost is warming at a global scale",
+          "year": 2019,
+          "url": "https://www.semanticscholar.org/paper/3f1f4fff514345d449a197597b1e0d75e19b140a",
+          "doi": "10.1038/s41467-018-08240-4"
+        },
+        {
+          "title": "Temporal Variation of Ecosystem Scale Methane Emission From a Boreal Fen in Relation to Temperature, Water Table Position, and Carbon Dioxide Fluxes",
+          "year": 2018,
+          "url": "https://www.semanticscholar.org/paper/3787dbc69df0566a88e05e34bc88dae01020ed4b",
+          "doi": "10.1029/2017GB005747"
+        },
+        {
+          "title": "Methanotrophy across a natural permafrost thaw environment",
+          "year": 2018,
+          "url": "https://www.semanticscholar.org/paper/d87a7314f0d4d6bbd8a629bffb1f733a366ee5f8",
+          "doi": "10.1038/s41396-018-0065-5"
+        }
+      ],
+      "similar_papers": [],
+      "fields_of_study": [
+        "Environmental Science"
+      ],
+      "publication_types": [],
+      "tldr": "",
+      "metrics_source": "Semantic Scholar",
+      "tags": [
+        "ch4",
+        "flux",
+        "microbial",
+        "process",
+        "tidal",
+        "wetland"
+      ],
+      "semantic_scholar_id": "6b5c572399498e485b017acfb842db3f6515b6b2",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/6b5c572399498e485b017acfb842db3f6515b6b2"
     },
     {
       "id": "b231b758c2a744356b4df065598dfdf9d963f626",
@@ -28726,10 +28902,12 @@
         "ch4",
         "co2",
         "flux",
+        "ghg",
         "inland_water",
         "pond_ditch",
         "process"
       ],
+      "seed": true,
       "semantic_scholar_id": "0a88af7c9b6a8205850244643d6fc65abf4d718a",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/0a88af7c9b6a8205850244643d6fc65abf4d718a"
     },
@@ -29723,9 +29901,11 @@
       "tags": [
         "co2",
         "flux",
+        "ghg",
         "inland_water",
         "process"
       ],
+      "seed": true,
       "semantic_scholar_id": "1131d23550cd0cd40b92cde58e8b095e3e041969",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/1131d23550cd0cd40b92cde58e8b095e3e041969"
     },
@@ -29965,6 +30145,42 @@
       ],
       "semantic_scholar_id": "acf728e0ab809858b608a92168afbc287ce19aa5",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/acf728e0ab809858b608a92168afbc287ce19aa5"
+    },
+    {
+      "id": "32e5ae582153edd3536354da2fff053289ff0bc8",
+      "source": "Semantic Scholar",
+      "pmid": "",
+      "doi": "10.1038/NGEO1294",
+      "title": "Significant efflux of carbon dioxide from streams and rivers in the United States",
+      "authors": [
+        "D. Butman",
+        "P. Raymond"
+      ],
+      "journal": "Nature Geoscience",
+      "publication_date": "2011-12-01",
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/32e5ae582153edd3536354da2fff053289ff0bc8",
+      "pdf_url": "",
+      "citation_count": 759,
+      "influential_citation_count": 96,
+      "reference_count": 31,
+      "references": [],
+      "similar_papers": [],
+      "fields_of_study": [
+        "Environmental Science"
+      ],
+      "publication_types": [],
+      "tldr": "",
+      "metrics_source": "Semantic Scholar",
+      "tags": [
+        "co2",
+        "flux",
+        "ghg",
+        "river_stream"
+      ],
+      "seed": true,
+      "semantic_scholar_id": "32e5ae582153edd3536354da2fff053289ff0bc8",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/32e5ae582153edd3536354da2fff053289ff0bc8"
     },
     {
       "id": "b619ffff68009be6f64c56bda4ed7a93c51b1742",
