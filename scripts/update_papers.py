@@ -84,6 +84,14 @@ GHG_GROUPS = [
     "N2O nitrous oxide",
 ]
 
+SEED_SEMANTIC_IDS = [
+    "DOI:10.1038/nature12760",
+    "DOI:10.1038/ngeo1294",
+    "DOI:10.1038/ngeo2654",
+    "DOI:10.1038/s41586-023-06344-6",
+    "DOI:10.1038/s41561-021-00715-2",
+]
+
 SEARCH_QUERIES = [
     f"{environment} {gas}"
     for i, environment in enumerate(ENVIRONMENT_GROUPS)
@@ -344,6 +352,31 @@ def fetch_semantic_scholar(
         papers.extend(enrich_query_tags(parse_semantic_scholar_paper(item), query_tags) for item in data.get("data", []))
         time.sleep(0.35 if api_key else 1.05)
     return [paper for paper in papers if paper and is_relevant(paper)]
+
+
+def fetch_semantic_seed_papers(email: str | None, api_key: str | None) -> list[dict[str, Any]]:
+    if not SEED_SEMANTIC_IDS:
+        return []
+    try:
+        results = request_json_post(
+            SEMANTIC_SCHOLAR_BATCH_BASE,
+            {"fields": semantic_fields()},
+            {"ids": SEED_SEMANTIC_IDS},
+            email,
+            api_key,
+        )
+    except (urllib.error.HTTPError, urllib.error.URLError) as error:
+        print(f"Semantic Scholar seed fetch failed: {error}")
+        return []
+    papers = []
+    for result in results if isinstance(results, list) else []:
+        if not result:
+            continue
+        paper = parse_semantic_scholar_paper(result)
+        paper["seed"] = True
+        paper["tags"] = sorted(set(paper.get("tags", []) + ["ghg"]))
+        papers.append(paper)
+    return papers
 
 
 def parse_semantic_scholar_paper(item: dict[str, Any]) -> dict[str, Any]:
@@ -967,6 +1000,7 @@ def main() -> None:
     sources = [source.strip().lower() for source in args.sources.split(",") if source.strip()]
     all_papers: list[dict[str, Any]] = []
     if "semantic" in sources or "semanticscholar" in sources:
+        all_papers.extend(fetch_semantic_seed_papers(args.email, args.semantic_api_key))
         all_papers.extend(fetch_semantic_scholar(args.retmax, args.email, args.semantic_api_key, args.query_limit))
     if "openalex" in sources:
         all_papers.extend(fetch_openalex(args.retmax, args.email, args.query_limit))
