@@ -29,7 +29,7 @@ https://你的用户名.github.io/WGHGs/
 
 `.github/workflows/update-and-deploy.yml` 默认每天 UTC 21:18 运行一次，对应中国时间次日 05:18。它会：
 
-1. 从 Semantic Scholar 发现论文。
+1. 使用 Semantic Scholar bulk search 尽量完整地回溯发现论文。
 2. 优先按 DOI 精确抓取一组经典种子论文，避免重要早期文献被搜索排序漏掉。
 3. 用 Semantic Scholar 统一回填引用数、参考文献数、开放 PDF、代表性参考文献和相似文章。
 4. 合并到 `data/papers.json`。
@@ -71,6 +71,8 @@ http://localhost:8010
 分类标签由 `TAG_RULES` 控制。
 
 经典必收录论文由 `SEED_SEMANTIC_IDS` 控制，支持 `DOI:...` 形式。适合放入 Peter Raymond 等领域基础论文，避免搜索接口只返回前排结果造成漏收。
+
+默认更新使用 `--semantic-search-mode bulk`，相比普通 ranked search 更适合建立较完整的历史库。普通 search 更适合快速找前排相关论文，但不适合当作全集。
 
 ## 数据来源与致谢
 
