@@ -203,7 +203,7 @@ TAG_RULES = {
     "ch4": ["ch4", "methane"],
     "n2o": ["n2o", "nitrous oxide"],
     "ghg": ["greenhouse gas", "greenhouse gases"],
-    "process": ["process", "processes", "production", "oxidation", "emission", "cycling", "metabolism"],
+    "process": ["process", "processes", "production", "oxidation", "cycling", "metabolism"],
     "flux": ["flux", "fluxes", "emission", "emissions", "evasion", "exchange"],
     "isotope": ["isotope", "isotopic", "isotopes", "δ13c", "delta 13c", "13c", "δ15n", "delta 15n", "15n"],
     "nutrient": ["nutrient", "nutrients", "nitrogen", "phosphorus", "nitrate", "ammonium", "phosphate"],
@@ -256,6 +256,66 @@ NOISE_TERMS = [
     "feed adjustment",
     "life cycle assessment",
     "climate-smart strategies",
+    "environmental kuznets",
+    "economic growth",
+    "renewable energy",
+    "energy consumption",
+    "trade openness",
+    "gross domestic",
+    "gdp",
+    "panel ardl",
+    "econometric",
+    "balkans",
+    "black sea",
+    "caucasus",
+]
+
+METABOLISM_KEYWORDS = [
+    "metabolism",
+    "metabolic",
+    "production",
+    "consumption",
+    "oxidation",
+    "reduction",
+    "methanogenesis",
+    "methanogenic",
+    "methanotrophy",
+    "methanotrophic",
+    "methane production",
+    "methane oxidation",
+    "carbon dynamics",
+    "gas dynamics",
+    "carbon cycling",
+    "carbon cycle",
+    "nitrogen cycling",
+    "nitrogen cycle",
+    "denitrification",
+    "nitrification",
+    "anammox",
+    "respiration",
+    "photosynthesis",
+    "primary production",
+    "mineralization",
+    "decomposition",
+    "organic carbon",
+    "dissolved organic carbon",
+    "doc",
+    "poc",
+    "redox",
+    "sediment",
+    "sediments",
+    "porewater",
+    "microbial",
+    "microbe",
+    "bacterial",
+    "archaea",
+    "methanogen",
+    "methanotroph",
+    "isotope",
+    "isotopic",
+    "13c",
+    "15n",
+    "cycling",
 ]
 
 ENVIRONMENT_KEYWORDS = [
@@ -986,9 +1046,12 @@ def is_relevant(paper: dict[str, Any]) -> bool:
     ).lower()
     if any(term in text_value for term in NOISE_TERMS):
         return False
+    if paper.get("id") in SEED_SEMANTIC_IDS or semantic_lookup_id(paper) in SEED_SEMANTIC_IDS:
+        return bool(paper.get("title"))
     has_environment = any(term in text_value for term in ENVIRONMENT_KEYWORDS)
     has_ghg = any(term in text_value for term in GHG_KEYWORDS)
-    return bool(paper.get("title")) and has_environment and has_ghg
+    has_metabolism_context = any(term in text_value for term in METABOLISM_KEYWORDS)
+    return bool(paper.get("title")) and has_environment and has_ghg and has_metabolism_context
 
 
 def classify(text_value: str) -> list[str]:
