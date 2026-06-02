@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "18 21 * * *"
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -31,13 +28,13 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch latest papers from Semantic Scholar
-        run: python scripts/update_papers.py --retmax 5000 --sources semantic --semantic-search-mode bulk --merge-existing --semantic-enrich-limit 5000 --similar-limit 120 --similar-per-paper 5 --email "${{ vars.CONTACT_EMAIL }}" --semantic-api-key "${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}"
+        run: python scripts/update_papers.py --retmax 5000 --refresh-limit 800 --sources semantic --semantic-search-mode bulk --merge-existing --semantic-enrich-limit 5000 --similar-limit 120 --similar-per-paper 5 --stale-days 30 --email "${{ vars.CONTACT_EMAIL }}" --semantic-api-key "${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}"
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/papers.json
+          git add data/papers.json data/papers.js
           git diff --cached --quiet || git commit -m "Update paper data"
           git push
 

@@ -1,4 +1,4 @@
-{
+window.PAPER_TRACKER_DATA = {
   "updated_at": "2026-06-02T05:32:02.699354+00:00",
   "sources": [
     "Semantic Scholar"
@@ -49395,4 +49395,4 @@
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/4c3c3d8ac8527064dda6be28195a546ceb027bae"
     }
   ]
-}
+};
