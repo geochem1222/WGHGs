@@ -270,54 +270,6 @@ NOISE_TERMS = [
     "caucasus",
 ]
 
-METABOLISM_KEYWORDS = [
-    "metabolism",
-    "metabolic",
-    "production",
-    "consumption",
-    "oxidation",
-    "reduction",
-    "methanogenesis",
-    "methanogenic",
-    "methanotrophy",
-    "methanotrophic",
-    "methane production",
-    "methane oxidation",
-    "carbon dynamics",
-    "gas dynamics",
-    "carbon cycling",
-    "carbon cycle",
-    "nitrogen cycling",
-    "nitrogen cycle",
-    "denitrification",
-    "nitrification",
-    "anammox",
-    "respiration",
-    "photosynthesis",
-    "primary production",
-    "mineralization",
-    "decomposition",
-    "organic carbon",
-    "dissolved organic carbon",
-    "doc",
-    "poc",
-    "redox",
-    "sediment",
-    "sediments",
-    "porewater",
-    "microbial",
-    "microbe",
-    "bacterial",
-    "archaea",
-    "methanogen",
-    "methanotroph",
-    "isotope",
-    "isotopic",
-    "13c",
-    "15n",
-    "cycling",
-]
-
 ENVIRONMENT_KEYWORDS = [
     "inland water",
     "inland waters",
@@ -1050,8 +1002,7 @@ def is_relevant(paper: dict[str, Any]) -> bool:
         return bool(paper.get("title"))
     has_environment = any(term in text_value for term in ENVIRONMENT_KEYWORDS)
     has_ghg = any(term in text_value for term in GHG_KEYWORDS)
-    has_metabolism_context = any(term in text_value for term in METABOLISM_KEYWORDS)
-    return bool(paper.get("title")) and has_environment and has_ghg and has_metabolism_context
+    return bool(paper.get("title")) and has_environment and has_ghg
 
 
 def classify(text_value: str) -> list[str]:
