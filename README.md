@@ -35,6 +35,8 @@ https://你的用户名.github.io/WGHGs/
 4. 合并到 `data/papers.json`。
 5. 发布静态网页到 `gh-pages` 分支。
 
+更新脚本带缓存机制：已有 `data/papers.json` 会作为本地缓存复用。库还没满 5000 条时继续补库；库已经较完整时，每次默认只抓取 800 条新候选再与旧库合并。Semantic Scholar 指标和相似文章也会记录刷新时间，默认 30 天内不重复请求同一批详情。
+
 建议添加 GitHub Actions 变量：
 
 ```text
@@ -59,6 +61,8 @@ python -m http.server 8010
 http://localhost:8010
 ```
 
+网页端带分页，默认每页 50 条，可切换 25 / 50 / 100。搜索、筛选和排序仍然作用于完整文献库，但页面不会一次性渲染 5000 行。
+
 ## 调整检索式
 
 如果想扩大或收窄文献范围，编辑 `scripts/update_papers.py` 里的：
@@ -73,6 +77,12 @@ http://localhost:8010
 经典必收录论文由 `SEED_SEMANTIC_IDS` 控制，支持 `DOI:...` 形式。适合放入 Peter Raymond 等领域基础论文，避免搜索接口只返回前排结果造成漏收。
 
 默认更新使用 `--semantic-search-mode bulk`，相比普通 ranked search 更适合建立较完整的历史库。普通 search 更适合快速找前排相关论文，但不适合当作全集。
+
+常用更新命令：
+
+```bash
+python scripts/update_papers.py --retmax 5000 --refresh-limit 800 --sources semantic --semantic-search-mode bulk --merge-existing --semantic-enrich-limit 5000 --similar-limit 120 --similar-per-paper 5 --stale-days 30
+```
 
 ## 数据来源与致谢
 
