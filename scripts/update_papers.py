@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -130,11 +131,14 @@ BULK_ENVIRONMENT_TERMS = [
 ]
 
 BULK_GHG_TERMS = [
-    "greenhouse gas emissions",
-    "methane emissions",
-    "carbon dioxide emissions",
-    "nitrous oxide emissions",
-    "CO2 CH4 N2O",
+    "greenhouse gas",
+    "greenhouse gases",
+    "carbon dioxide",
+    "CO2",
+    "methane",
+    "CH4",
+    "nitrous oxide",
+    "N2O",
 ]
 
 BULK_SEARCH_QUERIES = [
@@ -268,13 +272,27 @@ NOISE_TERMS = [
     "balkans",
     "black sea",
     "caucasus",
+    "crop residue",
+    "climate-smart agriculture",
+    "enteric",
+    "livestock",
+    "manure management",
+    "ruminant",
+    "rice paddy",
+    "paddy field",
+    "oilfield",
+    "natural gas pipeline",
+    "fuel cell",
+    "combustion",
+    "engine emissions",
+    "vehicle emissions",
+    "traffic emissions",
 ]
 
 ENVIRONMENT_KEYWORDS = [
     "inland water",
     "inland waters",
     "freshwater",
-    "aquatic",
     "river",
     "rivers",
     "stream",
@@ -285,8 +303,6 @@ ENVIRONMENT_KEYWORDS = [
     "ditches",
     "canal",
     "canals",
-    "channel",
-    "channels",
     "drainage ditch",
     "drainage channel",
     "lake",
@@ -306,6 +322,14 @@ ENVIRONMENT_KEYWORDS = [
     "tidal channels",
     "estuary",
     "estuaries",
+]
+
+WEAK_ENVIRONMENT_KEYWORDS = [
+    "aquatic",
+    "channel",
+    "channels",
+    "water",
+    "waters",
 ]
 
 GHG_KEYWORDS = [
@@ -474,15 +498,17 @@ def fetch_semantic_scholar_bulk(
     )
     queries = BULK_SEARCH_QUERIES[:query_limit] if query_limit else BULK_SEARCH_QUERIES
     target = target_records or retmax
+    per_query_target = max(25, (target + len(queries) - 1) // max(1, len(queries)) * 2)
     papers: list[dict[str, Any]] = []
     seen_ids: set[str] = set(existing_ids or set())
     for query in queries:
         token = ""
-        while len(papers) < target:
+        query_count = 0
+        while query_count < per_query_target:
             params: dict[str, str | int] = {
                 "query": query,
                 "fields": fields,
-                "limit": min(1000, max(1, target - len(papers))),
+                "limit": min(1000, max(1, per_query_target - query_count)),
                 "sort": "publicationDate:desc",
             }
             if token:
@@ -502,14 +528,13 @@ def fetch_semantic_scholar_bulk(
                 paper = parse_semantic_scholar_paper(item)
                 if paper and is_relevant(paper):
                     papers.append(enrich_query_tags(paper, query_tags))
+                    query_count += 1
             token = data.get("token") or ""
-            if not token or not data.get("data") or len(papers) >= target:
+            if not token or not data.get("data") or query_count >= per_query_target:
                 break
             time.sleep(0.35 if api_key else 1.05)
-        if len(papers) >= target:
-            break
         time.sleep(0.35 if api_key else 1.05)
-    return papers[:target]
+    return deduplicate(papers)[:target]
 
 
 def fetch_semantic_seed_papers(email: str | None, api_key: str | None) -> list[dict[str, Any]]:
@@ -541,6 +566,7 @@ def parse_semantic_scholar_paper(item: dict[str, Any]) -> dict[str, Any]:
     external_ids = item.get("externalIds") or {}
     journal = item.get("venue") or (item.get("journal") or {}).get("name", "")
     publication_date = item.get("publicationDate") or (f"{item.get('year')}-01-01" if item.get("year") else "")
+    year = item.get("year") or (publication_date[:4] if publication_date[:4].isdigit() else "")
     doi = normalize_doi(external_ids.get("DOI", ""))
     open_pdf = item.get("openAccessPdf") or {}
     title = item.get("title") or ""
@@ -555,6 +581,7 @@ def parse_semantic_scholar_paper(item: dict[str, Any]) -> dict[str, Any]:
         "title": title,
         "authors": [author.get("name", "") for author in item.get("authors", []) if author.get("name")],
         "journal": journal,
+        "year": year,
         "publication_date": publication_date,
         "abstract": abstract,
         "url": item.get("url", "") or (f"https://doi.org/{doi}" if doi else ""),
@@ -967,7 +994,15 @@ def parse_pubmed_article(article: ET.Element) -> dict[str, Any] | None:
 def deduplicate(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: set[str] = set()
     unique: list[dict[str, Any]] = []
-    for paper in sorted(papers, key=lambda item: item.get("publication_date", ""), reverse=True):
+    for paper in sorted(
+        papers,
+        key=lambda item: (
+            relevance_score(item),
+            item.get("publication_date", ""),
+            int(item.get("citation_count") or 0),
+        ),
+        reverse=True,
+    ):
         key = paper_key(paper)
         if key in seen:
             continue
@@ -989,20 +1024,44 @@ def paper_key(paper: dict[str, Any]) -> str:
 
 
 def is_relevant(paper: dict[str, Any]) -> bool:
-    text_value = " ".join(
-        [
-            paper.get("title", ""),
-            paper.get("abstract", ""),
-            paper.get("journal", ""),
-        ]
-    ).lower()
+    title = paper.get("title", "")
+    abstract = paper.get("abstract", "")
+    journal = paper.get("journal", "")
+    text_value = " ".join([title, abstract, journal]).lower()
     if any(term in text_value for term in NOISE_TERMS):
         return False
     if paper.get("id") in SEED_SEMANTIC_IDS or semantic_lookup_id(paper) in SEED_SEMANTIC_IDS:
         return bool(paper.get("title"))
-    has_environment = any(term in text_value for term in ENVIRONMENT_KEYWORDS)
-    has_ghg = any(term in text_value for term in GHG_KEYWORDS)
-    return bool(paper.get("title")) and has_environment and has_ghg
+    has_strong_environment = any(contains_term(text_value, term) for term in ENVIRONMENT_KEYWORDS)
+    has_weak_environment = any(contains_term(text_value, term) for term in WEAK_ENVIRONMENT_KEYWORDS)
+    has_ghg = any(contains_term(text_value, term) for term in GHG_KEYWORDS)
+    has_title_signal = any(contains_term(title.lower(), term) for term in ENVIRONMENT_KEYWORDS + GHG_KEYWORDS)
+    return bool(title) and has_ghg and has_strong_environment and (has_title_signal or not has_weak_environment)
+
+
+def relevance_score(paper: dict[str, Any]) -> int:
+    title = (paper.get("title") or "").lower()
+    abstract = (paper.get("abstract") or "").lower()
+    journal = (paper.get("journal") or "").lower()
+    text_value = f"{title} {abstract} {journal}"
+    if any(term in text_value for term in NOISE_TERMS):
+        return -100
+    score = 0
+    score += 5 * sum(1 for term in ENVIRONMENT_KEYWORDS if contains_term(title, term))
+    score += 3 * sum(1 for term in GHG_KEYWORDS if contains_term(title, term))
+    score += 2 * sum(1 for term in ENVIRONMENT_KEYWORDS if contains_term(abstract, term))
+    score += 2 * sum(1 for term in GHG_KEYWORDS if contains_term(abstract, term))
+    score += 1 * sum(1 for term in ENVIRONMENT_KEYWORDS + GHG_KEYWORDS if contains_term(journal, term))
+    if contains_term(text_value, "greenhouse gas") or contains_term(text_value, "greenhouse gases"):
+        score += 3
+    return score
+
+
+def contains_term(text_value: str, term: str) -> bool:
+    term_value = term.lower()
+    if re.search(r"[\s-]", term_value):
+        return term_value in text_value
+    return re.search(rf"(?<![a-z0-9]){re.escape(term_value)}(?![a-z0-9])", text_value) is not None
 
 
 def classify(text_value: str) -> list[str]:
@@ -1222,7 +1281,12 @@ def main() -> None:
         default=30,
         help="Refresh cached Semantic Scholar metadata and recommendations after this many days.",
     )
-    parser.add_argument("--query-limit", type=int, default=36)
+    parser.add_argument(
+        "--query-limit",
+        type=int,
+        default=0,
+        help="Limit search query combinations for debugging. Use 0 to search all combinations.",
+    )
     args = parser.parse_args()
 
     output = Path(args.output)
