@@ -4,11 +4,11 @@
 
 ## 研究方向
 
-- 水体对象：inland water、freshwater、river、stream、creek、lake、reservoir、pond、ditch、canal、channel、tidal creek、tidal channel、wetland、marsh、estuary 等
+- 水体对象：inland water、freshwater、river、stream、creek、lake、reservoir、pond、ditch、canal、channel、tidal creek、tidal channel、estuary 等；湿地只使用 wetland water、wetland sediment、wetland porewater、wetland hydrology、inundated wetland、marsh water 等水体或水-沉积物界面组合进入检索。
 - 温室气体：CO2 / carbon dioxide、CH4 / methane、N2O / nitrous oxide、greenhouse gas / greenhouse gases
 - 分类标签：process、flux、isotope、nutrient、microbial、urban、agriculture
 
-注意：分类标签不作为默认检索词。默认检索只使用“水体对象 + 温室气体”组合，分类标签仅根据题名、摘要和期刊信息自动打标。
+注意：分类标签不作为默认检索词。默认检索只使用“水体对象 + 温室气体”组合，分类标签仅根据题名、摘要和期刊信息自动打标。湿地文献会优先检索湿地水体、水位、淹水、孔隙水、沉积物和河湖连通等方向，避免大量纯湿地土壤通量文献进入。
 
 ## 免费发布到 GitHub Pages
 
@@ -35,7 +35,7 @@ https://你的用户名.github.io/WGHGs/
 4. 合并到 `data/papers.json`。
 5. 发布静态网页到 `gh-pages` 分支。
 
-更新脚本带缓存机制：已有 `data/papers.json` 会作为本地缓存复用。`5000` 是网页缓存容量上限，不代表领域文献总数；库还没满 5000 条时继续补库，库已经较完整时，每次默认只抓取 800 条新候选再与旧库合并、去重和重新排序。因此达到上限后，即使文献有更新，首页总数也可能保持 5000。Semantic Scholar 指标和相似文章也会记录刷新时间，默认 30 天内不重复请求同一批详情。
+更新脚本带缓存机制：已有 `data/papers.json` 会作为本地缓存复用。默认不限制最终文献库总量；每天只抓取一批新候选再与旧库合并、过滤、去重和重新排序。Semantic Scholar 指标和相似文章也会记录刷新时间，默认 30 天内不重复请求同一批详情。
 
 建议添加 GitHub Actions 变量：
 
@@ -81,7 +81,7 @@ http://localhost:8010
 常用更新命令：
 
 ```bash
-python scripts/update_papers.py --retmax 5000 --refresh-limit 800 --sources semantic --semantic-search-mode bulk --merge-existing --semantic-enrich-limit 5000 --similar-limit 120 --similar-per-paper 5 --stale-days 30
+python scripts/update_papers.py --retmax 0 --refresh-limit 800 --sources semantic --semantic-search-mode bulk --merge-existing --semantic-enrich-limit 5000 --similar-limit 120 --similar-per-paper 5 --stale-days 30
 ```
 
 ## 数据来源与致谢

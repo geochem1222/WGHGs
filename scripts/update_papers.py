@@ -90,8 +90,10 @@ ENVIRONMENT_GROUPS = [
     "river rivers stream streams creek creeks",
     "ditch ditches canal canals channel channels drainage ditch",
     "lake lakes water reservoir water reservoirs reservoir lake pond ponds",
-    "tidal creek tidal creeks tidal channel tidal channels",
-    "wetland wetlands marsh estuary",
+    "tidal creek tidal creeks tidal channel tidal channels estuary estuaries",
+    "wetland water wetland waters wetland pond wetland ponds wetland channel wetland ditch",
+    "wetland sediment wetland sediments wetland porewater wetland hydrology wetland inundation wetland water table",
+    "marsh water marsh sediment salt marsh creek mangrove creek riparian wetland water",
 ]
 
 GHG_GROUPS = [
@@ -120,14 +122,29 @@ BULK_ENVIRONMENT_TERMS = [
     "freshwater",
     "river",
     "stream",
+    "creek",
     "lake",
     "reservoir",
     "pond",
     "ditch",
     "canal",
     "tidal creek",
-    "wetland",
     "estuary",
+    "wetland water",
+    "wetland sediment",
+    "wetland porewater",
+    "wetland hydrology",
+    "wetland water table",
+    "inundated wetland",
+    "flooded wetland",
+    "wetland pond",
+    "wetland channel",
+    "marsh water",
+    "marsh sediment",
+    "salt marsh creek",
+    "mangrove creek",
+    "riparian wetland water",
+    "floodplain lake",
 ]
 
 BULK_GHG_TERMS = [
@@ -155,8 +172,13 @@ SEMANTIC_BULK_QUERY = """
   OR lake OR lakes OR "water reservoir" OR "water reservoirs"
   OR "drinking water reservoir" OR "reservoir lake"
   OR pond OR ponds OR "tidal creek" OR "tidal creeks"
-  OR "tidal channel" OR "tidal channels" OR wetland OR wetlands
-  OR marsh OR estuary
+  OR "tidal channel" OR "tidal channels" OR estuary OR estuaries
+  OR "wetland water" OR "wetland waters" OR "wetland pond"
+  OR "wetland channel" OR "wetland sediment" OR "wetland sediments"
+  OR "wetland porewater" OR "wetland hydrology" OR "wetland inundation"
+  OR "wetland water table" OR "inundated wetland" OR "flooded wetland"
+  OR "marsh water" OR "marsh sediment" OR "salt marsh creek"
+  OR "mangrove creek" OR "riparian wetland water"
 )
 AND
 (
@@ -185,8 +207,16 @@ AND
   OR pond[Title/Abstract] OR ponds[Title/Abstract]
   OR "tidal creek"[Title/Abstract] OR "tidal creeks"[Title/Abstract]
   OR "tidal channel"[Title/Abstract] OR "tidal channels"[Title/Abstract]
-  OR wetland[Title/Abstract] OR wetlands[Title/Abstract] OR marsh[Title/Abstract]
-  OR estuary[Title/Abstract]
+  OR estuary[Title/Abstract] OR estuaries[Title/Abstract]
+  OR "wetland water"[Title/Abstract] OR "wetland waters"[Title/Abstract]
+  OR "wetland pond"[Title/Abstract] OR "wetland channel"[Title/Abstract]
+  OR "wetland sediment"[Title/Abstract] OR "wetland sediments"[Title/Abstract]
+  OR "wetland porewater"[Title/Abstract] OR "wetland hydrology"[Title/Abstract]
+  OR "wetland inundation"[Title/Abstract] OR "wetland water table"[Title/Abstract]
+  OR "inundated wetland"[Title/Abstract] OR "flooded wetland"[Title/Abstract]
+  OR "marsh water"[Title/Abstract] OR "marsh sediment"[Title/Abstract]
+  OR "salt marsh creek"[Title/Abstract] OR "mangrove creek"[Title/Abstract]
+  OR "riparian wetland water"[Title/Abstract]
 )
 NOT
 (
@@ -287,6 +317,38 @@ NOISE_TERMS = [
     "engine emissions",
     "vehicle emissions",
     "traffic emissions",
+    "cloud seeding",
+    "liquid carbon dioxide",
+    "photobioreactor",
+    "co2 reforming",
+    "dry reforming",
+    "syngas",
+    "hydrogen-rich",
+    "nickel catalyst",
+    "catalytic conversion of greenhouse gases",
+    "thermo-catalytic conversion",
+    "petroleum refinery",
+    "refinery industry",
+    "sectoral analysis of greenhouse gas emissions",
+    "natural gas-hydrogen",
+    "three-way catalysts",
+    "pipeline gas leak",
+    "gas leak of",
+    "nord stream",
+    "climate change impacts on freshwater fish",
+    "freshwater fish, coral reefs",
+    "climate change impacts on the zambezi river basin",
+    "hydrologic response to projected changes",
+    "waterbird response",
+    "paddy soils",
+    "rice fields intended to reduce greenhouse gas",
+    "field tomato",
+    "lagos metropolis",
+    "within an air mass",
+    "air mass",
+    "wastewater treatment plants",
+    "wastewater treatment plant",
+    "low-carbon watershed management",
 ]
 
 ENVIRONMENT_KEYWORDS = [
@@ -330,6 +392,67 @@ WEAK_ENVIRONMENT_KEYWORDS = [
     "channels",
     "water",
     "waters",
+]
+
+WETLAND_TERMS = [
+    "wetland",
+    "wetlands",
+    "marsh",
+    "marshes",
+    "peatland",
+    "peatlands",
+    "fen",
+    "fens",
+    "mangrove",
+    "mangroves",
+    "salt marsh",
+    "salt marshes",
+]
+
+SOIL_TERMS = [
+    "soil",
+    "soils",
+    "upland soil",
+    "peat soil",
+    "organic soil",
+    "hydric soil",
+]
+
+WETLAND_WATER_TERMS = [
+    "water",
+    "waters",
+    "aquatic",
+    "inundation",
+    "inundated",
+    "flooding",
+    "flooded",
+    "rewetting",
+    "submerged",
+    "submergence",
+    "water level",
+    "water table",
+    "surface water",
+    "open water",
+    "shallow water",
+    "water-air",
+    "water–air",
+    "water column",
+    "porewater",
+    "sediment",
+    "sediments",
+    "river",
+    "stream",
+    "lake",
+    "pond",
+    "ditch",
+    "channel",
+    "tidal",
+    "estuary",
+    "riparian",
+    "fluvial",
+    "river-connected",
+    "hydrologic",
+    "hydrology",
 ]
 
 GHG_KEYWORDS = [
@@ -497,7 +620,7 @@ def fetch_semantic_scholar_bulk(
         ]
     )
     queries = BULK_SEARCH_QUERIES[:query_limit] if query_limit else BULK_SEARCH_QUERIES
-    target = target_records or retmax
+    target = target_records if target_records is not None else (retmax if retmax > 0 else 1000)
     per_query_target = max(25, (target + len(queries) - 1) // max(1, len(queries)) * 2)
     papers: list[dict[str, Any]] = []
     seen_ids: set[str] = set(existing_ids or set())
@@ -1036,6 +1159,8 @@ def is_relevant(paper: dict[str, Any]) -> bool:
     has_weak_environment = any(contains_term(text_value, term) for term in WEAK_ENVIRONMENT_KEYWORDS)
     has_ghg = any(contains_term(text_value, term) for term in GHG_KEYWORDS)
     has_title_signal = any(contains_term(title.lower(), term) for term in ENVIRONMENT_KEYWORDS + GHG_KEYWORDS)
+    if is_soil_only_wetland_study(text_value):
+        return False
     return bool(title) and has_ghg and has_strong_environment and (has_title_signal or not has_weak_environment)
 
 
@@ -1055,6 +1180,13 @@ def relevance_score(paper: dict[str, Any]) -> int:
     if contains_term(text_value, "greenhouse gas") or contains_term(text_value, "greenhouse gases"):
         score += 3
     return score
+
+
+def is_soil_only_wetland_study(text_value: str) -> bool:
+    has_wetland = any(contains_term(text_value, term) for term in WETLAND_TERMS)
+    has_soil = any(contains_term(text_value, term) for term in SOIL_TERMS)
+    has_water_signal = any(contains_term(text_value, term) for term in WETLAND_WATER_TERMS)
+    return has_wetland and has_soil and not has_water_signal
 
 
 def contains_term(text_value: str, term: str) -> bool:
@@ -1226,7 +1358,7 @@ def existing_paper_ids(papers: list[dict[str, Any]]) -> set[str]:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--retmax", type=int, default=160)
+    parser.add_argument("--retmax", type=int, default=160, help="Maximum records to keep. Use 0 for no library size cap.")
     parser.add_argument("--email", default=None)
     parser.add_argument("--output", default="data/papers.json")
     parser.add_argument(
@@ -1276,6 +1408,11 @@ def main() -> None:
         help="Maximum fresh Semantic Scholar records to fetch when an existing cache is already present.",
     )
     parser.add_argument(
+        "--full-backfill",
+        action="store_true",
+        help="Fetch enough fresh Semantic Scholar records to refill the cache up to retmax.",
+    )
+    parser.add_argument(
         "--stale-days",
         type=int,
         default=30,
@@ -1291,8 +1428,15 @@ def main() -> None:
 
     output = Path(args.output)
     existing_papers = load_existing_papers(output) if args.merge_existing else []
+    existing_count_raw = len(existing_papers)
+    existing_papers = [paper for paper in existing_papers if is_relevant(paper)]
     existing_count = len(existing_papers)
-    fetch_target = args.retmax if existing_count < args.retmax else args.refresh_limit
+    if args.full_backfill and args.retmax > 0 and existing_count < args.retmax:
+        fetch_target = args.retmax - existing_count
+    elif not args.merge_existing or not existing_papers:
+        fetch_target = args.retmax if args.retmax > 0 else args.refresh_limit
+    else:
+        fetch_target = args.refresh_limit
     sources = [source.strip().lower() for source in args.sources.split(",") if source.strip()]
     all_papers: list[dict[str, Any]] = []
     if "semantic" in sources or "semanticscholar" in sources:
@@ -1320,7 +1464,9 @@ def main() -> None:
     if args.merge_existing:
         all_papers.extend(paper for paper in existing_papers if is_relevant(paper))
 
-    papers = deduplicate(all_papers)[: args.retmax]
+    papers = deduplicate(all_papers)
+    if args.retmax > 0:
+        papers = papers[: args.retmax]
     if not args.skip_semantic_enrichment:
         papers = enrich_with_semantic_metadata(
             papers,
@@ -1343,13 +1489,16 @@ def main() -> None:
     source_labels = sorted({paper.get("source", "") for paper in papers if paper.get("source")})
     update_status = {
         "semantic_api_key_detected": bool(args.semantic_api_key),
-        "existing_records_before_update": existing_count,
+        "existing_records_before_update": existing_count_raw,
+        "existing_records_after_relevance_filter": existing_count,
         "fresh_records_before_merge": len(all_papers) - existing_count if args.merge_existing else len(all_papers),
         "fresh_fetch_target": fetch_target,
         "retmax": args.retmax,
+        "library_size_cap": args.retmax if args.retmax > 0 else "unlimited",
         "refresh_limit": args.refresh_limit,
         "stale_days": args.stale_days,
-        "cache_mode": "merge existing papers; fetch only new candidates when cache is warm",
+        "full_backfill": args.full_backfill,
+        "cache_mode": "merge existing papers; daily updates fetch only refresh-limit candidates unless --full-backfill is set",
     }
     write_data(papers, output, source_labels, update_status)
     print(f"Updated {len(papers)} papers from {', '.join(source_labels)} at {output}")
