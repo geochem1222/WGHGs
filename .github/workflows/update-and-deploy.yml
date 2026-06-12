@@ -4,6 +4,15 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "18 21 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-and-deploy.yml"
+      - "assets/**"
+      - "index.html"
+      - "README.md"
+      - "scripts/**"
 
 permissions:
   contents: write
