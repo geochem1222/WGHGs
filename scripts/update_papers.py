@@ -124,7 +124,9 @@ BULK_ENVIRONMENT_TERMS = [
     "stream",
     "creek",
     "lake",
-    "reservoir",
+    "water reservoir",
+    "hydropower reservoir",
+    "reservoir lake",
     "pond",
     "ditch",
     "canal",
@@ -399,6 +401,10 @@ WETLAND_TERMS = [
     "wetlands",
     "marsh",
     "marshes",
+    "marshland",
+    "marshlands",
+    "saltmarsh",
+    "saltmarshes",
     "peatland",
     "peatlands",
     "fen",
@@ -453,6 +459,210 @@ WETLAND_WATER_TERMS = [
     "river-connected",
     "hydrologic",
     "hydrology",
+]
+
+TITLE_WATERBODY_TERMS = [
+    "inland water",
+    "inland waters",
+    "waterbody",
+    "waterbodies",
+    "water body",
+    "water bodies",
+    "freshwater ecosystem",
+    "freshwater ecosystems",
+    "aquatic ecosystem",
+    "aquatic ecosystems",
+    "aquatic system",
+    "aquatic systems",
+    "river",
+    "rivers",
+    "riverine",
+    "stream",
+    "streams",
+    "headwater",
+    "headwaters",
+    "creek",
+    "creeks",
+    "lake",
+    "lakes",
+    "reservoir",
+    "reservoirs",
+    "pond",
+    "ponds",
+    "fishpond",
+    "fishponds",
+    "ditch",
+    "ditches",
+    "canal",
+    "canals",
+    "estuary",
+    "estuaries",
+    "estuarine",
+    "lagoon",
+    "lagoons",
+    "floodplain lake",
+    "floodplain lakes",
+    "oxbow lake",
+    "oxbow lakes",
+    "fluvial network",
+    "fluvial networks",
+    "fluvial system",
+    "fluvial systems",
+    "water track",
+    "water tracks",
+    "surface water",
+    "surface waters",
+    "water column",
+    "water columns",
+    "beaver pond",
+    "beaver ponds",
+]
+
+WETLAND_AQUATIC_TITLE_TERMS = [
+    "wetland water",
+    "wetland waters",
+    "wetland pond",
+    "wetland ponds",
+    "wetland channel",
+    "wetland ditch",
+    "wetland sediment",
+    "wetland sediments",
+    "wetland porewater",
+    "wetland hydrology",
+    "wetland inundation",
+    "wetland water level",
+    "wetland water table",
+    "inundated wetland",
+    "inundated wetlands",
+    "flooded wetland",
+    "flooded wetlands",
+    "rewetted wetland",
+    "rewetted wetlands",
+    "marsh water",
+    "marsh sediment",
+    "marsh sediments",
+    "salt marsh creek",
+    "mangrove creek",
+    "mangrove sediment",
+    "mangrove sediments",
+    "riparian wetland",
+    "riparian wetlands",
+    "river-connected wetland",
+    "river-connected wetlands",
+]
+
+TITLE_GHG_TERMS = [
+    "greenhouse gas",
+    "greenhouse gases",
+    "co2",
+    "carbon dioxide",
+    "ch4",
+    "methane",
+    "n2o",
+    "nitrous oxide",
+    "carbon emission",
+    "carbon emissions",
+    "methanogenesis",
+    "methanogenic",
+    "methanotroph",
+    "methanotrophs",
+    "methanotrophic",
+]
+
+GHG_PROCESS_TERMS = [
+    "greenhouse gas",
+    "greenhouse gases",
+    "emission",
+    "emissions",
+    "flux",
+    "fluxes",
+    "efflux",
+    "evasion",
+    "exchange",
+    "concentration",
+    "concentrations",
+    "dynamics",
+    "production",
+    "oxidation",
+    "cycling",
+    "source",
+    "sources",
+    "sink",
+    "sinks",
+    "budget",
+    "budgets",
+    "dissolved",
+    "saturation",
+    "supersaturation",
+    "partial pressure",
+    "pco2",
+    "pch4",
+    "pn2o",
+    "diffusive",
+    "diffusion",
+    "ebullition",
+    "ebullitive",
+    "uptake",
+    "consumption",
+    "release",
+    "methanogenesis",
+    "methanogenic",
+    "methanotroph",
+    "methanotrophs",
+    "methanotrophic",
+]
+
+NON_AQUATIC_TITLE_TERMS = [
+    "geological reservoir",
+    "geologic reservoir",
+    "petroleum reservoir",
+    "oil reservoir",
+    "gas reservoir",
+    "reservoir engineering",
+    "reservoir conditions",
+    "reservoir and caprock",
+    "natural reservoir",
+    "wellbore",
+    "caprock",
+    "geological storage",
+    "geologic storage",
+    "carbon storage",
+    "co2 storage",
+    "carbon capture and storage",
+    "carbon capture",
+    "ccs",
+    "co2 stream",
+    "co2 streams",
+    "geologic methane",
+    "injected into geological",
+    "petroleum-produced water",
+    "produced water",
+    "coal mine",
+    "coal mining",
+    "coal storage",
+    "mine drainage",
+    "mine water",
+    "wastewater",
+    "waste ponds",
+    "water reclamation",
+    "anaerobic reactor",
+    "biogas",
+    "algal production",
+    "microalgae",
+    "primary production",
+    "photosynthetic",
+    "radiocarbon technique",
+    "dark fixation",
+    "caribbean sea",
+    "north sea",
+    "coastal system",
+    "continental shelf",
+    "eelgrass",
+    "basalt aquifer",
+    "coal-bed gas",
+    "coal bed gas",
+    "line creek mine",
+    "river delta region",
 ]
 
 GHG_KEYWORDS = [
@@ -1155,13 +1365,29 @@ def is_relevant(paper: dict[str, Any]) -> bool:
         return False
     if paper.get("id") in SEED_SEMANTIC_IDS or semantic_lookup_id(paper) in SEED_SEMANTIC_IDS:
         return bool(paper.get("title"))
-    has_strong_environment = any(contains_term(text_value, term) for term in ENVIRONMENT_KEYWORDS)
-    has_weak_environment = any(contains_term(text_value, term) for term in WEAK_ENVIRONMENT_KEYWORDS)
-    has_ghg = any(contains_term(text_value, term) for term in GHG_KEYWORDS)
-    has_title_signal = any(contains_term(title.lower(), term) for term in ENVIRONMENT_KEYWORDS + GHG_KEYWORDS)
+    title_value = title.lower()
+    abstract_value = abstract.lower()
+    if any(contains_term(title_value, term) for term in NON_AQUATIC_TITLE_TERMS):
+        return False
+    if any(contains_term(title_value, term) for term in WETLAND_TERMS) and any(
+        contains_term(title_value, term) for term in SOIL_TERMS
+    ):
+        return False
+    has_title_waterbody = any(contains_term(title_value, term) for term in TITLE_WATERBODY_TERMS)
+    has_title_wetland_water = any(contains_term(title_value, term) for term in WETLAND_AQUATIC_TITLE_TERMS)
+    has_title_ghg = any(contains_term(title_value, term) for term in TITLE_GHG_TERMS)
+    has_ghg_process = any(contains_term(title_value, term) for term in GHG_PROCESS_TERMS) or any(
+        contains_term(abstract_value, term) for term in GHG_PROCESS_TERMS
+    )
     if is_soil_only_wetland_study(text_value):
         return False
-    return bool(title) and has_ghg and has_strong_environment and (has_title_signal or not has_weak_environment)
+    if any(contains_term(title_value, term) for term in WETLAND_TERMS):
+        has_title_waterbody = has_title_waterbody or has_title_wetland_water
+        if not has_title_wetland_water and not any(
+            contains_term(title_value, term) for term in TITLE_WATERBODY_TERMS
+        ):
+            return False
+    return bool(title) and has_title_waterbody and has_title_ghg and has_ghg_process
 
 
 def relevance_score(paper: dict[str, Any]) -> int:
