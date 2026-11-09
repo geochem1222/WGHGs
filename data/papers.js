@@ -1,5 +1,5 @@
 window.PAPER_TRACKER_DATA = {
-  "updated_at": "2026-11-08T01:43:22.139369+00:00",
+  "updated_at": "2026-11-09T02:01:47.351672+00:00",
   "sources": [
     "Semantic Scholar"
   ],
@@ -41,7 +41,7 @@ window.PAPER_TRACKER_DATA = {
     "semantic_api_key_detected": true,
     "existing_records_before_update": 5313,
     "existing_records_after_relevance_filter": 5313,
-    "fresh_records_before_merge": 20,
+    "fresh_records_before_merge": 18,
     "fresh_fetch_target": 800,
     "retmax": 0,
     "library_size_cap": "unlimited",
@@ -24223,7 +24223,9 @@ window.PAPER_TRACKER_DATA = {
         "wetland"
       ],
       "seed": true,
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/288c6a748082b221824b54f53b1440b3871a33d0",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "34bbeb00657aead98a61539ce3249977abe55c1c",
@@ -34730,7 +34732,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/0e42f1c969804b653697093b211413165f9f46b6",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2019",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "aa0355dd3055f3f60dc9bb5fd3e61cda72e877e4",
@@ -45389,7 +45391,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/8fd48708d1fb58a380100192d38934414f9451fa",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "c11b17352aecc825d284171735eda6b275b0269a",
@@ -62996,7 +62998,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/28cb31902e661da84d8915385c373298f7266f74",
       "semantic_detail_enriched_at": "2026-10-20T00:53:19.339745+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "322f05efe2bed55ff4c8c958d80287954f48ed91",
@@ -66222,7 +66224,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/19644a428bdb60d97bc871f618b4223eb73d5fb0",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2023",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "9b4ac7fc160dc15bd1236e400a8d214641a394ee",
@@ -81192,7 +81194,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/f061a98c7d15b949024481352b123e0c39970f17",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "9f665609d0f9e2e55d7ce4e72ee0673394d25c7e",
@@ -100322,7 +100324,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/56bd51e43909115b9d32ef8205d24ec5a4af026e",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2014",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "28c4c660ae654f1fe2a740ea64d5f44eefdea788",
@@ -101560,9 +101562,9 @@ window.PAPER_TRACKER_DATA = {
       "abstract": "Our research investigates the spatial and temporal variability of methane (CH4) emissions in two drained eutrophic peat areas (one intensively managed and the other less intensively managed) and the correlation between CH4 emissions and soil temperature, air temperature, soil moisture content and water table. We stratified the landscape into landscape elements that represent different conditions in terms of topography and therefore differ in moisture conditions. There was great spatial variability in the fluxes in both areas; the ditches and ditch edges (together 27% of the landscape) were methane hotspots whereas the dry fields had the smallest fluxes. In the intensively managed site the fluxes were significantly higher by comparison with the less intensively managed site. In all the landscape element elements the best explanatory variable for CH4 emission was temperature. Neither soil moisture content nor water table correlated significantly with CH4 emissions, except in April, where soil moisture was the best explanatory variable.",
       "url": "https://www.semanticscholar.org/paper/b18c21016c60f996738bab45b66dd14a66897901",
       "pdf_url": "https://bg.copernicus.org/preprints/5/1237/2008/bgd-5-1237-2008.pdf",
-      "citation_count": 19,
-      "influential_citation_count": 2,
-      "reference_count": 26,
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 23,
       "references": [
         {
           "title": "Effect of land cover data on nitrous oxide inventory in fen meadows.",
@@ -101601,87 +101603,85 @@ window.PAPER_TRACKER_DATA = {
           "doi": "10.1029/2005JG000010"
         },
         {
-          "title": "CH4 sources estimated from atmospheric observations of CH4 and its 13C/12C isotopic ratios: 1. Inverse modeling of source processes",
-          "year": 2004,
-          "url": "https://www.semanticscholar.org/paper/1b08e1b42d382e6e2c36471ac9eb6d2e25be70e1",
-          "doi": "10.1029/2004GB002223"
-        },
-        {
           "title": "CH4 sources estimated from atmospheric observations of CH4 and its 13C/12C isotopic ratios: 2. Inverse modeling of CH4 fluxes from geographical regions",
           "year": 2004,
           "url": "https://www.semanticscholar.org/paper/5740e98dab2166efa38e63d060b9ecadc3b93114",
           "doi": "10.1029/2004GB002224"
+        },
+        {
+          "title": "CH4 sources estimated from atmospheric observations of CH4 and its 13C/12C isotopic ratios: 1. Inverse modeling of source processes",
+          "year": 2004,
+          "url": "https://www.semanticscholar.org/paper/1b08e1b42d382e6e2c36471ac9eb6d2e25be70e1",
+          "doi": "10.1029/2004GB002223"
         }
       ],
       "similar_papers": [
         {
-          "id": "6cd3798bfe46639567441b9c598b9b7395b50742",
-          "title": "How does nitrogen application impact soil respiration and CH4 emissions? An experiment in an oil palm plantation on tropical peat",
-          "year": 2026,
-          "journal": "Royal Society Open Science",
+          "id": "5299c57113aad29d75488435e026aa5b789354f8",
+          "title": "Alternative ditch management strategies for mitigating greenhouse gas emissions from drained boreal ecosystems",
+          "year": 2025,
+          "journal": "Acta Universitatis Agriculturae Sueciae",
           "authors": [
-            "K. Hergoualc’h",
-            "L. Verchot",
-            "Satria Oktarita"
+            "A. Pinkwart"
           ],
-          "doi": "10.1098/rsos.252443",
-          "url": "https://www.semanticscholar.org/paper/6cd3798bfe46639567441b9c598b9b7395b50742",
+          "doi": "10.54612/a.215e082tfo",
+          "url": "https://www.semanticscholar.org/paper/5299c57113aad29d75488435e026aa5b789354f8",
           "citation_count": 0
         },
         {
-          "id": "38ae542956a852dd528f09d81c64a5d2803af541",
-          "title": "Seasonal and Interannual Variations in Methane Emissions and Carbon and Hydrogen Isotopes From an Upland Ombrotrophic Peat Bog",
+          "id": "2f139bd097c22c57354585e8b448cc200b9f1664",
+          "title": "Significant sunlight-driven methane production at the wetland sediment-water interface.",
           "year": 2026,
-          "journal": "Global Biogeochemical Cycles",
+          "journal": "Water Research",
           "authors": [
-            "M. Takriti",
-            "Alexander Chadwick",
-            "R. Rose"
+            "Bin-Bin Wu",
+            "Jing-Yi Wang",
+            "Yu Yao"
           ],
-          "doi": "10.1029/2026GB009107",
-          "url": "https://www.semanticscholar.org/paper/38ae542956a852dd528f09d81c64a5d2803af541",
+          "doi": "10.1016/j.watres.2026.127049",
+          "url": "https://www.semanticscholar.org/paper/2f139bd097c22c57354585e8b448cc200b9f1664",
           "citation_count": 0
         },
         {
-          "id": "999003abeba291c305246afdbf4ff142573529ec",
-          "title": "Drainage-constrained field-scale modelling of rewetting and regional CO2 ̶ CH4 emissions in lowland peatlands.",
+          "id": "3220d4c33939390806c53ee4a746f72675255a74",
+          "title": "Aquaculture Waste Management, Water Quality, and Methane Emissions: Implications for Environmental Sustainability in Intensive Tilapia Farming",
           "year": 2026,
-          "journal": "Science of the Total Environment",
+          "journal": "Sustainability",
           "authors": [
-            "Soghra Andaryani",
-            "I. Holman",
-            "N. Girkin"
+            "Erika Do Carmo Ota",
+            "Tarcila Souza de Castro Silva",
+            "Laurindo André Rodrigues"
           ],
-          "doi": "10.1016/j.scitotenv.2026.182180",
-          "url": "https://www.semanticscholar.org/paper/999003abeba291c305246afdbf4ff142573529ec",
+          "doi": "10.3390/su182110948",
+          "url": "https://www.semanticscholar.org/paper/3220d4c33939390806c53ee4a746f72675255a74",
           "citation_count": 0
         },
         {
-          "id": "65f5008db75cb4df4210aac4df1db2a960fdafbc",
-          "title": "Seasonal changes in tree stem and soil methane fluxes along a soil moisture gradient in a subtropical Australian rainforest",
+          "id": "197bc286b4063bffde5e9b8d4f81758237ea036d",
+          "title": "Impacts of grazing on greenhouse gas emissions from high elevation páramo peatlands.",
           "year": 2026,
-          "journal": "Biogeochemistry",
+          "journal": "Ecological Applications",
           "authors": [
-            "Johannes Dittmann",
-            "Damien T. Maher",
-            "Scott G. Johnston"
+            "M. Hough",
+            "Ricardo Jaramillo",
+            "Segundo Chimbolema"
           ],
-          "doi": "10.1007/s10533-026-01371-7",
-          "url": "https://www.semanticscholar.org/paper/65f5008db75cb4df4210aac4df1db2a960fdafbc",
+          "doi": "10.1002/eap.70313",
+          "url": "https://www.semanticscholar.org/paper/197bc286b4063bffde5e9b8d4f81758237ea036d",
           "citation_count": 0
         },
         {
-          "id": "2a16893c419d6c1ee1305eeba65bfc539f452b70",
-          "title": "Global Patterns of Net Ecosystem Exchange in peatlands: A Systematic Review and Meta-analysis of Drivers Across Land Use and Environmental Gradients",
-          "year": 2026,
-          "journal": "Environmental Management",
+          "id": "3705a4c9fe25e5e1e68f22ff78520bced22d0004",
+          "title": "Representing peatland drainage-ditch hydrology impacts on CO 2 and CH 4 emissions in the ORCHIDEE-PEAT land surface model (r9703)",
+          "year": null,
+          "journal": "",
           "authors": [
-            "Charuni Jayasekara",
-            "Catherine Leigh",
-            "Jeff Shimeta"
+            "Li-Yang Liu",
+            "P. Ciais",
+            "Chun-Jing Qiu"
           ],
-          "doi": "10.1007/s00267-026-02621-y",
-          "url": "https://www.semanticscholar.org/paper/2a16893c419d6c1ee1305eeba65bfc539f452b70",
+          "doi": "",
+          "url": "https://www.semanticscholar.org/paper/3705a4c9fe25e5e1e68f22ff78520bced22d0004",
           "citation_count": 0
         }
       ],
@@ -101697,8 +101697,8 @@ window.PAPER_TRACKER_DATA = {
         "pond_ditch"
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/b18c21016c60f996738bab45b66dd14a66897901",
-      "semantic_detail_enriched_at": "2026-10-09T01:53:45.133051+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-09T01:53:45.807524+00:00"
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00",
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "1b97018e4fd1302451fe4c25de2e50f56ff58863",
@@ -102006,48 +102006,6 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "adbf6bd22ec71df37456b0c0a91299cb331cda8d",
-          "title": "Environmental controls over greenhouse gas dynamics of tropical peatlands of the Central Congo Basin.",
-          "year": 2026,
-          "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
-          "authors": [
-            "N. Girkin",
-            "Alice S. A. Johnston",
-            "Hayley Curran"
-          ],
-          "doi": "10.1098/rstb.2024.0482",
-          "url": "https://www.semanticscholar.org/paper/adbf6bd22ec71df37456b0c0a91299cb331cda8d",
-          "citation_count": 1
-        },
-        {
-          "id": "999003abeba291c305246afdbf4ff142573529ec",
-          "title": "Drainage-constrained field-scale modelling of rewetting and regional CO2 ̶ CH4 emissions in lowland peatlands.",
-          "year": 2026,
-          "journal": "Science of the Total Environment",
-          "authors": [
-            "Soghra Andaryani",
-            "I. Holman",
-            "N. Girkin"
-          ],
-          "doi": "10.1016/j.scitotenv.2026.182180",
-          "url": "https://www.semanticscholar.org/paper/999003abeba291c305246afdbf4ff142573529ec",
-          "citation_count": 0
-        },
-        {
-          "id": "9a3588fb5762db2667c36e4344126cfed096e252",
-          "title": "Recent Increase of Greenhouse Gas Emissions from Cryosphere-Influenced Reservoirs under Climate Change.",
-          "year": 2026,
-          "journal": "Environmental Science and Technology",
-          "authors": [
-            "Hongqiao Chen",
-            "Chun-Lin Song",
-            "Gen-Xu Wang"
-          ],
-          "doi": "10.1021/acs.est.6c08337",
-          "url": "https://www.semanticscholar.org/paper/9a3588fb5762db2667c36e4344126cfed096e252",
-          "citation_count": 0
-        },
-        {
           "id": "f2b83b3f0b43a3074da99f0c5cf4f69c77f41ec4",
           "title": "Anthropogenic disturbance transforms small agricultural irrigation impoundments into overlooked greenhouse gas hotspots.",
           "year": 2026,
@@ -102062,17 +102020,57 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "94ee087ed0ece0a9447fab5fba5f277776231d72",
-          "title": "Elevated water levels drive greenhouse gas mitigation in the riparian zone profile.",
+          "id": "197bc286b4063bffde5e9b8d4f81758237ea036d",
+          "title": "Impacts of grazing on greenhouse gas emissions from high elevation páramo peatlands.",
           "year": 2026,
-          "journal": "Journal of Environmental Management",
+          "journal": "Ecological Applications",
           "authors": [
-            "Qingbang Du",
-            "Ruiliang Xu",
-            "Yu Qin"
+            "M. Hough",
+            "Ricardo Jaramillo",
+            "Segundo Chimbolema"
           ],
-          "doi": "10.1016/j.jenvman.2026.130803",
-          "url": "https://www.semanticscholar.org/paper/94ee087ed0ece0a9447fab5fba5f277776231d72",
+          "doi": "10.1002/eap.70313",
+          "url": "https://www.semanticscholar.org/paper/197bc286b4063bffde5e9b8d4f81758237ea036d",
+          "citation_count": 0
+        },
+        {
+          "id": "f6f7342de46b33abf5e40ac99ef512717dd3d19a",
+          "title": "THE DYNAMICS OF CO2 AND CH4 EMISSIONS AND ABSORPTION BY LAND AND OCEAN SURFACES IN THE 21st CENTURY: CURRENT ESTIMATES AND TRENDS",
+          "year": 2026,
+          "journal": "Proceedings of the YSU C: Geological and Geographical Sciences",
+          "authors": [
+            "A. Olchev"
+          ],
+          "doi": "10.46991/pysuc.2026.si1.004",
+          "url": "https://www.semanticscholar.org/paper/f6f7342de46b33abf5e40ac99ef512717dd3d19a",
+          "citation_count": 0
+        },
+        {
+          "id": "e92cff69d5c4acc3a382ff0596a1dcf555c99dab",
+          "title": "Neglecting Changes in Salinity and Tidal Range Overstates Projected Increases in Greenhouse Gas Emissions from Mangrove Sediments.",
+          "year": 2026,
+          "journal": "Environmental Science and Technology",
+          "authors": [
+            "Si-Yi Zheng",
+            "Chuan-Cheng Fu",
+            "Tao Bao"
+          ],
+          "doi": "10.1021/acs.est.6c13469",
+          "url": "https://www.semanticscholar.org/paper/e92cff69d5c4acc3a382ff0596a1dcf555c99dab",
+          "citation_count": 0
+        },
+        {
+          "id": "f51a621ab92cce70eb44a4b3f28e276a737fc86f",
+          "title": "Importance, drivers and trends of inland water greenhouse gas emissions",
+          "year": 2026,
+          "journal": "Nature Reviews Earth & Environment",
+          "authors": [
+            "R. Lauerwald",
+            "D. Bastviken",
+            "T. Battin"
+          ],
+          "doi": "10.1038/s43017-026-00818-7",
+          "url": "https://www.semanticscholar.org/paper/f51a621ab92cce70eb44a4b3f28e276a737fc86f",
           "citation_count": 0
         }
       ],
@@ -102090,7 +102088,7 @@ window.PAPER_TRACKER_DATA = {
         "inland_water",
         "river_stream"
       ],
-      "semantic_recommendations_enriched_at": "2026-10-10T01:33:06.212426+00:00",
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/d9428cdfe42c779f174bc4cf4e1ced49f6f93887",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00"
     },
@@ -102299,7 +102297,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/ff2e0100210c25ee327fb64a66b6bb47311314ac",
       "semantic_detail_enriched_at": "2026-10-17T23:27:23.747696+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-07T01:37:50.316417+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "1a8a076a2dd73404e504bf18e445b19e86697788",
@@ -102343,7 +102341,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/1a8a076a2dd73404e504bf18e445b19e86697788",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2026",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "4e38ee804acc17881973d243933bc03d2c50cc46",
@@ -110000,7 +109998,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/a5feab79d947013fb8ef2305e8d3bcba9d64f649",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "7c5ae6b3d93492fcc86e68e1eff43b9a00e4ad47",
@@ -111204,7 +111202,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/d83a6981aea9f8cb9456b81e4969ee12bd3fe790",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "b1410eca0e7f79fb00b09f54c5f7fa9101ee8e86",
@@ -124011,7 +124009,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/91a7d95854e90de2e56674d35c6ad4fa2f565ba6",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "8347f0cefd7269fe738409403b575a17e50894c2",
@@ -124157,7 +124155,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/a23b6771fcbe9eddfeecefe8756b420a94e3f15a",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "4855e02773ca1873a2ccffc9d3ae44b39a71fb8a",
@@ -128701,7 +128699,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/da1e10edad30b7d0f6d508c9e3149e2a64bf8691",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "69f7fbcd912d940df3859c24bef2999206841c55",
@@ -129483,7 +129481,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/730256b978e176b0449bb27b4ea505b5f536d897",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "a658e9f211c12d679fc387933b1f93f9848036e4",
@@ -142106,7 +142104,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/c2983b9d2baf2b65af87c396fcc968fa2eb0be32",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "93a555078eabb42db2c34c7b1858253812e7de05",
@@ -142321,7 +142319,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/2a5a0c587b41027eeb304ea399a3c1496ffcc656",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "e7c6044e25cd92b1226c2833ec91518398ca4ebc",
@@ -142360,7 +142358,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/e7c6044e25cd92b1226c2833ec91518398ca4ebc",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "adca167fff7a8fd64f7040ebf221ef8c3f7129d5",
@@ -143109,7 +143107,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/2f667812fab4093ed9848f1238de40135d8339ab",
       "semantic_detail_enriched_at": "2026-11-03T03:49:39.251374+00:00",
       "year": "2017",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "5395130ffb2512e23e316bafc3ee4ee4afc054ca",
@@ -144245,7 +144243,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/3fd756deab141ee8451ccab0174a8ecdb9fa7f27",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "e7cfee9424287915f6a493933ea4d76dce528107",
@@ -144907,7 +144905,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/83598b6128df5b23ddaea8ab9ffd81108f3533d9",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "f917d24da52479f8217616b663868d96d9351762",
@@ -149248,7 +149246,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/1be19f6bc3b0161e6bb733c702ae4ad6f47a7e77",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "6e2e7d97a02cf28203d3ca03450b026189687180",
@@ -152308,7 +152306,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/7467d10a3801795c51e607f3a6244072e26fb350",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "26c38b098497a1897ba54fa9c73c94f26cde20ce",
@@ -155149,73 +155147,71 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
-          "id": "2a6d6c00a0dbb1202e3f32002fc40779e8dbabea",
-          "title": "Climate warming enhances aerobic methane emissions from invasive Raphidiopsis raciborskii blooms.",
+          "id": "fde5308f45c70d5055615a2ca4e5bb97ed50c52c",
+          "title": "Methane oxidation in African lakes increases with phytoplankton and outweighs photosynthesis-driven oxic methane production",
           "year": 2026,
-          "journal": "Water Research",
+          "journal": "Nature Communications",
           "authors": [
-            "Teng Zhao",
-            "Yu Wang",
-            "Man-Ling Gou"
+            "A. Borges",
+            "C. Morana",
+            "Loris Deirmendjian"
           ],
-          "doi": "10.1016/j.watres.2026.127057",
-          "url": "https://www.semanticscholar.org/paper/2a6d6c00a0dbb1202e3f32002fc40779e8dbabea",
+          "doi": "10.1038/s41467-026-78255-9",
+          "url": "https://www.semanticscholar.org/paper/fde5308f45c70d5055615a2ca4e5bb97ed50c52c",
+          "citation_count": 2
+        },
+        {
+          "id": "f0c2e71b375a06a4d2b904589da0aa9e1ab55ed2",
+          "title": "From sedimentary production to water-column accumulation: temperature and spatial controls on littoral methane",
+          "year": null,
+          "journal": "",
+          "authors": [
+            "Katharina J. Kiefel",
+            "Frank Peeters",
+            "A. Sepulveda-Jauregui"
+          ],
+          "doi": "",
+          "url": "https://www.semanticscholar.org/paper/f0c2e71b375a06a4d2b904589da0aa9e1ab55ed2",
           "citation_count": 0
         },
         {
-          "id": "7a97e914f4f4c4e50b833302e9c4cc182c7a356f",
-          "title": "The fate of methane in ponds: Drivers of production, storage, oxidation, and emissions",
+          "id": "326b4a1e154df602c22f000dc93e9b54364b0e19",
+          "title": "Thermogenic methane emissions from a glacier‐fed river on the Tibetan Plateau",
           "year": 2026,
-          "journal": "Limnology and Oceanography Letters",
+          "journal": "Limnology and Oceanography",
           "authors": [
-            "J. Rabaey",
-            "Pascal Bodmer",
-            "Abigail Bar"
+            "Xue-Xue Shang",
+            "Cui-Cui Mu",
+            "Ji Zhang"
           ],
-          "doi": "10.1002/lol2.70182",
-          "url": "https://www.semanticscholar.org/paper/7a97e914f4f4c4e50b833302e9c4cc182c7a356f",
+          "doi": "10.1002/lno.70520",
+          "url": "https://www.semanticscholar.org/paper/326b4a1e154df602c22f000dc93e9b54364b0e19",
           "citation_count": 0
         },
         {
-          "id": "0c7f4d75e68ef8d09fa9515b83fcef6dbc369493",
-          "title": "Methane Emissions from Algae-Driven Sediments of Sea Cucumber Culture Ponds Via Indoor Microcosms",
+          "id": "aace374a8a8cfaed93e892c2db6c89287af363cb",
+          "title": "Methane rhizospheric oxidation and its ecosystem significance across different aquatic plant species",
           "year": 2026,
-          "journal": "Water, Air and Soil Pollution",
+          "journal": "Biogeochemistry",
           "authors": [
-            "Hui Liang",
-            "Li-Hong Chen",
-            "Min Wang"
+            "C. Grasset"
           ],
-          "doi": "10.1007/s11270-026-09985-1",
-          "url": "https://www.semanticscholar.org/paper/0c7f4d75e68ef8d09fa9515b83fcef6dbc369493",
+          "doi": "10.1007/s10533-026-01374-4",
+          "url": "https://www.semanticscholar.org/paper/aace374a8a8cfaed93e892c2db6c89287af363cb",
           "citation_count": 0
         },
         {
-          "id": "5b04f5fbed3d24fa93a7781f688a756510915af4",
-          "title": "Drivers of Seasonal\nVariations of Greenhouse Gas Fluxes\nfrom Sediment–Water and Water–Atmosphere Interfaces\nin Different Fish Culture Ponds",
+          "id": "c3335d91ac550909223e0abe9ee146807ce1a362",
+          "title": "Spatiotemporal heterogeneity and driving mechanisms of diffusive methane (CH4) emission at the sediment-water interface of freshwater aquaculture ponds",
           "year": 2026,
-          "journal": "Environmental Science &amp;\nTechnology",
+          "journal": "Journal of Soils and Sediments",
           "authors": [
-            "Yu-Qi Liu",
-            "Qing-Fei Zeng",
-            "Azizov Farukh Fathulloevich"
+            "Chao Han",
+            "Yang Bai",
+            "Rong-Fei Zhang"
           ],
-          "doi": "10.1021/acs.est.6c05696",
-          "url": "https://www.semanticscholar.org/paper/5b04f5fbed3d24fa93a7781f688a756510915af4",
-          "citation_count": 0
-        },
-        {
-          "id": "9840a2c305e5e00f09e516d5fbfdb28762454b73",
-          "title": "Characterization of diversity and performance of thermophilic methane oxidizing microbiomes from full scale manure gas biofilter.",
-          "year": 2026,
-          "journal": "Bioresource Technology",
-          "authors": [
-            "Alen Simonic",
-            "Nicolai Andersen",
-            "J. M. Falk"
-          ],
-          "doi": "10.1016/j.biortech.2026.135828",
-          "url": "https://www.semanticscholar.org/paper/9840a2c305e5e00f09e516d5fbfdb28762454b73",
+          "doi": "10.1007/s11368-026-04597-y",
+          "url": "https://www.semanticscholar.org/paper/c3335d91ac550909223e0abe9ee146807ce1a362",
           "citation_count": 0
         }
       ],
@@ -155235,7 +155231,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/a3fff2a5afe60b6f5e3d9c87f5331ddcf968a624",
       "semantic_detail_enriched_at": "2026-11-07T01:37:39.942410+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-09T01:53:45.807524+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "73695614a45d6bee1a2be544d4ca55b7c4167ac0",
@@ -157380,7 +157376,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/6ab6ca017ae9d96b0384f206bf4744d003864396",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "ff1e2e610588b885e95e5578999ae098c760f8f6",
@@ -158401,7 +158397,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/e552c8fdf838d6e11721328b49b7c70e9f6613e3",
       "semantic_detail_enriched_at": "2026-11-03T03:49:39.251374+00:00",
       "year": "2026",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "3fc63004b9785fe1472cc5b8c77cbb827ccee6c6",
@@ -158451,7 +158447,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/3fc63004b9785fe1472cc5b8c77cbb827ccee6c6",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "02c352e4e28e7703b6f7385082963906f5b9f900",
@@ -161787,7 +161783,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/f0cd739a56f06cc5db8ad2b4b0aed710c7a989ff",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "a10a3cbdd82eedb253331e13aafd0a41fb9a6d96",
@@ -167872,7 +167868,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/a2a25147784b914891a3e658f12443007e8d3a7f",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2024",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "0e79c7e0393053c91a9a5dbcc554e28dbc7fce4e",
@@ -170457,7 +170453,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/f6301033bed4e970720d4845b4ec678b091d915a",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "6b4bc5833a7352bc30e1265e675cbeb39ac750ff",
@@ -171900,7 +171896,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/85997c47acbac44b0a020a2ee477f9c33cb99edb",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "39d7026b0ce39c6e419d9c529a8da11602688e37",
@@ -172233,7 +172229,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/52c5c25311c95fdc75401ad39a20b5ba5aaeaafd",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-07T01:37:50.316417+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "f2b949f8fa31d6c3dfc5ed8c96337f35b0af8fde",
@@ -183425,7 +183421,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/4776bf6140fd119a994a6745802bc0ab0e3f9e02",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "f03359169c8b53001a24de0407b48af79ac0f6ce",
@@ -183864,7 +183860,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/4459aebd2fe3c948e56ff6b5aa3d69abef9e0247",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2020",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "3f14b26a8edf014471868001cf8f222e1e78a711",
@@ -187435,7 +187431,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/a7bc7cdc1c7304e36f2298af2ce4dcddc916668d",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2019",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "a92369076d6535b508a45a97fa5400bd7f64a248",
@@ -188481,7 +188477,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/6f32168beaf37317704b45f23fff538a21dfa93d",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "9ca2064c36368453ab21eb13e74d6cdf9f6552bc",
@@ -188555,7 +188551,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/3ac24e7323e214d0bd795080c700c512983077e1",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "6ad4c76522a6cd01f29e31043e5246f80cc1fb32",
@@ -188700,7 +188696,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/7d0de075ae5e2014ee8484b9b65bd38470e1ded5",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2018",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "2e9213c06ee705b31792f1aa903438cb0788443e",
@@ -190097,7 +190093,9 @@ window.PAPER_TRACKER_DATA = {
         "pond_ditch"
       ],
       "seed": true,
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00",
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/0a88af7c9b6a8205850244643d6fc65abf4d718a",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "3821c9efb144931c7261b15ebeafdbca3e4c5b70",
@@ -190575,7 +190573,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/e07bc6b0277a2e1bd752cc135aed79d58722d0c5",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "6440a3ebc418217f4a0c5e15cf0f378a04c816e5",
@@ -190612,7 +190610,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/6440a3ebc418217f4a0c5e15cf0f378a04c816e5",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-07T01:37:50.316417+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "a9655ba192929087dffafa6968535610384ae00f",
@@ -192009,7 +192007,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/96efafe6bbe4a85f8df44eeecae5cc3f2e4e54de",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "d1b8c9cb6b4f76ca2881d4c8345f590182971b55",
@@ -192168,7 +192166,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/44eb4793a0259138da8ddb63127f5d5e687d4da4",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "29f454655998c18abd5f99b73714510ed1cc8310",
@@ -192372,7 +192370,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/8662bcf5dbfed97c61ca39dcb90419b949fe032b",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "dd3caf0590d37fe6ccc6fa5a948c978731caa41a",
@@ -193125,7 +193123,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/1282c1d96406e1d522f1be9b0d18c0b05a9afd77",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "017aca4fb72387a1ff558715d3b8a073b366bd88",
@@ -193938,7 +193936,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/dda83907cc4b573b9a49a8eae9e0601fb6637b1e",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "4d52c3c6d756c4c5d24dfa16dccf90d777dc74ac",
@@ -194207,7 +194205,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/ab8f0f425ff6bac4cd36008e9d9cf402ad2f8d10",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "8f129f08114d788f506d7defa50927cb5d6128ce",
@@ -194479,7 +194477,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/a69b7f447478a1e9b6e084c14a0683e214b6057c",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "90607e5d238a0008d6bf16e05ede728110cd73ac",
@@ -195708,7 +195706,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/65e08fbe34f7e3c3cadd07616dc9c0ff6720735c",
       "semantic_detail_enriched_at": "2026-10-20T00:53:19.339745+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "07c0a38b201e5e9cf866726613abc2296efc81af",
@@ -196017,7 +196015,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/63f295b2858a094e0c445a864a50cda5d6771f43",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "937bfa83d1cbe8210df648af54c522ed6636c0a4",
@@ -196059,7 +196057,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/937bfa83d1cbe8210df648af54c522ed6636c0a4",
       "semantic_detail_enriched_at": "2026-10-20T00:53:19.339745+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "c9b84c8c2b54ac62cf758b49fa59d4dd317b68fa",
@@ -196929,7 +196927,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/a31967cee576fc84d3baa0e615a711f127d5c271",
       "semantic_detail_enriched_at": "2026-10-20T00:53:19.339745+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "51c89bfafc14a31bf056f96b117964513513c195",
@@ -198179,7 +198177,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/f629c2b7418ddd6f9a2077483ba09277067db30c",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "6dbbf1af349065e9dfe9d00729af4a83e466d4d5",
@@ -199497,7 +199495,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/7fe695c85923a2865d590d7b0c5708b3256d6aa3",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "39b295db3c350ac7e8f058202c47ba2a1bdac5b8",
@@ -199540,7 +199538,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/39b295db3c350ac7e8f058202c47ba2a1bdac5b8",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2022",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "29df1af4d80594f6056fc42bdb3645e6e8475ba9",
@@ -200651,7 +200649,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/6b5af65d07063bcc4f25a41212b474d4f0631593",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "dafec032b344789433d39fcf1e68a39b54cdd0c2",
@@ -202502,7 +202500,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/c098c161f7b230a8e567e24658257f31125426df",
       "semantic_detail_enriched_at": "2026-10-17T23:27:23.747696+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "31389f651bb53be9a09723e70c19be1e21cd4ac7",
@@ -202550,7 +202548,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/31389f651bb53be9a09723e70c19be1e21cd4ac7",
       "semantic_detail_enriched_at": "2026-11-07T01:37:39.942410+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "8d7cd0f3cc42dc441f29397768ffcbd0ca4411f5",
@@ -203234,7 +203232,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/b8db09305d234d9a3ad66717e07677f30cf9e265",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "5120cc0785b6fdc3c06ed3104eb87f78aac94fa1",
@@ -203477,45 +203475,17 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
-          "id": "a4d46c3c7575d34fd9dd7d8c3d07cf8234aebba3",
-          "title": "Unveiling the overlooked nitrous oxide reduction enzyme in wastewater treatment systems.",
+          "id": "b75605fcecec2da6d269363f86f19622fedf5438",
+          "title": "Diversity of dirammox microorganisms",
           "year": 2026,
-          "journal": "Water Research",
+          "journal": "mBio",
           "authors": [
-            "Yong-Chao Wang",
-            "Yi-Fan Zhang",
-            "Guang-Shuo He"
+            "Gantuya Khasbaatar",
+            "Qun Han",
+            "Xiao-Kang Wang"
           ],
-          "doi": "10.1016/j.watres.2026.126987",
-          "url": "https://www.semanticscholar.org/paper/a4d46c3c7575d34fd9dd7d8c3d07cf8234aebba3",
-          "citation_count": 0
-        },
-        {
-          "id": "f4dbc01311b9fe8a351b2f8869d9e857854c7a65",
-          "title": "Electron acceptor-dependent duality of nitrous oxide metabolism in Thiobacillus during sulfur autotrophic denitrification",
-          "year": 2026,
-          "journal": "Frontiers in Microbiology",
-          "authors": [
-            "Mu-Chun Zhou",
-            "Shohei Yasuda",
-            "H. Miura"
-          ],
-          "doi": "10.3389/fmicb.2026.1903473",
-          "url": "https://www.semanticscholar.org/paper/f4dbc01311b9fe8a351b2f8869d9e857854c7a65",
-          "citation_count": 0
-        },
-        {
-          "id": "590dd01e71bd859dedad326bb0d305e78e894690",
-          "title": "Metabolic division of labor drives estuarine-coastal N2O emissions",
-          "year": 2026,
-          "journal": "The ISME Journal",
-          "authors": [
-            "En-Quan Zhang",
-            "Sheng-Jie Li",
-            "Ehui Tan"
-          ],
-          "doi": "10.1093/ismejo/wrag216",
-          "url": "https://www.semanticscholar.org/paper/590dd01e71bd859dedad326bb0d305e78e894690",
+          "doi": "10.1128/mbio.01645-26",
+          "url": "https://www.semanticscholar.org/paper/b75605fcecec2da6d269363f86f19622fedf5438",
           "citation_count": 0
         },
         {
@@ -203533,17 +203503,45 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "52c63ae2dc76308efaca01c6076f968b9cde56be",
-          "title": "Genome-resolved insights into hydrocarbon-transforming and nitrate-reducing microbial communities from deep petroleum reservoir cores of the Nashpa Oil Field, Pakistan",
+          "id": "8ef8c1f37857fa416d87035632e073348e233d6b",
+          "title": "An endolithic Gloeobacter and other novel cyanobacterial diversity in alpine dolomites of Piora Valley",
           "year": 2026,
-          "journal": "Frontiers in Microbiology",
+          "journal": "bioRxiv",
           "authors": [
-            "Sajida Tayyaba",
-            "Arshia Amin",
-            "Sobia Zulfiqar"
+            "Edi Sudianto",
+            "B. Durieu",
+            "Luc Cornet"
           ],
-          "doi": "10.3389/fmicb.2026.1899441",
-          "url": "https://www.semanticscholar.org/paper/52c63ae2dc76308efaca01c6076f968b9cde56be",
+          "doi": "10.64898/2026.10.08.757548",
+          "url": "https://www.semanticscholar.org/paper/8ef8c1f37857fa416d87035632e073348e233d6b",
+          "citation_count": 0
+        },
+        {
+          "id": "0aabeea2dba20ece35a2498ce9a1c853ef5daff4",
+          "title": "Genome-resolved metagenomics reveals rare taxa and functional traits in two contrasting agricultural fields",
+          "year": 2026,
+          "journal": "ISME Communications",
+          "authors": [
+            "Ioanna Chatzigiannidou",
+            "Tanvi Taparia",
+            "P. L. Johansen"
+          ],
+          "doi": "10.1093/ismeco/ycag268",
+          "url": "https://www.semanticscholar.org/paper/0aabeea2dba20ece35a2498ce9a1c853ef5daff4",
+          "citation_count": 0
+        },
+        {
+          "id": "44c7a105af443303abd089eafb49c94c357a9600",
+          "title": "Niche specialization and prevalence of comammox Nitrospira in the alkaline sediments of thermokarst lakes on the Tibetan Plateau",
+          "year": 2026,
+          "journal": "Nature Communications",
+          "authors": [
+            "K. Song",
+            "Yu-Ren Wang",
+            "Lu Li"
+          ],
+          "doi": "10.1038/s41467-026-77729-0",
+          "url": "https://www.semanticscholar.org/paper/44c7a105af443303abd089eafb49c94c357a9600",
           "citation_count": 0
         }
       ],
@@ -203563,7 +203561,7 @@ window.PAPER_TRACKER_DATA = {
         "n2o",
         "river_stream"
       ],
-      "semantic_recommendations_enriched_at": "2026-10-09T01:53:45.807524+00:00",
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00",
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/d69ba357cc4409429f4672d0300ba7d05d2e469f",
       "semantic_detail_enriched_at": "2026-10-11T00:42:43.095632+00:00"
     },
@@ -204231,7 +204229,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/b1fa8926281b93c6ef5f6549da68f466d982a7ae",
       "semantic_detail_enriched_at": "2026-10-29T01:45:41.132348+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "ee5471bf40e9f27e72984df3742d1100de1a24f5",
@@ -204889,7 +204887,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/979aa88689b042267251b6a8aa203ab97b6e03d3",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "27a1abe732f959e4f4442dd8e98871b85ebfa4bd",
@@ -205397,7 +205395,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/fd5d95ff271f59be36f9829668decf9cc14b87a1",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2026",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "0d34798c98195132e7cc781de0a635614327eb21",
@@ -206997,7 +206995,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/0c5ae3f1d0030070947e0e996f64bd7c9212c881",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "612f5d282d70f28f4e20bd6da60368289e3801cb",
@@ -208985,7 +208983,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/fc91c781461ab92991ec45f2c3d03f2f5bfe1f0b",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "cf63c7a0e2ee1122783392f883da69f6cf282ce0",
@@ -209499,7 +209497,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/0ec435a18f8ed03d648f45a1bb66b87431fb8863",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "d06d472c164ac7935cc56e7e2a7afde5635dd311",
@@ -210950,7 +210948,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/03a5fd4a68ef1903212586ad5c3b9bba554cfe02",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "8dd3e6f9f0e6e036976662516fbf1f8ceb6a02e8",
@@ -212231,7 +212229,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/995b2c2939bf2dfa733c8fe4471e90c658f37765",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2024",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "80e3d7f45933d53c177523c2d8c44c3ccea60a6e",
@@ -212437,7 +212435,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/e1004e431082ec69f0f1dc0a8560dbe5051b950a",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "12b559780d1ea37ddf67db39114ce25d547ab626",
@@ -215523,7 +215521,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/e8bbd24e895eec86a3fa90fce303f66341c86111",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "d36b960c02c219c4a634ee351b6445dcecfdb774",
@@ -219746,7 +219744,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/33817923aaf50bfc9bc67bbe57f9fcb26aaea940",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2022",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "1cc584f690c8e3e281333b3da4b15fbf819da839",
@@ -220368,7 +220366,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/abccd01c67e51ed7a2752721058fc43d982b27b6",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "80691a18832ff529c0a57950c280cbb0eda24070",
@@ -226286,7 +226284,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/befc0b92fdd92aba370203ff7a9101e997621f79",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "f33b21c15c3b727f1e0099c92df077bca8d92c63",
@@ -226661,7 +226659,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/6fa768297f5d578e91dc59dc7a3a4a72851f4a2b",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "9a5771fb7c011c80415652c235e618b0246f6f85",
@@ -226860,7 +226858,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/6f0d7fc3117d177e5dd536ca12d8be3144652724",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-08T01:28:13.763149+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "9662ff3379d15c4a622a61c1bd27ae704f850225",
@@ -229995,6 +229993,20 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
+          "id": "0f64dd59384e8ae73ab04a92088c49157dbdd409",
+          "title": "Spatial Decoupling of Aquatic and Terrestrial Carbon Fluxes in a Tropical Andean Headwater Corridor",
+          "year": 2026,
+          "journal": "Hydrological Processes",
+          "authors": [
+            "D. Martin",
+            "Penelope Brocco",
+            "E. Clark"
+          ],
+          "doi": "10.1002/hyp.70738",
+          "url": "https://www.semanticscholar.org/paper/0f64dd59384e8ae73ab04a92088c49157dbdd409",
+          "citation_count": 0
+        },
+        {
           "id": "a52d69b8501038ce18d8199e1413020db92ceb7e",
           "title": "A boost on the ﬁnal stretch: intense river metabolism and wetland discharge increase aquatic CO 2 dynamics in the Danube Delta",
           "year": null,
@@ -230009,59 +230021,45 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "a4f568a7fecb6f2b609abae4232af29449c5fbeb",
-          "title": "Limited Diel Variability of Greenhouse Gases, Carbon and ~60 Major and Trace Solutes in Humic Northern Peatland Headwaters",
-          "year": 2026,
-          "journal": "Aquatic geochemistry",
+          "id": "1eecd5917ab841a4efa342a8ed01fc78aa1fe832",
+          "title": "The Alkalinity Blue Carbon Pump: Tidal pumping drives long-term CO₂ sequestration as alkalinity in salt marshes",
+          "year": null,
+          "journal": "",
           "authors": [
-            "A. Chupakov",
-            "N. S. Trudova",
-            "S. D. Prasolov"
+            "Paul Kanfer",
+            "Céline Charbonnier",
+            "S. Schmidt"
           ],
-          "doi": "10.1007/s10498-026-09443-8",
-          "url": "https://www.semanticscholar.org/paper/a4f568a7fecb6f2b609abae4232af29449c5fbeb",
+          "doi": "",
+          "url": "https://www.semanticscholar.org/paper/1eecd5917ab841a4efa342a8ed01fc78aa1fe832",
           "citation_count": 0
         },
         {
-          "id": "6c13637e1cf650d05f7b15303aec2f28167f49e8",
-          "title": "CaMP-DOC v1.0: A process-based model for quantifying dissolved organic carbon fluxes in wetland-dominated catchments",
+          "id": "22cc6b17b2b7037669db6be1f67cdedece7114cf",
+          "title": "Direct Flux Measurements Reveal CO2 Sinks in Icelandic Glacial Streams Driven by Weathering and Hydrological Mixing",
           "year": 2026,
-          "journal": "Canadian Journal of Forest Research",
+          "journal": "Journal of Geophysical Research - Biogeosciences",
           "authors": [
-            "Hong-Xing He",
-            "E. Emilson",
-            "O. Hararuk"
+            "Anna-Katharina Wild",
+            "C. Fasching",
+            "M. Rudolph"
           ],
-          "doi": "10.1139/cjfr-2026-0150",
-          "url": "https://www.semanticscholar.org/paper/6c13637e1cf650d05f7b15303aec2f28167f49e8",
+          "doi": "10.1029/2026JG010081",
+          "url": "https://www.semanticscholar.org/paper/22cc6b17b2b7037669db6be1f67cdedece7114cf",
           "citation_count": 0
         },
         {
-          "id": "ce8d92fc96db430238ec89dac9c0d7c43182b322",
-          "title": "Diel biogeochemical variations and nitrogen cycling processes in a karst stream aquatic system under high-resolution monitoring",
+          "id": "6cce9591d0725c6f53de61277647d2f8f821cd1d",
+          "title": "SPATIOTEMPORAL DISTRIBUTION CHARACTERISTICS OF CARBON MORPHOLOGY AND CARBON FLUX ESTIMATION IN THE YANGTZE RIVER",
           "year": 2026,
-          "journal": "Environmental Monitoring & Assessment",
+          "journal": "Applied Ecology and Environmental Research",
           "authors": [
-            "Ming-Da Cao",
-            "Ya-Xi Wang",
-            "Jie Zhang"
+            "W. Sun",
+            "W. Wu",
+            "B. Qian"
           ],
-          "doi": "10.1007/s10661-026-15924-8",
-          "url": "https://www.semanticscholar.org/paper/ce8d92fc96db430238ec89dac9c0d7c43182b322",
-          "citation_count": 0
-        },
-        {
-          "id": "a7fda507f298db2998541727e09c5941a08a4f68",
-          "title": "From net sink to episodic source: Seasonal dissolved inorganic carbon budget in an intertidal basin",
-          "year": 2026,
-          "journal": "Limnology and Oceanography",
-          "authors": [
-            "Julia Meyer",
-            "Andrea Luebben",
-            "Helmuth Thomas"
-          ],
-          "doi": "10.1002/lno.70514",
-          "url": "https://www.semanticscholar.org/paper/a7fda507f298db2998541727e09c5941a08a4f68",
+          "doi": "10.15666/aeer/2404_66236638",
+          "url": "https://www.semanticscholar.org/paper/6cce9591d0725c6f53de61277647d2f8f821cd1d",
           "citation_count": 0
         }
       ],
@@ -230078,7 +230076,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/fd651e557a37c40187bce7279987fe8b6985cdf9",
       "semantic_detail_enriched_at": "2026-10-20T00:53:19.339745+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "f1f354ad45e16606b0a97b43d4c788e9856ade81",
@@ -230717,31 +230715,31 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
-          "id": "acee0258ab41c1d162784ead6b13fe4401819fb8",
-          "title": "Sediment organic carbon sources, accumulation and stock estimates in a temperate lake over the past 10,000 years in Ireland",
+          "id": "0517aab934887120aeec62eccebd20c5d5f4fe2a",
+          "title": "Highly Variable Organic Carbon Burial in Thermokarst Lake Sediments on the Qinghai‐Tibet Plateau",
           "year": 2026,
-          "journal": "Aquatic Sciences",
+          "journal": "Journal of Geophysical Research - Biogeosciences",
           "authors": [
-            "Ryan Smazal",
-            "C. Dalton",
-            "Karen Molloy"
+            "Li-Xiang Zhang",
+            "Ze Ren",
+            "Zhen-Mei Lin"
           ],
-          "doi": "10.1007/s00027-026-01352-w",
-          "url": "https://www.semanticscholar.org/paper/acee0258ab41c1d162784ead6b13fe4401819fb8",
+          "doi": "10.1029/2026jg010120",
+          "url": "https://www.semanticscholar.org/paper/0517aab934887120aeec62eccebd20c5d5f4fe2a",
           "citation_count": 0
         },
         {
-          "id": "fb491f60db87fce2a64fc87b4f576a844f994bd6",
-          "title": "Hydrology and Bloom Shapes Dissolved and Particulate Organic Carbon and DOC Fluxes in Danjiangkou Reservoir",
+          "id": "27fa3cdeec181cb35a65fb1a948745e679fd96c0",
+          "title": "Erosional Transfer of Sediment and Organic Carbon Through Time in the Kasaï Basin, Democratic Republic of the Congo",
           "year": 2026,
-          "journal": "Water",
+          "journal": "Paleoceanography and Paleoclimatology",
           "authors": [
-            "Yu-Ling Huang",
-            "Huan-Huan Li",
-            "Hui-Huang Luo"
+            "M. Engelhardt",
+            "A. de Clippele",
+            "A. Bahati"
           ],
-          "doi": "10.3390/w18172173",
-          "url": "https://www.semanticscholar.org/paper/fb491f60db87fce2a64fc87b4f576a844f994bd6",
+          "doi": "10.1029/2026PA005609",
+          "url": "https://www.semanticscholar.org/paper/27fa3cdeec181cb35a65fb1a948745e679fd96c0",
           "citation_count": 0
         },
         {
@@ -230759,31 +230757,31 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "6e57a3ddeea1499c1a2bf0c251b6b888681c8ff7",
-          "title": "Contrasting carbon and nitrogen burial in pristine vs. impacted mangrove sediments.",
-          "year": 2026,
-          "journal": "Marine Pollution Bulletin",
+          "id": "1eecd5917ab841a4efa342a8ed01fc78aa1fe832",
+          "title": "The Alkalinity Blue Carbon Pump: Tidal pumping drives long-term CO₂ sequestration as alkalinity in salt marshes",
+          "year": null,
+          "journal": "",
           "authors": [
-            "Tiago U. Passos",
-            "R. Barcellos",
-            "Luciana D. Santos"
+            "Paul Kanfer",
+            "Céline Charbonnier",
+            "S. Schmidt"
           ],
-          "doi": "10.1016/j.marpolbul.2026.120298",
-          "url": "https://www.semanticscholar.org/paper/6e57a3ddeea1499c1a2bf0c251b6b888681c8ff7",
+          "doi": "",
+          "url": "https://www.semanticscholar.org/paper/1eecd5917ab841a4efa342a8ed01fc78aa1fe832",
           "citation_count": 0
         },
         {
-          "id": "4f2953bef8ef30bb989519b960932e58f40aa87a",
-          "title": "Sediment organic matter accumulation-rate estimates and source determinations for two municipally important reservoirs located in “Flash-Flood Alley”, Austin, Texas, USA",
+          "id": "b0fbafb67a27dcdbf2db7335caf8426d616e0cf6",
+          "title": "Sandy Turbidity Current Acts as a Rusty Carbon Pump at the Shelf Edge",
           "year": 2026,
-          "journal": "Journal of Paleolimnology",
+          "journal": "Geophysical Research Letters",
           "authors": [
-            "Brent J. Bellinger",
-            "M. Davis",
-            "Dan Duncan"
+            "Zhuo-Yue Zhang",
+            "Cheng-Long Wang",
+            "Tian-Yu Chen"
           ],
-          "doi": "10.1007/s10933-026-00403-4",
-          "url": "https://www.semanticscholar.org/paper/4f2953bef8ef30bb989519b960932e58f40aa87a",
+          "doi": "10.1029/2026GL124581",
+          "url": "https://www.semanticscholar.org/paper/b0fbafb67a27dcdbf2db7335caf8426d616e0cf6",
           "citation_count": 0
         }
       ],
@@ -230803,7 +230801,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/cb0eb8101f72dac030e5ca03f9cf5577caaf18aa",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2020",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "b1123866d72ac5f22d4e3740b8753f337415ec03",
@@ -231492,73 +231490,73 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "a9dd8c33554993adae36b234e3a573dbb9df2dd5",
-          "title": "Bioindicator\nfor the Sources and Drivers of Carbon\nDioxide and Dissolved Methane Concentrations in Urban Rivers",
+          "id": "611fa0fbfcc2a8fda916943a7fe413fa04b6cc65",
+          "title": "Dissolved inorganic carbon dynamics regulated by natural and anthropogenic activities mediate riverine CO2 emissions in China.",
           "year": 2026,
-          "journal": "ACS ES&amp;T Water",
+          "journal": "Journal of Environmental Management",
           "authors": [
-            "Wei Tang",
-            "Jun Y. Xu",
-            "Si-Yue Li"
+            "Jia-Yue Li",
+            "Fu-Hong Sun",
+            "Xiu-Yuan Chen"
           ],
-          "doi": "10.1021/acsestwater.6c00922",
-          "url": "https://www.semanticscholar.org/paper/a9dd8c33554993adae36b234e3a573dbb9df2dd5",
+          "doi": "10.1016/j.jenvman.2026.131270",
+          "url": "https://www.semanticscholar.org/paper/611fa0fbfcc2a8fda916943a7fe413fa04b6cc65",
           "citation_count": 0
         },
         {
-          "id": "473c8219ea9427ebb82b07f09b13e057f59bde42",
-          "title": "Inwelling Versus Outwelling: Controls on Dissolved Organic Carbon Exchange in a Mesotidal Saltmarsh Estuary",
-          "year": 2026,
-          "journal": "Journal of Geophysical Research - Biogeosciences",
-          "authors": [
-            "Mohammed Mezied",
-            "C. Fichot",
-            "S. Fagherazzi"
-          ],
-          "doi": "10.1029/2026jg009790",
-          "url": "https://www.semanticscholar.org/paper/473c8219ea9427ebb82b07f09b13e057f59bde42",
-          "citation_count": 0
-        },
-        {
-          "id": "abab0c8141ecb73ee2ae2e1433b316c264400319",
-          "title": "Spatiotemporal Dynamics and Hydrological Controls of Dissolved Organic Carbon Export From the Dongting Lake Basin",
-          "year": 2026,
-          "journal": "Hydrological Processes",
-          "authors": [
-            "Yan Li",
-            "Ze-Lin Liu",
-            "Zheng-Miao Deng"
-          ],
-          "doi": "10.1002/hyp.70713",
-          "url": "https://www.semanticscholar.org/paper/abab0c8141ecb73ee2ae2e1433b316c264400319",
-          "citation_count": 0
-        },
-        {
-          "id": "d0d44b014a9295b22be5cc3d1e7af24e2f61664b",
-          "title": "DIC-FCO2 coupled variation modes in a cascade-dammed karst river: Control by carbonate buffering.",
+          "id": "bfb1d0ce2e74f335f5144041f415eef47de30153",
+          "title": "Decoding riverine control of air-sea CO2 flux in the Pearl River Estuary: the dominant role of terrestrial organic matter quantity and stoichiometry.",
           "year": 2026,
           "journal": "Water Research",
           "authors": [
-            "Tao Zhang",
-            "Xin-Yu Kang",
-            "Jian-Hong Li"
+            "Si-Yu Zhang",
+            "Liu-Qian Yu",
+            "Zheng Chen"
           ],
-          "doi": "10.1016/j.watres.2026.126896",
-          "url": "https://www.semanticscholar.org/paper/d0d44b014a9295b22be5cc3d1e7af24e2f61664b",
+          "doi": "10.1016/j.watres.2026.127058",
+          "url": "https://www.semanticscholar.org/paper/bfb1d0ce2e74f335f5144041f415eef47de30153",
           "citation_count": 0
         },
         {
-          "id": "eac204d3ed1c7885dbdcb8e1e2bb32bf2800ed2e",
-          "title": "Spatiotemporal Characteristics of Carbon Source–Sink Dynamics in the Coastal Waters of the South Yellow Sea, China",
+          "id": "79bd693a270d4e50d0619477f69c367fb5de9d4e",
+          "title": "Integrated human and natural regulation of carbon concentrations and fluxes dynamics in the Yangtze River mainstream over the past two decades.",
+          "year": 2026,
+          "journal": "Environmental Research",
+          "authors": [
+            "Wei Li",
+            "X. Wen",
+            "Yang Gao"
+          ],
+          "doi": "10.1016/j.envres.2026.125873",
+          "url": "https://www.semanticscholar.org/paper/79bd693a270d4e50d0619477f69c367fb5de9d4e",
+          "citation_count": 0
+        },
+        {
+          "id": "7170d0b31529f038f2752a5a633c2e92ce731733",
+          "title": "Carbon Processing Domains: Seasonal and Spatial Controls on Dissolved Organic Carbon in a Montane River",
+          "year": 2026,
+          "journal": "Journal of Geophysical Research - Biogeosciences",
+          "authors": [
+            "F. L. Young",
+            "M. DeGrandpre",
+            "H. M. Valett"
+          ],
+          "doi": "10.1029/2025jg009488",
+          "url": "https://www.semanticscholar.org/paper/7170d0b31529f038f2752a5a633c2e92ce731733",
+          "citation_count": 0
+        },
+        {
+          "id": "f2f73924b415458e20fd836ba307a04fdb7687a8",
+          "title": "Seasonal Variations in Surface CO2 Partial Pressure and Air–Sea CO2 Flux in the Lower Pearl River Estuary Based on High-Resolution Long-Time-Series Buoy Observations",
           "year": 2026,
           "journal": "Journal of Marine Science and Engineering",
           "authors": [
-            "Xiao-Yu Zhang",
-            "Jin-Pei Yan",
-            "Rong Tian"
+            "Yu Ma",
+            "Jin-Shan Zhang",
+            "Hong-Liang Li"
           ],
-          "doi": "10.3390/jmse14191767",
-          "url": "https://www.semanticscholar.org/paper/eac204d3ed1c7885dbdcb8e1e2bb32bf2800ed2e",
+          "doi": "10.3390/jmse14201954",
+          "url": "https://www.semanticscholar.org/paper/f2f73924b415458e20fd836ba307a04fdb7687a8",
           "citation_count": 0
         }
       ],
@@ -231581,7 +231579,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/9e30315a1e693507b9353e816ef104a5e2e5d187",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2020",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "224351d3f0650fae1eab02fdc5770a90bb4fba72",
@@ -232208,17 +232206,17 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
-          "id": "7629863e3e39662c0cf99b332716cee15c1b63a3",
-          "title": "Process Stability, Methane Yield, and Microbial Community Structure in Two-Stage Co-Digestion of Plant and Animal Substrates Using Real-World Feedstock from an Agricultural Biogas Plant",
+          "id": "355e52b410fe41b53046d185bb6fa929808b5b84",
+          "title": "Gas composition analysis of biogas produced through anaerobic fermentation using tofu wastewater and cow manure as substrates",
           "year": 2026,
-          "journal": "Energies",
+          "journal": "Konversi",
           "authors": [
-            "Daria Sławczyk",
-            "Beata Bień",
-            "Przemysław Liczbiński"
+            "Ahmad Moh Nur",
+            "A. Azam",
+            "Eko Heryadi"
           ],
-          "doi": "10.3390/en19173944",
-          "url": "https://www.semanticscholar.org/paper/7629863e3e39662c0cf99b332716cee15c1b63a3",
+          "doi": "10.20527/k.v15i2.25571",
+          "url": "https://www.semanticscholar.org/paper/355e52b410fe41b53046d185bb6fa929808b5b84",
           "citation_count": 0
         },
         {
@@ -232236,17 +232234,17 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "825880f0c7127bb4046e4ec1d9f3b23b5bcad60b",
-          "title": "Influences of gaseous substrate composition on aerobic gas fermentation by Cupriavidus necator",
+          "id": "492d3f6a5a8dd19ab5c6ac7527acbed91d24f016",
+          "title": "Novel strategy for advanced treatment of municipal wastewater with low carbon footprint: biological nitrogen removal and potent greenhouse gas mitigation in anaerobic-anoxic biofilter reactor by introducing raw wastewater.",
           "year": 2026,
-          "journal": "Applied Microbiology and Biotechnology",
+          "journal": "Bioresource Technology",
           "authors": [
-            "Brandon C. Enalls",
-            "Michael J. Wheadon",
-            "Jamia Shepard"
+            "Meng-Yuan Sun",
+            "Yi Wang",
+            "Yue-Ning Wang"
           ],
-          "doi": "10.1007/s00253-026-13990-z",
-          "url": "https://www.semanticscholar.org/paper/825880f0c7127bb4046e4ec1d9f3b23b5bcad60b",
+          "doi": "10.1016/j.biortech.2026.136109",
+          "url": "https://www.semanticscholar.org/paper/492d3f6a5a8dd19ab5c6ac7527acbed91d24f016",
           "citation_count": 0
         },
         {
@@ -232297,7 +232295,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/8659bf633e51bff65192fad3c4f0989676320146",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "61ea7d84b4e0ed28507154cda476b239b31def96",
@@ -232327,73 +232325,73 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "b395deaa332c742f5b670d35e9f1aac291297d85",
-          "title": "Dredging changes the controls, pathways and environmental sensitivity of N2O emissions in shallow lakes.",
-          "year": 2026,
-          "journal": "Journal of Environmental Management",
-          "authors": [
-            "Rongwei Xiong",
-            "Yong Li",
-            "Ming Chen"
-          ],
-          "doi": "10.1016/j.jenvman.2026.130739",
-          "url": "https://www.semanticscholar.org/paper/b395deaa332c742f5b670d35e9f1aac291297d85",
-          "citation_count": 0
-        },
-        {
-          "id": "a4d46c3c7575d34fd9dd7d8c3d07cf8234aebba3",
-          "title": "Unveiling the overlooked nitrous oxide reduction enzyme in wastewater treatment systems.",
-          "year": 2026,
-          "journal": "Water Research",
-          "authors": [
-            "Yong-Chao Wang",
-            "Yi-Fan Zhang",
-            "Guang-Shuo He"
-          ],
-          "doi": "10.1016/j.watres.2026.126987",
-          "url": "https://www.semanticscholar.org/paper/a4d46c3c7575d34fd9dd7d8c3d07cf8234aebba3",
-          "citation_count": 0
-        },
-        {
-          "id": "0f47f5340e0ae1b4085a95154d932465e35ea762",
-          "title": "Divergent effects of biodegradable and conventional microplastics on denitrification in soils: Mechanisms governing N₂O emission and product stoichiometry.",
-          "year": 2026,
-          "journal": "Journal of Hazardous Materials",
-          "authors": [
-            "Hao Zhang",
-            "Xiao Li",
-            "Minhang Zhu"
-          ],
-          "doi": "10.1016/j.jhazmat.2026.143364",
-          "url": "https://www.semanticscholar.org/paper/0f47f5340e0ae1b4085a95154d932465e35ea762",
-          "citation_count": 0
-        },
-        {
-          "id": "77b8fc0bc94f71aa15bcd1954156bde3060f89e9",
-          "title": "Effects of sediment physicochemical factors and heavy metals on anammox-dominated ammonia-oxidizing process in a shallow lake",
-          "year": 2026,
-          "journal": "Journal of Soils and Sediments",
-          "authors": [
-            "Zuhong Zheng",
-            "Yong Zhou",
-            "Qiu-Huan Li"
-          ],
-          "doi": "10.1007/s11368-026-04536-x",
-          "url": "https://www.semanticscholar.org/paper/77b8fc0bc94f71aa15bcd1954156bde3060f89e9",
-          "citation_count": 0
-        },
-        {
-          "id": "ea466be7baeb566735fcb0870245abbe038b2bbf",
-          "title": "Operational Regulation of Algal-Bacterial Granular Sludge for Nitrogen Removal Pathway Reconfiguration and N2O Mitigation.",
+          "id": "9384ab85923344b4962eb48e17ca2d0652742752",
+          "title": "Illumination selectively strenghens performances of nitrification inhibitor in reducing mixed pesticide residues and nitrous oxide emissions: a tradeoff effect.",
           "year": 2026,
           "journal": "Environmental Research",
           "authors": [
-            "Zu-Wei Song",
-            "Yi-Feng Xu",
-            "Shi Chen"
+            "Man-Yun Zhang",
+            "Min-Zhe Zhou",
+            "Tao Guo"
           ],
-          "doi": "10.1016/j.envres.2026.125723",
-          "url": "https://www.semanticscholar.org/paper/ea466be7baeb566735fcb0870245abbe038b2bbf",
+          "doi": "10.1016/j.envres.2026.126086",
+          "url": "https://www.semanticscholar.org/paper/9384ab85923344b4962eb48e17ca2d0652742752",
+          "citation_count": 0
+        },
+        {
+          "id": "99cde96fba3feb70ed2ad80656a344c806608e6b",
+          "title": "Stage-specific nitrous oxide emission responses to different oxygen-supply regimes in anaerobic/oxic/anoxic process treating municipal wastewater.",
+          "year": 2026,
+          "journal": "Bioresource Technology",
+          "authors": [
+            "Yu-Ying Duan",
+            "Qiong Zhang",
+            "Ze-Ming An"
+          ],
+          "doi": "10.1016/j.biortech.2026.135970",
+          "url": "https://www.semanticscholar.org/paper/99cde96fba3feb70ed2ad80656a344c806608e6b",
+          "citation_count": 0
+        },
+        {
+          "id": "eea6508b80032ac116d23cdf770d1370a70bbc41",
+          "title": "Elevation Amplifies\nCarrier-Type Differences in Nitrogen\nCycling and N\n 2\n O Dynamics in Lake Biofilms",
+          "year": 2026,
+          "journal": "Environmental Science &amp;\nTechnology",
+          "authors": [
+            "Yun-Peng Xue",
+            "Lu Li",
+            "Yu-Ren Wang"
+          ],
+          "doi": "10.1021/acs.est.6c06836",
+          "url": "https://www.semanticscholar.org/paper/eea6508b80032ac116d23cdf770d1370a70bbc41",
+          "citation_count": 0
+        },
+        {
+          "id": "e7d1162aa1c19c50ff1029b7d118a94ed701f406",
+          "title": "Biodegradable polylactic acid microplastics pose greater field nitrous oxide emission risks than conventional polyethylene by reshaping microbial production-reduction pathways in a wheat-maize rotation system.",
+          "year": 2026,
+          "journal": "Journal of Hazardous Materials",
+          "authors": [
+            "Chuan Wang",
+            "Rui He",
+            "Li-Sha Wang"
+          ],
+          "doi": "10.1016/j.jhazmat.2026.144068",
+          "url": "https://www.semanticscholar.org/paper/e7d1162aa1c19c50ff1029b7d118a94ed701f406",
+          "citation_count": 0
+        },
+        {
+          "id": "b879fc014d170ef05203cc20b07fc2775528155c",
+          "title": "Mechanistic shifts driving nitrous oxide mitigation in mainstream partial nitritation/anammox: Transitioning from nitrifier denitrification to hydroxylamine oxidation.",
+          "year": 2026,
+          "journal": "Bioresource Technology",
+          "authors": [
+            "Tong Zhou",
+            "Peng-Chao Gu",
+            "Xiu-Hong Liu"
+          ],
+          "doi": "10.1016/j.biortech.2026.136173",
+          "url": "https://www.semanticscholar.org/paper/b879fc014d170ef05203cc20b07fc2775528155c",
           "citation_count": 0
         }
       ],
@@ -232418,7 +232416,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/61ea7d84b4e0ed28507154cda476b239b31def96",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2019",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "24a2dfffc9a9e7f982739daea06bc42fa58750c5",
@@ -232509,59 +232507,57 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "b9e3074bbcf22fb230bfa4e0f329da115208d2cc",
-          "title": "Wastewater treatment-induced carbonate chemistry alteration and its implications for ocean alkalinity enhancement",
+          "id": "b84941643e0c9129a02ac2c28e7db1ffbfa8667a",
+          "title": "CO2 and CH4 fluxes from monomictic volcanic lakes in a remote oceanic island: Flores island case study (Azores)",
           "year": 2026,
-          "journal": "Environmental Research Letters",
+          "journal": "Environmental Earth Sciences",
           "authors": [
-            "Kuan Li",
-            "Hsin-Yi Wang",
-            "Hsiao-Chun Tseng"
+            "L. Ferreira",
+            "César Andrade",
+            "J. V. Cruz"
           ],
-          "doi": "10.1088/1748-9326/aea177",
-          "url": "https://www.semanticscholar.org/paper/b9e3074bbcf22fb230bfa4e0f329da115208d2cc",
+          "doi": "10.1007/s12665-026-13139-1",
+          "url": "https://www.semanticscholar.org/paper/b84941643e0c9129a02ac2c28e7db1ffbfa8667a",
           "citation_count": 0
         },
         {
-          "id": "9ee94fc51402da26e5f7bb676c998a8a6fcd5f38",
-          "title": "Assessment of optodes analytical performances in high dissolved oxygen gradient zones",
-          "year": 2025,
-          "journal": "150th anniversary of the Metre Convention — From Units to the Universe",
-          "authors": [
-            "Anne Daniel",
-            "N. Guigues",
-            "Hermine Billard"
-          ],
-          "doi": "10.59161/aoxq0980",
-          "url": "https://www.semanticscholar.org/paper/9ee94fc51402da26e5f7bb676c998a8a6fcd5f38",
-          "citation_count": 0
-        },
-        {
-          "id": "7468e75b756e0ec8c37548557dc50e6009f60edd",
-          "title": "The imprint of physical mixing on surface water N2O and CH4 concentrations in the eastern Canadian Arctic Ocean",
-          "year": 2026,
-          "journal": "Polar Research",
-          "authors": [
-            "Rebecca L. Rust",
-            "P. Myers",
-            "P. Tortell"
-          ],
-          "doi": "10.33265/polar.v45.13047",
-          "url": "https://www.semanticscholar.org/paper/7468e75b756e0ec8c37548557dc50e6009f60edd",
-          "citation_count": 0
-        },
-        {
-          "id": "f0c2e71b375a06a4d2b904589da0aa9e1ab55ed2",
-          "title": "From sedimentary production to water-column accumulation: temperature and spatial controls on littoral methane",
+          "id": "e389050abfd641d88699749e283edf3c08a56ebe",
+          "title": "In-lake neutralisation and post-rehabilitation treatment of a lignite mining pit lake – lessons learned",
           "year": null,
           "journal": "",
           "authors": [
-            "Katharina J. Kiefel",
-            "Frank Peeters",
-            "A. Sepulveda-Jauregui"
+            "Lessons",
+            "Learned"
           ],
           "doi": "",
-          "url": "https://www.semanticscholar.org/paper/f0c2e71b375a06a4d2b904589da0aa9e1ab55ed2",
+          "url": "https://www.semanticscholar.org/paper/e389050abfd641d88699749e283edf3c08a56ebe",
+          "citation_count": 1
+        },
+        {
+          "id": "44f511ea7c7a8d77c1a0d37627c176fa42ec6dbb",
+          "title": "Assessment of water quality and anthropogenic impacts on surface and groundwater in the Zhambyl region using GIS-technology",
+          "year": 2026,
+          "journal": "Journal of Ecology and Sustainability",
+          "authors": [
+            "M. Kalmakhanova",
+            "Yerbol Reimbayev",
+            "Zhanbike E. Karimbayeva"
+          ],
+          "doi": "10.32523/vvh1qz72",
+          "url": "https://www.semanticscholar.org/paper/44f511ea7c7a8d77c1a0d37627c176fa42ec6dbb",
+          "citation_count": 0
+        },
+        {
+          "id": "1810748c8e0deea51642df808973ed2cdd6b2a53",
+          "title": "Hydrogeochemical Indicators of Water Quality Degradation and Inferred Biological Stress in Razzaza Lake, Central Iraq",
+          "year": 2026,
+          "journal": "Iraqi Geological Journal",
+          "authors": [
+            "Noor Al-Houda Ayyad",
+            "Mohanad R. A. Al-Owaidi"
+          ],
+          "doi": "10.46717/igj.2026.59.2d.1",
+          "url": "https://www.semanticscholar.org/paper/1810748c8e0deea51642df808973ed2cdd6b2a53",
           "citation_count": 0
         }
       ],
@@ -232580,7 +232576,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/24a2dfffc9a9e7f982739daea06bc42fa58750c5",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "c886da1fd4c9b235ee9065e738e2de6b671c67e8",
@@ -232605,73 +232601,73 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "abab0c8141ecb73ee2ae2e1433b316c264400319",
-          "title": "Spatiotemporal Dynamics and Hydrological Controls of Dissolved Organic Carbon Export From the Dongting Lake Basin",
+          "id": "4946f5678892427cc372284de2874f9e319cc7b9",
+          "title": "Nitrate Transport Across the Northern Gulf of Mexico Shelf During Historically High Mississippi River Discharge",
           "year": 2026,
-          "journal": "Hydrological Processes",
+          "journal": "Journal of Geophysical Research - Oceans",
           "authors": [
-            "Yan Li",
-            "Ze-Lin Liu",
-            "Zheng-Miao Deng"
+            "Zi-Ran Wei",
+            "K. Maiti",
+            "Chun-Yan Li"
           ],
-          "doi": "10.1002/hyp.70713",
-          "url": "https://www.semanticscholar.org/paper/abab0c8141ecb73ee2ae2e1433b316c264400319",
+          "doi": "10.1029/2026jc024498",
+          "url": "https://www.semanticscholar.org/paper/4946f5678892427cc372284de2874f9e319cc7b9",
           "citation_count": 0
         },
         {
-          "id": "68ae4d628d8375ab726a83264bcbbfa959d8cdef",
-          "title": "Hydrological controls on dissolved carbon export from permafrost peatland catchments of northeastern China",
+          "id": "79bd693a270d4e50d0619477f69c367fb5de9d4e",
+          "title": "Integrated human and natural regulation of carbon concentrations and fluxes dynamics in the Yangtze River mainstream over the past two decades.",
           "year": 2026,
-          "journal": "Frontiers in Environmental Science",
+          "journal": "Environmental Research",
           "authors": [
-            "Shujie Wang",
-            "Yuedong Guo",
-            "Hao Zhang"
+            "Wei Li",
+            "X. Wen",
+            "Yang Gao"
           ],
-          "doi": "10.3389/fenvs.2026.1915601",
-          "url": "https://www.semanticscholar.org/paper/68ae4d628d8375ab726a83264bcbbfa959d8cdef",
+          "doi": "10.1016/j.envres.2026.125873",
+          "url": "https://www.semanticscholar.org/paper/79bd693a270d4e50d0619477f69c367fb5de9d4e",
           "citation_count": 0
         },
         {
-          "id": "9bfff315e43d619c872ace103c37ae3e8cac70d3",
-          "title": "Nutrient runoff from the Mississippi watershed and ecosystem pollution risk in the Northern Gulf of Mexico",
+          "id": "611fa0fbfcc2a8fda916943a7fe413fa04b6cc65",
+          "title": "Dissolved inorganic carbon dynamics regulated by natural and anthropogenic activities mediate riverine CO2 emissions in China.",
           "year": 2026,
-          "journal": "Frontiers in Ocean Sustainability",
+          "journal": "Journal of Environmental Management",
           "authors": [
-            "Md S. Zaman",
-            "A. Akanda",
-            "Syed M. Muniruzzaman"
+            "Jia-Yue Li",
+            "Fu-Hong Sun",
+            "Xiu-Yuan Chen"
           ],
-          "doi": "10.3389/focsu.2026.1883415",
-          "url": "https://www.semanticscholar.org/paper/9bfff315e43d619c872ace103c37ae3e8cac70d3",
+          "doi": "10.1016/j.jenvman.2026.131270",
+          "url": "https://www.semanticscholar.org/paper/611fa0fbfcc2a8fda916943a7fe413fa04b6cc65",
           "citation_count": 0
         },
         {
-          "id": "473c8219ea9427ebb82b07f09b13e057f59bde42",
-          "title": "Inwelling Versus Outwelling: Controls on Dissolved Organic Carbon Exchange in a Mesotidal Saltmarsh Estuary",
+          "id": "d884bbaac7a54285c3b30870c413ab8d76b55371",
+          "title": "The riverine land-to-ocean carbon flux",
           "year": 2026,
-          "journal": "Journal of Geophysical Research - Biogeosciences",
+          "journal": "Nature Reviews Earth & Environment",
           "authors": [
-            "Mohammed Mezied",
-            "C. Fichot",
-            "S. Fagherazzi"
+            "Robert G. M. Spencer",
+            "T. Drake",
+            "Mao-Dian Liu"
           ],
-          "doi": "10.1029/2026jg009790",
-          "url": "https://www.semanticscholar.org/paper/473c8219ea9427ebb82b07f09b13e057f59bde42",
+          "doi": "10.1038/s43017-026-00834-7",
+          "url": "https://www.semanticscholar.org/paper/d884bbaac7a54285c3b30870c413ab8d76b55371",
           "citation_count": 0
         },
         {
-          "id": "d0d44b014a9295b22be5cc3d1e7af24e2f61664b",
-          "title": "DIC-FCO2 coupled variation modes in a cascade-dammed karst river: Control by carbonate buffering.",
+          "id": "03914e60dca341350386fd40f92c158eda86f260",
+          "title": "Quantifying freshwater fluxes from Major rivers and assessing their impact on the Atlantic Ocean",
           "year": 2026,
-          "journal": "Water Research",
+          "journal": "Ocean Science (OS)",
           "authors": [
-            "Tao Zhang",
-            "Xin-Yu Kang",
-            "Jian-Hong Li"
+            "Louis Kern",
+            "Thomas Vaujour",
+            "Julia Pfeffer"
           ],
-          "doi": "10.1016/j.watres.2026.126896",
-          "url": "https://www.semanticscholar.org/paper/d0d44b014a9295b22be5cc3d1e7af24e2f61664b",
+          "doi": "10.5194/os-22-3457-2026",
+          "url": "https://www.semanticscholar.org/paper/03914e60dca341350386fd40f92c158eda86f260",
           "citation_count": 0
         }
       ],
@@ -232688,7 +232684,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/c886da1fd4c9b235ee9065e738e2de6b671c67e8",
       "semantic_detail_enriched_at": "2026-10-23T00:25:50.271164+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "db61b5ace82d9e6f95c638cb692e034b6f1f1973",
@@ -232714,17 +232710,45 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "d0d44b014a9295b22be5cc3d1e7af24e2f61664b",
-          "title": "DIC-FCO2 coupled variation modes in a cascade-dammed karst river: Control by carbonate buffering.",
+          "id": "a86db563d4982e6a6a9a03ca1e57bd9190cb6a85",
+          "title": "[Spatiotemporal variations of dissolved CO2 concentration and its water-air flux along a tidal creek of coastal wetland in Minjiang River Estuary.]",
           "year": 2026,
-          "journal": "Water Research",
+          "journal": "Ying yong sheng tai xue bao = The journal of applied ecology",
           "authors": [
-            "Tao Zhang",
-            "Xin-Yu Kang",
-            "Jian-Hong Li"
+            "Jun-Wei Wang",
+            "Wen-Jing Liu",
+            "Shu-Ping Lin"
           ],
-          "doi": "10.1016/j.watres.2026.126896",
-          "url": "https://www.semanticscholar.org/paper/d0d44b014a9295b22be5cc3d1e7af24e2f61664b",
+          "doi": "10.13287/j.1001-9332.202609.055",
+          "url": "https://www.semanticscholar.org/paper/a86db563d4982e6a6a9a03ca1e57bd9190cb6a85",
+          "citation_count": 0
+        },
+        {
+          "id": "611fa0fbfcc2a8fda916943a7fe413fa04b6cc65",
+          "title": "Dissolved inorganic carbon dynamics regulated by natural and anthropogenic activities mediate riverine CO2 emissions in China.",
+          "year": 2026,
+          "journal": "Journal of Environmental Management",
+          "authors": [
+            "Jia-Yue Li",
+            "Fu-Hong Sun",
+            "Xiu-Yuan Chen"
+          ],
+          "doi": "10.1016/j.jenvman.2026.131270",
+          "url": "https://www.semanticscholar.org/paper/611fa0fbfcc2a8fda916943a7fe413fa04b6cc65",
+          "citation_count": 0
+        },
+        {
+          "id": "5d071b7c5fccfd31f637da1b445c0aa6bb006c32",
+          "title": "Analysis of Carbon Cycle Interference Mechanisms in Karst Rivers under the Combined Influence of Acid Mine Drainage and Multi-source Anthropogenic Pollution.",
+          "year": 2026,
+          "journal": "Environmental Research",
+          "authors": [
+            "Rong-Rong Li",
+            "Xue-Xian Li",
+            "Hai-Yang Hao"
+          ],
+          "doi": "10.1016/j.envres.2026.125865",
+          "url": "https://www.semanticscholar.org/paper/5d071b7c5fccfd31f637da1b445c0aa6bb006c32",
           "citation_count": 0
         },
         {
@@ -232742,44 +232766,17 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "abab0c8141ecb73ee2ae2e1433b316c264400319",
-          "title": "Spatiotemporal Dynamics and Hydrological Controls of Dissolved Organic Carbon Export From the Dongting Lake Basin",
+          "id": "6cce9591d0725c6f53de61277647d2f8f821cd1d",
+          "title": "SPATIOTEMPORAL DISTRIBUTION CHARACTERISTICS OF CARBON MORPHOLOGY AND CARBON FLUX ESTIMATION IN THE YANGTZE RIVER",
           "year": 2026,
-          "journal": "Hydrological Processes",
+          "journal": "Applied Ecology and Environmental Research",
           "authors": [
-            "Yan Li",
-            "Ze-Lin Liu",
-            "Zheng-Miao Deng"
+            "W. Sun",
+            "W. Wu",
+            "B. Qian"
           ],
-          "doi": "10.1002/hyp.70713",
-          "url": "https://www.semanticscholar.org/paper/abab0c8141ecb73ee2ae2e1433b316c264400319",
-          "citation_count": 0
-        },
-        {
-          "id": "275c50e02a9cb78760082dfb321f93d2d26c6ecc",
-          "title": "Dissolved inorganic carbon in Chongqing urban section of Yangtze River, China",
-          "year": 2026,
-          "journal": "Journal of Environmental Engineering and Science",
-          "authors": [
-            "Qing Wu",
-            "Yu Qin",
-            "Zhen Liu"
-          ],
-          "doi": "10.1680/jenes.25.00147",
-          "url": "https://www.semanticscholar.org/paper/275c50e02a9cb78760082dfb321f93d2d26c6ecc",
-          "citation_count": 0
-        },
-        {
-          "id": "67a2987b0f3e3a24595318aa7de72b7124fa384f",
-          "title": "Global Groundwater–Carbon\nCycling Shaped by\nTropical Basins and Extra-Tropical Sinks",
-          "year": 2026,
-          "journal": "ACS ES&amp;T Water",
-          "authors": [
-            "Daniel Magnone",
-            "D. A. Polya"
-          ],
-          "doi": "10.1021/acsestwater.6c00576",
-          "url": "https://www.semanticscholar.org/paper/67a2987b0f3e3a24595318aa7de72b7124fa384f",
+          "doi": "10.15666/aeer/2404_66236638",
+          "url": "https://www.semanticscholar.org/paper/6cce9591d0725c6f53de61277647d2f8f821cd1d",
           "citation_count": 0
         }
       ],
@@ -232799,7 +232796,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/db61b5ace82d9e6f95c638cb692e034b6f1f1973",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2019",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "beac98e22e1b01dc649988a63f7ce22e17dc7525",
@@ -232873,6 +232870,20 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
+          "id": "3123a466ad77757eca8dda0c90ba2c5a1d475eb4",
+          "title": "ANME-2a perform methane oxidation in brackish coastal sediments via multiple pathways",
+          "year": 2026,
+          "journal": "Science Advances",
+          "authors": [
+            "R. Klomp",
+            "Anna J. Wallenius",
+            "Merijn A. W. Schutgens"
+          ],
+          "doi": "10.1126/sciadv.aei5868",
+          "url": "https://www.semanticscholar.org/paper/3123a466ad77757eca8dda0c90ba2c5a1d475eb4",
+          "citation_count": 0
+        },
+        {
           "id": "4a62d68a07fba2eea770b90294a9ce8f1e4718d5",
           "title": "Pyrolusite-mediated denitrifying anaerobic methane oxidation for simultaneous enhancement of nitrogen removal and greenhouse gas mitigation in wetlands.",
           "year": 2026,
@@ -232887,38 +232898,10 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "98381569d3f7e305ed236bfde010bb8009041146",
-          "title": "Geochemistry of Methane and Sulfide Sulfur in the Bottom Sediments of Small Lakes in Southern Russia",
-          "year": 2026,
-          "journal": "Water",
-          "authors": [
-            "D. Gar'kusha",
-            "Yu.A. Fedorov",
-            "Yury Andreev"
-          ],
-          "doi": "10.3390/w18161981",
-          "url": "https://www.semanticscholar.org/paper/98381569d3f7e305ed236bfde010bb8009041146",
-          "citation_count": 0
-        },
-        {
-          "id": "9605a3ccd0e344f2cf6fc77d355dcc5c3d4b4c50",
-          "title": "Unique geochemical conditions and microbial composition of pockmark sediments in a brackish-water eutrophic continental shelf sea",
-          "year": 2026,
-          "journal": "Biogeochemistry",
-          "authors": [
-            "K. Łukawska-Matuszewska",
-            "A. Brodecka-Goluch",
-            "Andrzej Borkowski"
-          ],
-          "doi": "10.1007/s10533-026-01361-9",
-          "url": "https://www.semanticscholar.org/paper/9605a3ccd0e344f2cf6fc77d355dcc5c3d4b4c50",
-          "citation_count": 0
-        },
-        {
           "id": "fb6690d33352989fbe60a8f050c2a36b74c3a372",
-          "title": "Nonlinear\nResponses of Anaerobic Methane Oxidation\nto Water Table Drawdown in Peatlands",
+          "title": "Nonlinear Responses of Anaerobic Methane Oxidation to Water Table Drawdown in Peatlands.",
           "year": 2026,
-          "journal": "Environmental Science &amp;\nTechnology",
+          "journal": "Environmental Science and Technology",
           "authors": [
             "Xiao-Dong Xu",
             "M. Dorodnikov",
@@ -232929,17 +232912,30 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "3542ae023731ba97c5183651b2eeed08684ca409",
-          "title": "Sulfate-catalyzed denitrifying anaerobic methane oxidation process mediated by Methanobacterium sp. from digestion sludges.",
+          "id": "7154f21f1c7c27b501b69d45b8b229e2fa17a0ce",
+          "title": "Global high rates of anaerobic methane oxidation at marine cold seeps recorded by isotope bonding in seep carbonates.",
           "year": 2026,
-          "journal": "Water Research",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
           "authors": [
-            "Shi-Bo Fu",
-            "Wen-Bo Nie",
-            "Xin Tan"
+            "S. Wieman",
+            "Wei-Fu Guo"
           ],
-          "doi": "10.1016/j.watres.2026.126753",
-          "url": "https://www.semanticscholar.org/paper/3542ae023731ba97c5183651b2eeed08684ca409",
+          "doi": "10.1073/pnas.2533639123",
+          "url": "https://www.semanticscholar.org/paper/7154f21f1c7c27b501b69d45b8b229e2fa17a0ce",
+          "citation_count": 0
+        },
+        {
+          "id": "0c7f4d75e68ef8d09fa9515b83fcef6dbc369493",
+          "title": "Methane Emissions from Algae-Driven Sediments of Sea Cucumber Culture Ponds Via Indoor Microcosms",
+          "year": 2026,
+          "journal": "Water, Air and Soil Pollution",
+          "authors": [
+            "Hui Liang",
+            "Li-Hong Chen",
+            "Min Wang"
+          ],
+          "doi": "10.1007/s11270-026-09985-1",
+          "url": "https://www.semanticscholar.org/paper/0c7f4d75e68ef8d09fa9515b83fcef6dbc369493",
           "citation_count": 0
         }
       ],
@@ -232958,7 +232954,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/beac98e22e1b01dc649988a63f7ce22e17dc7525",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "5a16dbc1ea2cdbc8adf8add793648a74adeb0c0b",
@@ -232984,31 +232980,45 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "f31c8e5ea7f760d6ce06701573b0ce3d039ddc20",
-          "title": "Experimental evaluation of a double-pipe heat exchanger for syngas cooling from soaked palm shell gasification",
+          "id": "9180067dc469f9200626d7d8e04a662cb8e91415",
+          "title": "Conversion of CO₂ to methane in the methanation process using Ni/Al₂O₃ catalyst",
           "year": 2026,
-          "journal": "Jurnal POLIMESIN",
+          "journal": "Konversi",
           "authors": [
-            "Dede Iman Saputra",
-            "Novandri Tri Setioputro",
-            "W. Basuki"
+            "M. Fikri",
+            "Erika Dwi Oktaviani",
+            "Didiek Hari Nugroho"
           ],
-          "doi": "10.30811/jpl.v24i4.8273",
-          "url": "https://www.semanticscholar.org/paper/f31c8e5ea7f760d6ce06701573b0ce3d039ddc20",
+          "doi": "10.20527/k.v15i2.27345",
+          "url": "https://www.semanticscholar.org/paper/9180067dc469f9200626d7d8e04a662cb8e91415",
           "citation_count": 0
         },
         {
-          "id": "876fa4fce338360289ba0402460a0aa720f19ffe",
-          "title": "Solar-Driven\nCO2 Hydrogenation to Renewable\nProducts: A Review of Strategies for Selectivity Tuning",
+          "id": "30f9babacca3f6a345b890d64ab700328e06a84d",
+          "title": "Tunable Pd-Based Multilayer Membranes for Hydrogen Production from Biomass and Organic Waste: Materials, Reactors and Real-Environment Challenges",
           "year": 2026,
-          "journal": "Energy &amp; Fuels",
+          "journal": "Hydrogen",
           "authors": [
-            "Zhang-Tai Ji",
-            "H. Alias",
-            "A. Shamjuddin"
+            "G. Aschieri",
+            "Raúl Sanz",
+            "J. Calles"
           ],
-          "doi": "10.1021/acs.energyfuels.6c01654",
-          "url": "https://www.semanticscholar.org/paper/876fa4fce338360289ba0402460a0aa720f19ffe",
+          "doi": "10.3390/hydrogen7040156",
+          "url": "https://www.semanticscholar.org/paper/30f9babacca3f6a345b890d64ab700328e06a84d",
+          "citation_count": 0
+        },
+        {
+          "id": "0e78d1944b6538e0ce49a3d4c75de23065020f3b",
+          "title": "Solar-Driven CO2 Methanation at Industrial Interfaces: Technology Readiness, Process Integration, and Techno-Economics",
+          "year": 2026,
+          "journal": "C++ Conference",
+          "authors": [
+            "R. M. Thyab",
+            "Elsayed G. Blall",
+            "M. Toderaș"
+          ],
+          "doi": "10.3390/c12040079",
+          "url": "https://www.semanticscholar.org/paper/0e78d1944b6538e0ce49a3d4c75de23065020f3b",
           "citation_count": 0
         },
         {
@@ -233026,30 +233036,17 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "dc4a964e23b7c10480eaaf242d4d9bd11cd32bc0",
-          "title": "Model‐Based Optimization Framework for Catalyst Dilution Applications in CO\n 2\n ‐Methanation Reactors",
+          "id": "19e8c8ee539b1a3213666e1458cebcb937e690b2",
+          "title": "Governing Parameters of Syngas Quality in Fluidized-Bed Biomass Gasification",
           "year": 2026,
-          "journal": "Chemie Ingenieur Technik",
+          "journal": "Biomass",
           "authors": [
-            "Torben Schmücker",
-            "Julia Riese"
+            "Isabella de Andrade Garrett",
+            "Clériston Moura Vieira",
+            "Eduardo César de Miranda Loureiro"
           ],
-          "doi": "10.1002/cite.70162",
-          "url": "https://www.semanticscholar.org/paper/dc4a964e23b7c10480eaaf242d4d9bd11cd32bc0",
-          "citation_count": 0
-        },
-        {
-          "id": "c85fd4d7e5334e20a2a43fe3b2044bd5f3edbbf3",
-          "title": "Study on Process Parameters for Highly Selective Synthesis of Ethanol from Methanol, Carbon Dioxide and Hydrogen",
-          "year": 2026,
-          "journal": "Chemistry",
-          "authors": [
-            "Wen-Meng Wang",
-            "Cong Liu",
-            "Hong-Xing Wang"
-          ],
-          "doi": "10.3390/chemistry8090124",
-          "url": "https://www.semanticscholar.org/paper/c85fd4d7e5334e20a2a43fe3b2044bd5f3edbbf3",
+          "doi": "10.3390/biomass6060103",
+          "url": "https://www.semanticscholar.org/paper/19e8c8ee539b1a3213666e1458cebcb937e690b2",
           "citation_count": 0
         }
       ],
@@ -233068,7 +233065,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/5a16dbc1ea2cdbc8adf8add793648a74adeb0c0b",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "0413403a828cec9bd712b1f50f29cc3890d8c7e1",
@@ -233145,18 +233142,46 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
-          "id": "ae105509f2ab297bece8461202aaf8b91584ed95",
-          "title": "Development and Evaluation of an Urban Atmospheric Inverse Modeling Framework for the Washington, DC and Baltimore, MD Metropolitan Area: Initial Results From an Inert Tracer Case Study",
+          "id": "e7b86911a9312defea6146a00976e7b77ce8594d",
+          "title": "Technical note: Assessing CO 2 fluxes over Greece using CTDAS-WRF – A sensitivity analysis",
+          "year": null,
+          "journal": "",
+          "authors": [
+            "Nikos Gialesakis",
+            "Friedemann Reum",
+            "N. Daskalakis"
+          ],
+          "doi": "",
+          "url": "https://www.semanticscholar.org/paper/e7b86911a9312defea6146a00976e7b77ce8594d",
+          "citation_count": 0
+        },
+        {
+          "id": "df928ad9ec9d79959fd5cf1ec45ef5119459b6f8",
+          "title": "Methane Emissions in Melbourne, Australia. Part 2: Improving Prior Estimates Using Synthesis Inversion",
           "year": 2026,
           "journal": "Journal of Geophysical Research - Atmospheres",
           "authors": [
-            "Miguel A. Cahuich-López",
-            "C. Loughner",
-            "F. Ngan"
+            "N. Shahrokhi",
+            "C. Trudinger",
+            "P. Rayner"
           ],
-          "doi": "10.1029/2025JD045557",
-          "url": "https://www.semanticscholar.org/paper/ae105509f2ab297bece8461202aaf8b91584ed95",
+          "doi": "10.1029/2026JD047041",
+          "url": "https://www.semanticscholar.org/paper/df928ad9ec9d79959fd5cf1ec45ef5119459b6f8",
           "citation_count": 0
+        },
+        {
+          "id": "d7a88f04fcbb8102b8283748a041c27fb2603514",
+          "title": "Hyperlocal sensing and inverse modeling reveal community impacts of urban air pollutant emissions",
+          "year": 2026,
+          "journal": "Science Advances",
+          "authors": [
+            "Chirag Manchanda",
+            "R. Cohen",
+            "Ramon A. Alvarez"
+          ],
+          "doi": "10.1126/sciadv.aeb7647",
+          "url": "https://www.semanticscholar.org/paper/d7a88f04fcbb8102b8283748a041c27fb2603514",
+          "citation_count": 1
         },
         {
           "id": "c8876e05169e43ce641ab8b30ce585902dab4687",
@@ -233183,34 +233208,6 @@ window.PAPER_TRACKER_DATA = {
           "doi": "10.3389/fenvs.2026.1929267",
           "url": "https://www.semanticscholar.org/paper/206fcb1dcf2983caa3459a0abfe3eebc8b508e21",
           "citation_count": 0
-        },
-        {
-          "id": "44e30fab5bab8839908907d57549ebe1b07093fe",
-          "title": "Towards robust inversions: Parametric weighting of high-resolution TROPOMI observations for global CH 4 emission estimates with TMVar (TM5-MP/4DVAR)",
-          "year": null,
-          "journal": "",
-          "authors": [
-            "S. Cerda",
-            "J. Nüß",
-            "N. Daskalakis"
-          ],
-          "doi": "",
-          "url": "https://www.semanticscholar.org/paper/44e30fab5bab8839908907d57549ebe1b07093fe",
-          "citation_count": 0
-        },
-        {
-          "id": "51796177a45334691428597a6067588eb3a1fb07",
-          "title": "Urban atmospheric CO 2 plumes from space - Part 2: Representation of fine-scale structures",
-          "year": null,
-          "journal": "",
-          "authors": [
-            "A. Rafalimanana",
-            "Thomas Lauvaux",
-            "C. Abdallah"
-          ],
-          "doi": "",
-          "url": "https://www.semanticscholar.org/paper/51796177a45334691428597a6067588eb3a1fb07",
-          "citation_count": 0
         }
       ],
       "fields_of_study": [
@@ -233228,7 +233225,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/0413403a828cec9bd712b1f50f29cc3890d8c7e1",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2019",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "cb4423533c3ef0eb56d4bbd0551526ec4d584447",
@@ -233435,59 +233432,58 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "5e8fdc9442412473cbf4ef35771220c02b93ca6c",
-          "title": "Enhanced Dark Fermentative Biohydrogen Production from Navel Orange Peel Waste via Hydrothermal Acidification Pretreatment",
+          "id": "926d7c0c66915d064a0137ce8281f778e0e15d00",
+          "title": "Valorization of Food Waste into Iron Oxide Nanoparticles: Characterization and Application for DIET-mediated Enhancement of Methane Production in Anaerobic Digester",
           "year": 2026,
-          "journal": "Energies",
+          "journal": "Journal of Environmental Nanotechnology",
           "authors": [
-            "Cong Zhan",
-            "Qin Li",
-            "Li Wu"
+            "Dharanidharan Selvaraj",
+            "M. Kalpana",
+            "Manikandan Periyasamy"
           ],
-          "doi": "10.3390/en19163889",
-          "url": "https://www.semanticscholar.org/paper/5e8fdc9442412473cbf4ef35771220c02b93ca6c",
+          "doi": "10.13074/jent.2026.09.2632289",
+          "url": "https://www.semanticscholar.org/paper/926d7c0c66915d064a0137ce8281f778e0e15d00",
           "citation_count": 0
         },
         {
-          "id": "4603976254c0290dc8f2bb4d11e40a45d1724c59",
-          "title": "Hydrothermal pretreatment for co-digestion of corn stover and sewage sludge: focusing on solids loading, phosphorus fate, and energy balance.",
+          "id": "b410454ac50dd405b2b86893acc1ea8a3f920e90",
+          "title": "Valorization of Aquaculture Waste Through Conversion into Algal Biomass and Biomethane",
           "year": 2026,
-          "journal": "Journal of Environmental Science and Health. Part A: Toxic/Hazardous Substances and Environmental Engineering",
+          "journal": "Phycology",
           "authors": [
-            "Zhen Liu",
-            "Kai Gao",
-            "Guo-Wang Zhang"
+            "E. Ziganshina",
+            "S. Bulynina",
+            "A. Ziganshin"
           ],
-          "doi": "10.1080/10934529.2026.2715171",
-          "url": "https://www.semanticscholar.org/paper/4603976254c0290dc8f2bb4d11e40a45d1724c59",
+          "doi": "10.3390/phycology6040111",
+          "url": "https://www.semanticscholar.org/paper/b410454ac50dd405b2b86893acc1ea8a3f920e90",
           "citation_count": 0
         },
         {
-          "id": "3aac1413b19e70e6adfef7f4804309404c8dd861",
-          "title": "Integrated optimization of ultrasonic pretreatment and substrate mixture for bio-H2 and bio-CH4 production from algal waste: response surface modeling of feedstock characteristics and biogas composition.",
+          "id": "000c6d66e4bfbb86b6da0969c186a51c890c795a",
+          "title": "Coupling hydrothermal carbonisation and anaerobic digestion: sustainable cow manure valorisation.",
           "year": 2026,
-          "journal": "Waste Management",
+          "journal": "Journal of Environmental Management",
           "authors": [
-            "Mahmood Mahmoodi-Eshkaftaki",
-            "Askar Ghani",
-            "A. L. Dehkordi"
+            "Abba S. Danfaga",
+            "Mostafa Ahmed",
+            "Carlos Lopez Vazquez"
           ],
-          "doi": "10.1016/j.wasman.2026.115793",
-          "url": "https://www.semanticscholar.org/paper/3aac1413b19e70e6adfef7f4804309404c8dd861",
+          "doi": "10.1016/j.jenvman.2026.130942",
+          "url": "https://www.semanticscholar.org/paper/000c6d66e4bfbb86b6da0969c186a51c890c795a",
           "citation_count": 0
         },
         {
-          "id": "1dced03aff18f60f74c7a8fd0a44be53d78ed524",
-          "title": "Effect of storage, aqueous ammonia soaking and hydrothermal pretreatments in anaerobic digestion of Sparganium erectum biomass.",
+          "id": "30ff6d1fb4c4129880363791e53b7aef91eecf5e",
+          "title": "Catalytic pyrolysis of biomass waste using coal fly ash‐derived\n ZSM\n ‐5 zeolite for enhanced bioenergy production",
           "year": 2026,
-          "journal": "Bioresource Technology",
+          "journal": "Biofuels, Bioproducts and Biorefining",
           "authors": [
-            "Pau Porras-Socias",
-            "M. Guivernau",
-            "A. D. de Menezes"
+            "Januario Da Costa Hossi",
+            "K. Harding"
           ],
-          "doi": "10.1016/j.biortech.2026.135822",
-          "url": "https://www.semanticscholar.org/paper/1dced03aff18f60f74c7a8fd0a44be53d78ed524",
+          "doi": "10.1002/bbb.70215",
+          "url": "https://www.semanticscholar.org/paper/30ff6d1fb4c4129880363791e53b7aef91eecf5e",
           "citation_count": 0
         }
       ],
@@ -233505,7 +233501,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/b8304f604956e48ace7ce8b2eca75806f06c2372",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "ddabe11721483ad5f6fd8877f0a073f315a06322",
@@ -233558,71 +233554,71 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
-          "id": "8cebf85979ba29b0a1d183f11e0efe29bd4ca3eb",
-          "title": "Differential responses of silicate, carbonate, and sulfide weathering to erosion drive CO2 release in the Lancang River, southeastern Tibetan Plateau",
+          "id": "73139f2db0ffbb00c1586a51c61009a4b0c3af90",
+          "title": "Riverine Hydrochemistry in the Headwaters of China's Central Asian Transboundary Rivers: Insights Into Chemical Weathering, CO2 Consumption and Controlling Factors",
           "year": 2026,
-          "journal": "Science China. Earth Sciences",
+          "journal": "Hydrological Processes",
           "authors": [
-            "Jin-Ke Liu",
-            "Gui-Lin Han"
+            "Hua-Wu Wu",
+            "Fan Song",
+            "Jing-Lu Wu"
           ],
-          "doi": "10.1007/s11430-026-2009-5",
-          "url": "https://www.semanticscholar.org/paper/8cebf85979ba29b0a1d183f11e0efe29bd4ca3eb",
-          "citation_count": 2
-        },
-        {
-          "id": "353d5494a0cd56c0206a6b4cd7e6f845d10eab37",
-          "title": "Calcium isotope variations in the upper Yangtze River: evidence for the control of secondary carbonate formation.",
-          "year": 2026,
-          "journal": "Environmental Science: Processes & Impacts",
-          "authors": [
-            "Jintai Tao",
-            "Xing Chen",
-            "Fa-Zhi Xie"
-          ],
-          "doi": "10.1039/d6em00320f",
-          "url": "https://www.semanticscholar.org/paper/353d5494a0cd56c0206a6b4cd7e6f845d10eab37",
+          "doi": "10.1002/hyp.70736",
+          "url": "https://www.semanticscholar.org/paper/73139f2db0ffbb00c1586a51c61009a4b0c3af90",
           "citation_count": 0
         },
         {
-          "id": "ad312d7cec3b01cb8489258cd096339d33ec0a99",
-          "title": "Hydrochemical characteristics of groundwater and formation mechanism of Sr–rich mineral water in the Northern Carbonate Region, Yiyuan",
+          "id": "5d071b7c5fccfd31f637da1b445c0aa6bb006c32",
+          "title": "Analysis of Carbon Cycle Interference Mechanisms in Karst Rivers under the Combined Influence of Acid Mine Drainage and Multi-source Anthropogenic Pollution.",
           "year": 2026,
-          "journal": "Carbonates and evaporites",
+          "journal": "Environmental Research",
           "authors": [
-            "Chen Sheng",
-            "Ming-Guo Wang",
-            "Peng Chen"
+            "Rong-Rong Li",
+            "Xue-Xian Li",
+            "Hai-Yang Hao"
           ],
-          "doi": "10.1007/s13146-026-01324-z",
-          "url": "https://www.semanticscholar.org/paper/ad312d7cec3b01cb8489258cd096339d33ec0a99",
+          "doi": "10.1016/j.envres.2026.125865",
+          "url": "https://www.semanticscholar.org/paper/5d071b7c5fccfd31f637da1b445c0aa6bb006c32",
           "citation_count": 0
         },
         {
-          "id": "5432ea263af618a659fa8878890128e422f226b4",
-          "title": "Experimental Investigation of CO₂–Brine–Rock Interactions in Mishrif Carbonate Reservoir, Southern Iraq",
+          "id": "253d5bc216b95cf1fc01035ba87d10d415c84175",
+          "title": "Rock–Sediment–Water Controls on Dissolved Inorganic Carbon, Δ¹³C and Water Quality in the Cauvery River, India",
           "year": 2026,
-          "journal": "Egyptian Journal of Petroleum",
+          "journal": "Natural Resources for Human Health",
           "authors": [
-            "F. Naef",
-            "M. Al-Jawad"
+            "K. N. P. N. K. Vybhav"
           ],
-          "doi": "10.62593/2090-2468.1136",
-          "url": "https://www.semanticscholar.org/paper/5432ea263af618a659fa8878890128e422f226b4",
+          "doi": "10.53365/nrfhh.3198",
+          "url": "https://www.semanticscholar.org/paper/253d5bc216b95cf1fc01035ba87d10d415c84175",
           "citation_count": 0
         },
         {
-          "id": "c1e0646faec500744559aaf8577611aa8d7208ee",
-          "title": "Hydrogeochemical and Isotopic Constraints on the Genesis of Strontium‐Rich Mineral Springs in the Eastern Qaidam Basin, Tibetan Plateau",
+          "id": "72ceb4b4047edae23ee6d9f6bb7275c69dc6373e",
+          "title": "Unravelling the Natural and Anthropogenic Controls on Karst Groundwater Hydrochemistry in the Zaozhuang Area, Northern China: A Combined Hydrogeochemical and PMF Source Apportionment Study",
           "year": 2026,
-          "journal": "Water environment research",
+          "journal": "Sustainability",
           "authors": [
-            "Jia-Hao Liu",
-            "Jie Wang",
-            "Yan Zhou"
+            "Bo Li",
+            "Cai-Ping Hu",
+            "Zhi-Zheng Liu"
           ],
-          "doi": "10.1002/wer.70583",
-          "url": "https://www.semanticscholar.org/paper/c1e0646faec500744559aaf8577611aa8d7208ee",
+          "doi": "10.3390/su182110811",
+          "url": "https://www.semanticscholar.org/paper/72ceb4b4047edae23ee6d9f6bb7275c69dc6373e",
+          "citation_count": 0
+        },
+        {
+          "id": "55b27d22b1c55d10a3725cd97e03f086be47d526",
+          "title": "Hydrological Processes and Surface Water Quality in the Ili‐Balkhash Headwater Region, China: Insights From Stable Isotopes and Hydrochemistry",
+          "year": 2026,
+          "journal": "Hydrological Processes",
+          "authors": [
+            "Jing Li",
+            "Jing-Lu Wu",
+            "Hua-Wu Wu"
+          ],
+          "doi": "10.1002/hyp.70759",
+          "url": "https://www.semanticscholar.org/paper/55b27d22b1c55d10a3725cd97e03f086be47d526",
           "citation_count": 0
         }
       ],
@@ -233644,7 +233640,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/ddabe11721483ad5f6fd8877f0a073f315a06322",
       "semantic_detail_enriched_at": "2026-10-23T00:25:50.271164+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "bea99631744808236389781d6ca1d7793612789b",
@@ -233677,63 +233673,36 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "8cebf85979ba29b0a1d183f11e0efe29bd4ca3eb",
-          "title": "Differential responses of silicate, carbonate, and sulfide weathering to erosion drive CO2 release in the Lancang River, southeastern Tibetan Plateau",
+          "id": "73139f2db0ffbb00c1586a51c61009a4b0c3af90",
+          "title": "Riverine Hydrochemistry in the Headwaters of China's Central Asian Transboundary Rivers: Insights Into Chemical Weathering, CO2 Consumption and Controlling Factors",
           "year": 2026,
-          "journal": "Science China. Earth Sciences",
+          "journal": "Hydrological Processes",
           "authors": [
-            "Jin-Ke Liu",
-            "Gui-Lin Han"
+            "Hua-Wu Wu",
+            "Fan Song",
+            "Jing-Lu Wu"
           ],
-          "doi": "10.1007/s11430-026-2009-5",
-          "url": "https://www.semanticscholar.org/paper/8cebf85979ba29b0a1d183f11e0efe29bd4ca3eb",
-          "citation_count": 2
-        },
-        {
-          "id": "1f9fc1c4255154d24f852c2801cf497a3ca51057",
-          "title": "Silicate Weathering Dynamics in the Kasa¨ı Basin and 1 Implications for Enhanced Rock Weathering 2 Applications in the Tropics",
-          "year": null,
-          "journal": "",
-          "authors": [
-            "Yi Hou",
-            "L. D. de Groot",
-            "T. Drake"
-          ],
-          "doi": "",
-          "url": "https://www.semanticscholar.org/paper/1f9fc1c4255154d24f852c2801cf497a3ca51057",
+          "doi": "10.1002/hyp.70736",
+          "url": "https://www.semanticscholar.org/paper/73139f2db0ffbb00c1586a51c61009a4b0c3af90",
           "citation_count": 0
         },
         {
-          "id": "37a082200a0a5d058930666841b624b574f449cd",
-          "title": "Riverine Export of Millennial and Decadal Carbon From the Amazon Basin",
+          "id": "85dfb0847a5b7a41822fc9d99deab0f9c1f4c87d",
+          "title": "Role of Monsoon Meltwater Pulses in Weathering Stoichiometry and Carbon‐Balance Shifts in High Mountain Asian Glaciers",
           "year": 2026,
-          "journal": "Geophysical Research Letters",
+          "journal": "Journal of Geophysical Research - Biogeosciences",
           "authors": [
-            "V. Galy",
-            "B. Boehman",
-            "T. Eglinton"
+            "Chuan-Lin Deng",
+            "Tanuj Shukla",
+            "Shi-Chang Kang"
           ],
-          "doi": "10.1029/2025GL119760",
-          "url": "https://www.semanticscholar.org/paper/37a082200a0a5d058930666841b624b574f449cd",
-          "citation_count": 0
-        },
-        {
-          "id": "a19da871b869ed2b209968579efe11a321e8e900",
-          "title": "Paleoenvironmental Controls on Organic Matter Enrichment in Marine–Continental Transitional Shales of the Upper Carboniferous Yanghugou Formation, Western Ordos Basin",
-          "year": 2026,
-          "journal": "Journal of Marine Science and Engineering",
-          "authors": [
-            "Jin-Li Pan",
-            "Zuo-You Li",
-            "Xiu-Long Yang"
-          ],
-          "doi": "10.3390/jmse14171562",
-          "url": "https://www.semanticscholar.org/paper/a19da871b869ed2b209968579efe11a321e8e900",
+          "doi": "10.1029/2026JG009682",
+          "url": "https://www.semanticscholar.org/paper/85dfb0847a5b7a41822fc9d99deab0f9c1f4c87d",
           "citation_count": 0
         },
         {
           "id": "494851cc861f3eaaf7526825af1777fe4690ad18",
-          "title": "Strong‐Acid Weathering in a Carbonate‐Siliciclastic Cropland Diminishes Removal of CO\n 2\n From the Atmosphere Without Becoming a CO\n 2\n Source",
+          "title": "Strong‐Acid Weathering in a Carbonate‐Siliciclastic Cropland Diminishes Removal of CO2 From the Atmosphere Without Becoming a CO2 Source",
           "year": 2026,
           "journal": "Journal of Geophysical Research - Biogeosciences",
           "authors": [
@@ -233741,8 +233710,34 @@ window.PAPER_TRACKER_DATA = {
             "Jonathan M. Duncan",
             "Caitlin Hodges"
           ],
-          "doi": "10.1029/2025jg009418",
+          "doi": "10.1029/2025JG009418",
           "url": "https://www.semanticscholar.org/paper/494851cc861f3eaaf7526825af1777fe4690ad18",
+          "citation_count": 0
+        },
+        {
+          "id": "253d5bc216b95cf1fc01035ba87d10d415c84175",
+          "title": "Rock–Sediment–Water Controls on Dissolved Inorganic Carbon, Δ¹³C and Water Quality in the Cauvery River, India",
+          "year": 2026,
+          "journal": "Natural Resources for Human Health",
+          "authors": [
+            "K. N. P. N. K. Vybhav"
+          ],
+          "doi": "10.53365/nrfhh.3198",
+          "url": "https://www.semanticscholar.org/paper/253d5bc216b95cf1fc01035ba87d10d415c84175",
+          "citation_count": 0
+        },
+        {
+          "id": "22cc6b17b2b7037669db6be1f67cdedece7114cf",
+          "title": "Direct Flux Measurements Reveal CO2 Sinks in Icelandic Glacial Streams Driven by Weathering and Hydrological Mixing",
+          "year": 2026,
+          "journal": "Journal of Geophysical Research - Biogeosciences",
+          "authors": [
+            "Anna-Katharina Wild",
+            "C. Fasching",
+            "M. Rudolph"
+          ],
+          "doi": "10.1029/2026JG010081",
+          "url": "https://www.semanticscholar.org/paper/22cc6b17b2b7037669db6be1f67cdedece7114cf",
           "citation_count": 0
         }
       ],
@@ -233762,7 +233757,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/bea99631744808236389781d6ca1d7793612789b",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2019",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "e0b26a14b2c0ba0163d4aa39f8093cbe41dbbeb7",
@@ -233839,73 +233834,72 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
-          "id": "fb491f60db87fce2a64fc87b4f576a844f994bd6",
-          "title": "Hydrology and Bloom Shapes Dissolved and Particulate Organic Carbon and DOC Fluxes in Danjiangkou Reservoir",
+          "id": "011d7be22ab14d78dc49b0ae481ccf21ba6c7cd7",
+          "title": "Daytime Photosynthesis Reshapes the Carbon Emission Pattern of a Regulated Reservoir Water-Level Fluctuation Zone",
           "year": 2026,
-          "journal": "Water",
+          "journal": "Atmosphere",
           "authors": [
-            "Yu-Ling Huang",
-            "Huan-Huan Li",
-            "Hui-Huang Luo"
+            "Han-Xiao He",
+            "Yu-Chun Wang",
+            "Shan-Ze Li"
           ],
-          "doi": "10.3390/w18172173",
-          "url": "https://www.semanticscholar.org/paper/fb491f60db87fce2a64fc87b4f576a844f994bd6",
+          "doi": "10.3390/atmos17111069",
+          "url": "https://www.semanticscholar.org/paper/011d7be22ab14d78dc49b0ae481ccf21ba6c7cd7",
           "citation_count": 0
         },
         {
-          "id": "f492c8287c9cbb5fcf5b128ed090697452b30e16",
-          "title": "CO2 Emissions From Rivers Draining the Tibetan Plateau Reveal Substantial Increases Over the Past 20 Years",
+          "id": "f51a621ab92cce70eb44a4b3f28e276a737fc86f",
+          "title": "Importance, drivers and trends of inland water greenhouse gas emissions",
           "year": 2026,
-          "journal": "Global Biogeochemical Cycles",
+          "journal": "Nature Reviews Earth & Environment",
           "authors": [
-            "Julia Iwan",
-            "Li-Shan Ran",
-            "R. Lauerwald"
+            "R. Lauerwald",
+            "D. Bastviken",
+            "T. Battin"
           ],
-          "doi": "10.1029/2025GB009016",
-          "url": "https://www.semanticscholar.org/paper/f492c8287c9cbb5fcf5b128ed090697452b30e16",
+          "doi": "10.1038/s43017-026-00818-7",
+          "url": "https://www.semanticscholar.org/paper/f51a621ab92cce70eb44a4b3f28e276a737fc86f",
           "citation_count": 0
         },
         {
-          "id": "d0d44b014a9295b22be5cc3d1e7af24e2f61664b",
-          "title": "DIC-FCO2 coupled variation modes in a cascade-dammed karst river: Control by carbonate buffering.",
+          "id": "22cc6b17b2b7037669db6be1f67cdedece7114cf",
+          "title": "Direct Flux Measurements Reveal CO2 Sinks in Icelandic Glacial Streams Driven by Weathering and Hydrological Mixing",
           "year": 2026,
-          "journal": "Water Research",
+          "journal": "Journal of Geophysical Research - Biogeosciences",
           "authors": [
-            "Tao Zhang",
-            "Xin-Yu Kang",
-            "Jian-Hong Li"
+            "Anna-Katharina Wild",
+            "C. Fasching",
+            "M. Rudolph"
           ],
-          "doi": "10.1016/j.watres.2026.126896",
-          "url": "https://www.semanticscholar.org/paper/d0d44b014a9295b22be5cc3d1e7af24e2f61664b",
+          "doi": "10.1029/2026JG010081",
+          "url": "https://www.semanticscholar.org/paper/22cc6b17b2b7037669db6be1f67cdedece7114cf",
           "citation_count": 0
         },
         {
-          "id": "4a188943876a78864f96c236448957e6284378e3",
-          "title": "Stratification–ventilation cycling regulates the storage and emission of carbonaceous greenhouse gases in a subtropical reservoir",
+          "id": "b0820b59dfff1f027d0c80fad91eeddd8e846d90",
+          "title": "Greenhouse gases fluxes from (sub) tropical blue carbon ecosystems: a review",
           "year": 2026,
-          "journal": "Limnology and Oceanography",
+          "journal": "Theoretical and Applied Ecology",
           "authors": [
-            "Liang Ge",
-            "Jian-Zhong Su",
-            "Ruoqi Wan"
+            "G. D. Vatutin",
+            "E. Filimonenko"
           ],
-          "doi": "10.1002/lno.70497",
-          "url": "https://www.semanticscholar.org/paper/4a188943876a78864f96c236448957e6284378e3",
+          "doi": "10.25750/1995-4301-2026-3-006-016",
+          "url": "https://www.semanticscholar.org/paper/b0820b59dfff1f027d0c80fad91eeddd8e846d90",
           "citation_count": 0
         },
         {
-          "id": "275c50e02a9cb78760082dfb321f93d2d26c6ecc",
-          "title": "Dissolved inorganic carbon in Chongqing urban section of Yangtze River, China",
-          "year": 2026,
-          "journal": "Journal of Environmental Engineering and Science",
+          "id": "b49b5ff8dca52b8bfa9a1fabac012a8a54b8a8ed",
+          "title": "Contrasting Catchment Characteristics and Carbonate Buffering Capacity Shape Acidification Susceptibility and CO 2 Source-Sink Dynamics in Tropical Lagoons",
+          "year": null,
+          "journal": "",
           "authors": [
-            "Qing Wu",
-            "Yu Qin",
-            "Zhen Liu"
+            "Veran Weerathunga",
+            "Chin-Chang Hung",
+            "W. Weerakkody"
           ],
-          "doi": "10.1680/jenes.25.00147",
-          "url": "https://www.semanticscholar.org/paper/275c50e02a9cb78760082dfb321f93d2d26c6ecc",
+          "doi": "",
+          "url": "https://www.semanticscholar.org/paper/b49b5ff8dca52b8bfa9a1fabac012a8a54b8a8ed",
           "citation_count": 0
         }
       ],
@@ -233924,7 +233918,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/e0b26a14b2c0ba0163d4aa39f8093cbe41dbbeb7",
       "semantic_detail_enriched_at": "2026-10-23T00:25:50.271164+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "d0b04bf82cf1cb5c5e2ce07e12aee1e0a360cc38",
@@ -234018,60 +234012,60 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "76fafc7f7946266ac6da97adaf3c639320634074",
-          "title": "Lakes Amplify Carbon Emissions Relative to Downstream Export in Aquatic Networks",
+          "id": "22cc6b17b2b7037669db6be1f67cdedece7114cf",
+          "title": "Direct Flux Measurements Reveal CO2 Sinks in Icelandic Glacial Streams Driven by Weathering and Hydrological Mixing",
           "year": 2026,
-          "journal": "Geophysical Research Letters",
+          "journal": "Journal of Geophysical Research - Biogeosciences",
           "authors": [
-            "F. Alriksson",
-            "G. Rocher-Ros",
-            "M. Klaus"
+            "Anna-Katharina Wild",
+            "C. Fasching",
+            "M. Rudolph"
           ],
-          "doi": "10.1029/2025GL120340",
-          "url": "https://www.semanticscholar.org/paper/76fafc7f7946266ac6da97adaf3c639320634074",
+          "doi": "10.1029/2026JG010081",
+          "url": "https://www.semanticscholar.org/paper/22cc6b17b2b7037669db6be1f67cdedece7114cf",
           "citation_count": 0
         },
         {
-          "id": "68ae4d628d8375ab726a83264bcbbfa959d8cdef",
-          "title": "Hydrological controls on dissolved carbon export from permafrost peatland catchments of northeastern China",
+          "id": "0f64dd59384e8ae73ab04a92088c49157dbdd409",
+          "title": "Spatial Decoupling of Aquatic and Terrestrial Carbon Fluxes in a Tropical Andean Headwater Corridor",
           "year": 2026,
-          "journal": "Frontiers in Environmental Science",
+          "journal": "Hydrological Processes",
           "authors": [
-            "Shujie Wang",
-            "Yuedong Guo",
-            "Hao Zhang"
+            "D. Martin",
+            "Penelope Brocco",
+            "E. Clark"
           ],
-          "doi": "10.3389/fenvs.2026.1915601",
-          "url": "https://www.semanticscholar.org/paper/68ae4d628d8375ab726a83264bcbbfa959d8cdef",
+          "doi": "10.1002/hyp.70738",
+          "url": "https://www.semanticscholar.org/paper/0f64dd59384e8ae73ab04a92088c49157dbdd409",
           "citation_count": 0
         },
         {
-          "id": "4700bc8c8d65cdada9787199613c66a3494f8078",
-          "title": "Divergent Responses of Methane Emission to Warming in Waterlogged Versus Drained Alpine Peatlands",
+          "id": "9b1d939b66c694522c4dba5cc1ad689bc6b7e605",
+          "title": "A Preliminary Evaluation of Dissolved Carbon Concentrations and Fluxes in an Agroforestry Schist Catchment",
           "year": 2026,
-          "journal": "Global Change Biology",
+          "journal": "Inżynieria Mineralna",
           "authors": [
-            "Cheng-Zhu Liu",
-            "Guohua Dai",
-            "Zong-Guang Liu"
+            "M. Taboada-Castro",
+            "M. Rodríguez-Blanco",
+            "M. Taboada-Castro"
           ],
-          "doi": "10.1111/gcb.71088",
-          "url": "https://www.semanticscholar.org/paper/4700bc8c8d65cdada9787199613c66a3494f8078",
+          "doi": "10.29227/im-2026-02-02-002",
+          "url": "https://www.semanticscholar.org/paper/9b1d939b66c694522c4dba5cc1ad689bc6b7e605",
           "citation_count": 0
         },
         {
-          "id": "65777e617c6fe9b7c7d94dfac2e076ed8d7495a6",
-          "title": "Surface-water carbon exchange from mangroves and responses to global warming",
+          "id": "5aacf93b075c5a989179360f37b6444bbe86a0dd",
+          "title": "Declining atmospheric Pb deposition does not ensure lower streamwater Pb concentrations: evidence from 28 years of forest catchment monitoring.",
           "year": 2026,
-          "journal": "Nature Communications",
+          "journal": "Environmental Pollution",
           "authors": [
-            "Xiao-Guang Ouyang",
-            "D. Maher",
-            "Shing-Yip Lee"
+            "L. Bohdálková",
+            "Filip Oulehle",
+            "Anna Lamačová"
           ],
-          "doi": "10.1038/s41467-026-77058-2",
-          "url": "https://www.semanticscholar.org/paper/65777e617c6fe9b7c7d94dfac2e076ed8d7495a6",
-          "citation_count": 1
+          "doi": "10.1016/j.envpol.2026.129199",
+          "url": "https://www.semanticscholar.org/paper/5aacf93b075c5a989179360f37b6444bbe86a0dd",
+          "citation_count": 0
         }
       ],
       "fields_of_study": [
@@ -234090,7 +234084,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/d0b04bf82cf1cb5c5e2ce07e12aee1e0a360cc38",
       "semantic_detail_enriched_at": "2026-10-20T00:53:19.339745+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "79f84f6cad3079a0b288f98df7330cf2fbfded37",
@@ -234122,72 +234116,73 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "3ef33ab8f626216f1f10ed360bbcd3b0da19957d",
-          "title": "Effects of Plant Residue Decomposition on CH 4 Emissions During the Ice-Covered Period in a Grass-Type Eutrophic Lake",
-          "year": null,
-          "journal": "",
+          "id": "2f139bd097c22c57354585e8b448cc200b9f1664",
+          "title": "Significant sunlight-driven methane production at the wetland sediment-water interface.",
+          "year": 2026,
+          "journal": "Water Research",
           "authors": [
-            "Hei-Peng-Fei-Liu-Man Man",
-            ",-Ren-Hua-Tang-,-Yang-Ting-Ting-,-Gao-Ming-Yao-,-S Hao Ran",
-            "Man-Man Liu"
+            "Bin-Bin Wu",
+            "Jing-Yi Wang",
+            "Yu Yao"
           ],
-          "doi": "",
-          "url": "https://www.semanticscholar.org/paper/3ef33ab8f626216f1f10ed360bbcd3b0da19957d",
+          "doi": "10.1016/j.watres.2026.127049",
+          "url": "https://www.semanticscholar.org/paper/2f139bd097c22c57354585e8b448cc200b9f1664",
           "citation_count": 0
         },
         {
-          "id": "305f8ced22398c7a56e7cec07e9c68b5896b41f0",
-          "title": "Heterogeneity in freshwater wetland inundation zones drive carbon fluxes: A process-based modeling approach.",
+          "id": "011d7be22ab14d78dc49b0ae481ccf21ba6c7cd7",
+          "title": "Daytime Photosynthesis Reshapes the Carbon Emission Pattern of a Regulated Reservoir Water-Level Fluctuation Zone",
           "year": 2026,
-          "journal": "Science of the Total Environment",
+          "journal": "Atmosphere",
           "authors": [
-            "E. Hassett",
-            "Ashley Brereton",
-            "Z. A. Mekonnen"
+            "Han-Xiao He",
+            "Yu-Chun Wang",
+            "Shan-Ze Li"
           ],
-          "doi": "10.1016/j.scitotenv.2026.182251",
-          "url": "https://www.semanticscholar.org/paper/305f8ced22398c7a56e7cec07e9c68b5896b41f0",
+          "doi": "10.3390/atmos17111069",
+          "url": "https://www.semanticscholar.org/paper/011d7be22ab14d78dc49b0ae481ccf21ba6c7cd7",
           "citation_count": 0
         },
         {
-          "id": "51c89bfafc14a31bf056f96b117964513513c195",
-          "title": "Methane Emissions From U.S. Lakes Dominated by Ebullition, Shallow Zones, and Anthropogenic Drivers",
+          "id": "8344c7d8ce43942f9bf7c097c54c6962f88fb95a",
+          "title": "Seasonally shifting methane-control regimes across urban rivers and urban wetland rivers in the GBA, China, revealed by environmental, isotopic, and microbial evidence.",
           "year": 2026,
-          "journal": "Geophysical Research Letters",
+          "journal": "Journal of Environmental Management",
           "authors": [
-            "Chunqi Shen",
-            "P. Raymond"
+            "Hai-Guang Qin",
+            "Si-Bo Zhang",
+            "Fei-Yang Xia"
           ],
-          "doi": "10.1029/2026GL124792",
-          "url": "https://www.semanticscholar.org/paper/51c89bfafc14a31bf056f96b117964513513c195",
+          "doi": "10.1016/j.jenvman.2026.131239",
+          "url": "https://www.semanticscholar.org/paper/8344c7d8ce43942f9bf7c097c54c6962f88fb95a",
           "citation_count": 0
         },
         {
-          "id": "1238a483041365e34186dedff73f0380c85513dd",
-          "title": "From Storage to Release: How Depth, Temperature and Sediment Texture Structure Methane Partitioning in a Tropical Lake",
+          "id": "0be6b02de2789936e179cd0382a6448aa83279ac",
+          "title": "[Seasonal dynamics and driving factors of soil CH4 production potential and emission fluxes in aquaculture ponds of the Minjiang River Estuary].",
           "year": 2026,
-          "journal": "Limnological Review",
+          "journal": "Ying yong sheng tai xue bao = The journal of applied ecology",
           "authors": [
-            "Nelson Azevedo Santos Teixeira de Mello",
-            "Elisa Aguiar Porto Viana",
-            "J. Bezerra-Neto"
+            "Yan-Fei Luo",
+            "Qian Zhu",
+            "Jun-Wei Wang"
           ],
-          "doi": "10.3390/limnolrev26030052",
-          "url": "https://www.semanticscholar.org/paper/1238a483041365e34186dedff73f0380c85513dd",
+          "doi": "10.13287/j.1001-9332.202609.049",
+          "url": "https://www.semanticscholar.org/paper/0be6b02de2789936e179cd0382a6448aa83279ac",
           "citation_count": 0
         },
         {
-          "id": "98381569d3f7e305ed236bfde010bb8009041146",
-          "title": "Geochemistry of Methane and Sulfide Sulfur in the Bottom Sediments of Small Lakes in Southern Russia",
+          "id": "5b04f5fbed3d24fa93a7781f688a756510915af4",
+          "title": "Drivers of Seasonal Variations of Greenhouse Gas Fluxes from Sediment-Water and Water-Atmosphere Interfaces in Different Fish Culture Ponds.",
           "year": 2026,
-          "journal": "Water",
+          "journal": "Environmental Science and Technology",
           "authors": [
-            "D. Gar'kusha",
-            "Yu.A. Fedorov",
-            "Yury Andreev"
+            "Yu-Qi Liu",
+            "Qing-Fei Zeng",
+            "Azizov Farukh Fathulloevich"
           ],
-          "doi": "10.3390/w18161981",
-          "url": "https://www.semanticscholar.org/paper/98381569d3f7e305ed236bfde010bb8009041146",
+          "doi": "10.1021/acs.est.6c05696",
+          "url": "https://www.semanticscholar.org/paper/5b04f5fbed3d24fa93a7781f688a756510915af4",
           "citation_count": 0
         }
       ],
@@ -234212,7 +234207,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/79f84f6cad3079a0b288f98df7330cf2fbfded37",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2019",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "86ca135cb3d78042484814a5d597580b83551598",
@@ -234523,71 +234518,73 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "3ef33ab8f626216f1f10ed360bbcd3b0da19957d",
-          "title": "Effects of Plant Residue Decomposition on CH 4 Emissions During the Ice-Covered Period in a Grass-Type Eutrophic Lake",
-          "year": null,
-          "journal": "",
-          "authors": [
-            "Hei-Peng-Fei-Liu-Man Man",
-            ",-Ren-Hua-Tang-,-Yang-Ting-Ting-,-Gao-Ming-Yao-,-S Hao Ran",
-            "Man-Man Liu"
-          ],
-          "doi": "",
-          "url": "https://www.semanticscholar.org/paper/3ef33ab8f626216f1f10ed360bbcd3b0da19957d",
-          "citation_count": 0
-        },
-        {
-          "id": "98381569d3f7e305ed236bfde010bb8009041146",
-          "title": "Geochemistry of Methane and Sulfide Sulfur in the Bottom Sediments of Small Lakes in Southern Russia",
+          "id": "2f139bd097c22c57354585e8b448cc200b9f1664",
+          "title": "Significant sunlight-driven methane production at the wetland sediment-water interface.",
           "year": 2026,
-          "journal": "Water",
+          "journal": "Water Research",
           "authors": [
-            "D. Gar'kusha",
-            "Yu.A. Fedorov",
-            "Yury Andreev"
+            "Bin-Bin Wu",
+            "Jing-Yi Wang",
+            "Yu Yao"
           ],
-          "doi": "10.3390/w18161981",
-          "url": "https://www.semanticscholar.org/paper/98381569d3f7e305ed236bfde010bb8009041146",
+          "doi": "10.1016/j.watres.2026.127049",
+          "url": "https://www.semanticscholar.org/paper/2f139bd097c22c57354585e8b448cc200b9f1664",
           "citation_count": 0
         },
         {
-          "id": "6672464bec1bbb2b628787cc4525be15832f831e",
-          "title": "Seagrass and Macroalgae Detritus Drive Distinct Methane Production Dynamics and Microbial Succession in Coastal Sediments.",
+          "id": "0be6b02de2789936e179cd0382a6448aa83279ac",
+          "title": "[Seasonal dynamics and driving factors of soil CH4 production potential and emission fluxes in aquaculture ponds of the Minjiang River Estuary].",
+          "year": 2026,
+          "journal": "Ying yong sheng tai xue bao = The journal of applied ecology",
+          "authors": [
+            "Yan-Fei Luo",
+            "Qian Zhu",
+            "Jun-Wei Wang"
+          ],
+          "doi": "10.13287/j.1001-9332.202609.049",
+          "url": "https://www.semanticscholar.org/paper/0be6b02de2789936e179cd0382a6448aa83279ac",
+          "citation_count": 0
+        },
+        {
+          "id": "aea21eb64a18a08d0a55b0b33a6f4ca7cac3124f",
+          "title": "Eutrophication control regulates sedimentary records and sediment-water exchange of dissolved polycyclic aromatic hydrocarbons and polycyclic musks.",
+          "year": 2026,
+          "journal": "Environmental Science: Processes & Impacts",
+          "authors": [
+            "Qing-Nan Wang",
+            "Liang Wu",
+            "Jia-Xiong Wang"
+          ],
+          "doi": "10.1039/d6em00668j",
+          "url": "https://www.semanticscholar.org/paper/aea21eb64a18a08d0a55b0b33a6f4ca7cac3124f",
+          "citation_count": 0
+        },
+        {
+          "id": "4b5b813a92b996786d53816648bc74ec7ab86308",
+          "title": "Experimental Assessment of Epipelon Responses to Phosphorus Limitation in a Eutrophic Lake",
+          "year": 2026,
+          "journal": "Ecological research",
+          "authors": [
+            "Renata Aparecida Costa",
+            "Dar Pontes",
+            "C. Ferragut"
+          ],
+          "doi": "10.1111/1440-1703.70132",
+          "url": "https://www.semanticscholar.org/paper/4b5b813a92b996786d53816648bc74ec7ab86308",
+          "citation_count": 0
+        },
+        {
+          "id": "08d8766dfd7d6212e5ce36ab3c6e2c0e45197397",
+          "title": "Disturbance-Driven Reactive Oxygen Species Generation Promotes Organic Carbon Mineralization in Sediments of Lake Taihu.",
           "year": 2026,
           "journal": "Environmental Science and Technology",
           "authors": [
-            "Gui-Yuan Dai",
-            "Xiao-Gang Chen",
-            "Pei-Yuan Zhu"
+            "Wen-Kang Li",
+            "Na Song",
+            "Hua-Cheng Xu"
           ],
-          "doi": "10.1021/acs.est.6c07975",
-          "url": "https://www.semanticscholar.org/paper/6672464bec1bbb2b628787cc4525be15832f831e",
-          "citation_count": 0
-        },
-        {
-          "id": "5a7398d17f70a87707ed4892f3dbdd7537b3e6ef",
-          "title": "Dramatic greenhouse gas emissions from microbially mediated carbon-nitrogen co-mineralization in Middle-Lower Yangtze shallow lakes.",
-          "year": 2026,
-          "journal": "Journal of Environmental Management",
-          "authors": [
-            "Wei-Zhen Xie",
-            "Xiao Wang",
-            "Chuan-Qiao Zhou"
-          ],
-          "doi": "10.1016/j.jenvman.2026.130716",
-          "url": "https://www.semanticscholar.org/paper/5a7398d17f70a87707ed4892f3dbdd7537b3e6ef",
-          "citation_count": 0
-        },
-        {
-          "id": "263c5dedcfdc7a9986f5c5ddc81de5ae8b901775",
-          "title": "CYANOBACTERIUM GLOEOTRICHIA ECHINULATA BLOOM IN LAKE PLESHCHEYEVO: CAUSES AND CONSEQUENCES",
-          "year": 2026,
-          "journal": "Transactions of Papanin Institute for Biology of Inland Waters RAS",
-          "authors": [
-            "A. Sharov"
-          ],
-          "doi": "10.47021/0320-3557-2026-114-7-18",
-          "url": "https://www.semanticscholar.org/paper/263c5dedcfdc7a9986f5c5ddc81de5ae8b901775",
+          "doi": "10.1021/acs.est.5c11533",
+          "url": "https://www.semanticscholar.org/paper/08d8766dfd7d6212e5ce36ab3c6e2c0e45197397",
           "citation_count": 0
         }
       ],
@@ -234609,7 +234606,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/a8c018461de0dcce1cc2df0e1e7e688280f992ff",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-07T01:14:59.970098+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "c6234ac79e8edef85f34227b21ab38a9a528ddb1",
@@ -234697,58 +234694,59 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "51c89bfafc14a31bf056f96b117964513513c195",
-          "title": "Methane Emissions From U.S. Lakes Dominated by Ebullition, Shallow Zones, and Anthropogenic Drivers",
+          "id": "fde5308f45c70d5055615a2ca4e5bb97ed50c52c",
+          "title": "Methane oxidation in African lakes increases with phytoplankton and outweighs photosynthesis-driven oxic methane production",
           "year": 2026,
-          "journal": "Geophysical Research Letters",
+          "journal": "Nature Communications",
           "authors": [
-            "Chunqi Shen",
-            "P. Raymond"
+            "A. Borges",
+            "C. Morana",
+            "Loris Deirmendjian"
           ],
-          "doi": "10.1029/2026GL124792",
-          "url": "https://www.semanticscholar.org/paper/51c89bfafc14a31bf056f96b117964513513c195",
+          "doi": "10.1038/s41467-026-78255-9",
+          "url": "https://www.semanticscholar.org/paper/fde5308f45c70d5055615a2ca4e5bb97ed50c52c",
+          "citation_count": 2
+        },
+        {
+          "id": "7468e75b756e0ec8c37548557dc50e6009f60edd",
+          "title": "The imprint of physical mixing on surface water N2O and CH4 concentrations in the eastern Canadian Arctic Ocean",
+          "year": 2026,
+          "journal": "Polar Research",
+          "authors": [
+            "Rebecca L. Rust",
+            "P. Myers",
+            "P. Tortell"
+          ],
+          "doi": "10.33265/polar.v45.13047",
+          "url": "https://www.semanticscholar.org/paper/7468e75b756e0ec8c37548557dc50e6009f60edd",
           "citation_count": 0
         },
         {
-          "id": "7cef6efc713a0b108d91dec531295acf275f52c7",
-          "title": "Evaluating the Microbubble Hypothesis: Apparent Air−Water CH4 and CO2 Gas Transfer Velocities in Relation to Microbubble Concentrations in a Meso-Oligotrophic Lake",
+          "id": "c212bea330e1f51c926092e4edac5eb19b24d41d",
+          "title": "Partitioning Methane Sources and Diffusive Flux Along the US Cascadia Margin Reveals Dominant Influences of Localized and Ephemeral Features",
           "year": 2026,
-          "journal": "Environmental Science and Technology",
+          "journal": "Global Biogeochemical Cycles",
           "authors": [
-            "Mohammad Atif Khan",
-            "P. Keller",
-            "G. Kirillin"
+            "Jesse T. Dugan",
+            "J. Kessler",
+            "T. Weber"
           ],
-          "doi": "10.1021/acs.est.6c05689",
-          "url": "https://www.semanticscholar.org/paper/7cef6efc713a0b108d91dec531295acf275f52c7",
+          "doi": "10.1029/2026GB009143",
+          "url": "https://www.semanticscholar.org/paper/c212bea330e1f51c926092e4edac5eb19b24d41d",
           "citation_count": 0
         },
         {
-          "id": "4a188943876a78864f96c236448957e6284378e3",
-          "title": "Stratification–ventilation cycling regulates the storage and emission of carbonaceous greenhouse gases in a subtropical reservoir",
+          "id": "805bd00ca5fc0ae485558a91f38895dbad19bf2b",
+          "title": "Summer oxygen dynamics in the bottom waters of a wide, temperate shelf sea",
           "year": 2026,
-          "journal": "Limnology and Oceanography",
+          "journal": "Biogeosciences",
           "authors": [
-            "Liang Ge",
-            "Jian-Zhong Su",
-            "Ruoqi Wan"
+            "Xin Meng",
+            "C. Mahaffey",
+            "J. Wihsgott"
           ],
-          "doi": "10.1002/lno.70497",
-          "url": "https://www.semanticscholar.org/paper/4a188943876a78864f96c236448957e6284378e3",
-          "citation_count": 0
-        },
-        {
-          "id": "1755a224fd2ff88592fec47670095e3f2d57c4f3",
-          "title": "Role of methanotrophy in a high‐methane emitting thermokarst lake",
-          "year": 2026,
-          "journal": "Limnology and Oceanography",
-          "authors": [
-            "Teresa Aguirrezabala-Cámpano",
-            "K. W. Walter Anthony",
-            "F. Thalasso"
-          ],
-          "doi": "10.1002/lno.70494",
-          "url": "https://www.semanticscholar.org/paper/1755a224fd2ff88592fec47670095e3f2d57c4f3",
+          "doi": "10.5194/bg-23-6915-2026",
+          "url": "https://www.semanticscholar.org/paper/805bd00ca5fc0ae485558a91f38895dbad19bf2b",
           "citation_count": 0
         }
       ],
@@ -234771,7 +234769,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/c6234ac79e8edef85f34227b21ab38a9a528ddb1",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2019",
-      "semantic_recommendations_enriched_at": "2026-10-08T01:37:36.768880+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "d1242c4782baa25885eccf807bb0712a928294ef",
@@ -234816,48 +234814,6 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "a8b7cd5de2266cf63473d1cf903997753d680528",
-          "title": "The Hydrological Regime in a Highly Acid Crater Lake: Lake Katanuma in Naruko Volcano, Japan",
-          "year": 2026,
-          "journal": "Water",
-          "authors": [
-            "K. Chikita",
-            "A. Goto",
-            "J. Okada"
-          ],
-          "doi": "10.3390/w18172108",
-          "url": "https://www.semanticscholar.org/paper/a8b7cd5de2266cf63473d1cf903997753d680528",
-          "citation_count": 0
-        },
-        {
-          "id": "baa2370c35d18b58dbefa68dbb4eb73d2fbfad29",
-          "title": "CO2 flux distribution at Grindavík and Sundhnúkur craters prior to the August 2024 eruption at Reykjanes, SW Iceland",
-          "year": 2026,
-          "journal": "Geology",
-          "authors": [
-            "Bettina Strauch",
-            "Maria Hurley",
-            "P. Büyükakpınar"
-          ],
-          "doi": "10.1130/g54652.1",
-          "url": "https://www.semanticscholar.org/paper/baa2370c35d18b58dbefa68dbb4eb73d2fbfad29",
-          "citation_count": 0
-        },
-        {
-          "id": "963a94854c9af36d112cdde63d74c0eedec83680",
-          "title": "Sources and driving factors of greenhouse gas emissions from tropical high-mountain Andean lakes: marks of human impact.",
-          "year": 2026,
-          "journal": "Water Research",
-          "authors": [
-            "Long Ho",
-            "M. Barthel",
-            "P. Mosquera"
-          ],
-          "doi": "10.1016/j.watres.2026.126974",
-          "url": "https://www.semanticscholar.org/paper/963a94854c9af36d112cdde63d74c0eedec83680",
-          "citation_count": 0
-        },
-        {
           "id": "f2af52ec1864e4767a0b215702117bd215e99650",
           "title": "THE CURRENT STATE OF THE ISOLATED WATER BODIES – THE FORMER SEA BAYS OF OLENIY ISLAND",
           "year": 2026,
@@ -234867,6 +234823,48 @@ window.PAPER_TRACKER_DATA = {
           ],
           "doi": "10.46991/pysuc.2026.si1.054",
           "url": "https://www.semanticscholar.org/paper/f2af52ec1864e4767a0b215702117bd215e99650",
+          "citation_count": 0
+        },
+        {
+          "id": "0458bc01feaf9dc16e2edd92ce5b737a9e5cba72",
+          "title": "Hydrogeochemical evidence for biotic over volcanic control in Lake Maninjau, Indonesia",
+          "year": 2026,
+          "journal": "Journal of Water and Land Development",
+          "authors": [
+            "Taofik Jasalesmana",
+            "M. Putri",
+            "M. Abdurrachman"
+          ],
+          "doi": "10.24425/jwld.2026.3061",
+          "url": "https://www.semanticscholar.org/paper/0458bc01feaf9dc16e2edd92ce5b737a9e5cba72",
+          "citation_count": 0
+        },
+        {
+          "id": "fe58df6714f699f8f454306fc597afdbc1513e12",
+          "title": "From Mountains to the Coast: Microplastics in Slovenian Karst Alpine Lakes and Drinking-Water Sources—Implications for Sustainable Water-Resource Management",
+          "year": 2026,
+          "journal": "Sustainability",
+          "authors": [
+            "Lara Valentić",
+            "T. Pipan",
+            "O. Bajt"
+          ],
+          "doi": "10.3390/su18189663",
+          "url": "https://www.semanticscholar.org/paper/fe58df6714f699f8f454306fc597afdbc1513e12",
+          "citation_count": 0
+        },
+        {
+          "id": "03472894c27665ca4bab11c325f7c4ea6e426ca8",
+          "title": "CARACTERISATION HYDROGEOCHIMIQUE DES EAUX DES FORMATIONS KARSTIQUES AU SUD DE MBANZA-NGUNGU, REPUBLIQUE DEMOCRATIQUE DU CONGO",
+          "year": 2026,
+          "journal": "Journal Africain des Sciences",
+          "authors": [
+            "Junior Savu Lutete",
+            "Roland Kakule Kasereka",
+            "Valentin Nkula Kanda"
+          ],
+          "doi": "10.70237/jafrisci.2026.v3.i11.06",
+          "url": "https://www.semanticscholar.org/paper/03472894c27665ca4bab11c325f7c4ea6e426ca8",
           "citation_count": 0
         }
       ],
@@ -234887,7 +234885,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/d1242c4782baa25885eccf807bb0712a928294ef",
       "semantic_detail_enriched_at": "2026-10-24T00:54:17.336379+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-08T01:37:36.768880+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "7d5277364c81005b764ea0f0bc8431f855df01b2",
@@ -234992,46 +234990,45 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "f0c2e71b375a06a4d2b904589da0aa9e1ab55ed2",
-          "title": "From sedimentary production to water-column accumulation: temperature and spatial controls on littoral methane",
+          "id": "ce24989fd8aab99c9cd011379c97cc9468b9bc5f",
+          "title": "Effect of Lake‐Wide Internal Waves on Near‐Bottom Oxygen Concentrations",
+          "year": 2026,
+          "journal": "Journal of Geophysical Research - Biogeosciences",
+          "authors": [
+            "R. Schwefel",
+            "G. Kirillin",
+            "M. Hupfer"
+          ],
+          "doi": "10.1029/2026JG009858",
+          "url": "https://www.semanticscholar.org/paper/ce24989fd8aab99c9cd011379c97cc9468b9bc5f",
+          "citation_count": 0
+        },
+        {
+          "id": "7468e75b756e0ec8c37548557dc50e6009f60edd",
+          "title": "The imprint of physical mixing on surface water N2O and CH4 concentrations in the eastern Canadian Arctic Ocean",
+          "year": 2026,
+          "journal": "Polar Research",
+          "authors": [
+            "Rebecca L. Rust",
+            "P. Myers",
+            "P. Tortell"
+          ],
+          "doi": "10.33265/polar.v45.13047",
+          "url": "https://www.semanticscholar.org/paper/7468e75b756e0ec8c37548557dc50e6009f60edd",
+          "citation_count": 0
+        },
+        {
+          "id": "e389050abfd641d88699749e283edf3c08a56ebe",
+          "title": "In-lake neutralisation and post-rehabilitation treatment of a lignite mining pit lake – lessons learned",
           "year": null,
           "journal": "",
           "authors": [
-            "Katharina J. Kiefel",
-            "Frank Peeters",
-            "A. Sepulveda-Jauregui"
+            "Lessons",
+            "Learned"
           ],
           "doi": "",
-          "url": "https://www.semanticscholar.org/paper/f0c2e71b375a06a4d2b904589da0aa9e1ab55ed2",
-          "citation_count": 0
-        },
-        {
-          "id": "b9e3074bbcf22fb230bfa4e0f329da115208d2cc",
-          "title": "Wastewater treatment-induced carbonate chemistry alteration and its implications for ocean alkalinity enhancement",
-          "year": 2026,
-          "journal": "Environmental Research Letters",
-          "authors": [
-            "Kuan Li",
-            "Hsin-Yi Wang",
-            "Hsiao-Chun Tseng"
-          ],
-          "doi": "10.1088/1748-9326/aea177",
-          "url": "https://www.semanticscholar.org/paper/b9e3074bbcf22fb230bfa4e0f329da115208d2cc",
-          "citation_count": 0
-        },
-        {
-          "id": "a8b7cd5de2266cf63473d1cf903997753d680528",
-          "title": "The Hydrological Regime in a Highly Acid Crater Lake: Lake Katanuma in Naruko Volcano, Japan",
-          "year": 2026,
-          "journal": "Water",
-          "authors": [
-            "K. Chikita",
-            "A. Goto",
-            "J. Okada"
-          ],
-          "doi": "10.3390/w18172108",
-          "url": "https://www.semanticscholar.org/paper/a8b7cd5de2266cf63473d1cf903997753d680528",
-          "citation_count": 0
+          "url": "https://www.semanticscholar.org/paper/e389050abfd641d88699749e283edf3c08a56ebe",
+          "citation_count": 1
         }
       ],
       "fields_of_study": [],
@@ -235047,7 +235044,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/7d5277364c81005b764ea0f0bc8431f855df01b2",
       "semantic_detail_enriched_at": "2026-10-20T00:53:19.339745+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-08T01:37:36.768880+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "2c671e017917fa31a712eb652069fbeb01d7e7dd",
@@ -235076,31 +235073,17 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "473c8219ea9427ebb82b07f09b13e057f59bde42",
-          "title": "Inwelling Versus Outwelling: Controls on Dissolved Organic Carbon Exchange in a Mesotidal Saltmarsh Estuary",
+          "id": "a86db563d4982e6a6a9a03ca1e57bd9190cb6a85",
+          "title": "[Spatiotemporal variations of dissolved CO2 concentration and its water-air flux along a tidal creek of coastal wetland in Minjiang River Estuary.]",
           "year": 2026,
-          "journal": "Journal of Geophysical Research - Biogeosciences",
+          "journal": "Ying yong sheng tai xue bao = The journal of applied ecology",
           "authors": [
-            "Mohammed Mezied",
-            "C. Fichot",
-            "S. Fagherazzi"
+            "Jun-Wei Wang",
+            "Wen-Jing Liu",
+            "Shu-Ping Lin"
           ],
-          "doi": "10.1029/2026jg009790",
-          "url": "https://www.semanticscholar.org/paper/473c8219ea9427ebb82b07f09b13e057f59bde42",
-          "citation_count": 0
-        },
-        {
-          "id": "3ef33ab8f626216f1f10ed360bbcd3b0da19957d",
-          "title": "Effects of Plant Residue Decomposition on CH 4 Emissions During the Ice-Covered Period in a Grass-Type Eutrophic Lake",
-          "year": null,
-          "journal": "",
-          "authors": [
-            "Hei-Peng-Fei-Liu-Man Man",
-            ",-Ren-Hua-Tang-,-Yang-Ting-Ting-,-Gao-Ming-Yao-,-S Hao Ran",
-            "Man-Man Liu"
-          ],
-          "doi": "",
-          "url": "https://www.semanticscholar.org/paper/3ef33ab8f626216f1f10ed360bbcd3b0da19957d",
+          "doi": "10.13287/j.1001-9332.202609.055",
+          "url": "https://www.semanticscholar.org/paper/a86db563d4982e6a6a9a03ca1e57bd9190cb6a85",
           "citation_count": 0
         },
         {
@@ -235118,31 +235101,45 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "d596aa301e88f9bca88805dfd43844b870998046",
-          "title": "Dissolved Organic Carbon Concentration, Soil Type, and Forestry Activities Influence the Continued Acidification of Sensitive Streams in Galloway, Southwest Scotland",
+          "id": "79bd693a270d4e50d0619477f69c367fb5de9d4e",
+          "title": "Integrated human and natural regulation of carbon concentrations and fluxes dynamics in the Yangtze River mainstream over the past two decades.",
           "year": 2026,
-          "journal": "Hydrological Processes",
+          "journal": "Environmental Research",
           "authors": [
-            "Michael R. Muir",
-            "L. Robertson",
-            "Kerry Morrison"
+            "Wei Li",
+            "X. Wen",
+            "Yang Gao"
           ],
-          "doi": "10.1002/hyp.70705",
-          "url": "https://www.semanticscholar.org/paper/d596aa301e88f9bca88805dfd43844b870998046",
+          "doi": "10.1016/j.envres.2026.125873",
+          "url": "https://www.semanticscholar.org/paper/79bd693a270d4e50d0619477f69c367fb5de9d4e",
           "citation_count": 0
         },
         {
-          "id": "68ae4d628d8375ab726a83264bcbbfa959d8cdef",
-          "title": "Hydrological controls on dissolved carbon export from permafrost peatland catchments of northeastern China",
+          "id": "3d93159c9cff81a82832884d1e4db43d0fa654d8",
+          "title": "Variable dissolved organic carbon trends in the tributaries of the St. Lawrence River driven by natural geographic features and human activities",
           "year": 2026,
-          "journal": "Frontiers in Environmental Science",
+          "journal": "Canadian Journal of Fisheries and Aquatic Sciences",
           "authors": [
-            "Shujie Wang",
-            "Yuedong Guo",
-            "Hao Zhang"
+            "Jade Dormoy-Boulanger",
+            "J. Lapierre",
+            "F. Guillemette"
           ],
-          "doi": "10.3389/fenvs.2026.1915601",
-          "url": "https://www.semanticscholar.org/paper/68ae4d628d8375ab726a83264bcbbfa959d8cdef",
+          "doi": "10.1139/cjfas-2026-0122",
+          "url": "https://www.semanticscholar.org/paper/3d93159c9cff81a82832884d1e4db43d0fa654d8",
+          "citation_count": 0
+        },
+        {
+          "id": "b036e53310dc2e1075e6b13e4c9b86bfa743783f",
+          "title": "Land use drives the chemical differentiation of soil dissolved organic matter in a drinking water source watershed.",
+          "year": 2026,
+          "journal": "Water Research",
+          "authors": [
+            "Chun Cao",
+            "Sen Yang",
+            "Xiao-Chun Xiao"
+          ],
+          "doi": "10.1016/j.watres.2026.127175",
+          "url": "https://www.semanticscholar.org/paper/b036e53310dc2e1075e6b13e4c9b86bfa743783f",
           "citation_count": 0
         }
       ],
@@ -235158,7 +235155,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/5c539ce8b6b3f1eb54be695a3eba3ec416c23c24",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-08T01:37:36.768880+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "d4273ea5c2f95f72b410c5098d662e74d2abc5af",
@@ -235203,7 +235200,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/d4273ea5c2f95f72b410c5098d662e74d2abc5af",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-01T01:03:01.583408+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "e3f2d8b253772e59f63d19351aa24b455ea5fe2f",
@@ -235241,7 +235238,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/e3f2d8b253772e59f63d19351aa24b455ea5fe2f",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-01T01:03:01.583408+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "4f084d2c0fc3bf631d810113483ef3c0de6b3c22",
@@ -235287,7 +235284,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/4f084d2c0fc3bf631d810113483ef3c0de6b3c22",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-01T01:03:01.583408+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "f1d7151896d62697d7f3757acab94d6339dd5998",
@@ -235315,73 +235312,73 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "9a3588fb5762db2667c36e4344126cfed096e252",
-          "title": "Recent Increase of Greenhouse Gas Emissions from Cryosphere-Influenced Reservoirs under Climate Change.",
+          "id": "92303f5526aff53588544dee52b46d24ab97c7fb",
+          "title": "Aquatic Macrophyte Coverage and Organic Matter Enrichment Drive Greenhouse Gas (CO2, CH4, N2O) Emissions in Aquaculture Ponds.",
+          "year": 2026,
+          "journal": "Environmental Research",
+          "authors": [
+            "Shi-Yu Geng",
+            "Madina Zokirovna Teshaeva",
+            "Xin Chen"
+          ],
+          "doi": "10.1016/j.envres.2026.126006",
+          "url": "https://www.semanticscholar.org/paper/92303f5526aff53588544dee52b46d24ab97c7fb",
+          "citation_count": 0
+        },
+        {
+          "id": "d9428cdfe42c779f174bc4cf4e1ced49f6f93887",
+          "title": "Hydrological connectivity regulates CO2 and CH4 emissions from a temperate, natural river-floodplain system",
+          "year": 2026,
+          "journal": "Scientific Reports",
+          "authors": [
+            "Jessica Canchig Pilicita",
+            "M. Grygoruk",
+            "Robert J. Michalowski"
+          ],
+          "doi": "10.1038/s41598-026-74297-7",
+          "url": "https://www.semanticscholar.org/paper/d9428cdfe42c779f174bc4cf4e1ced49f6f93887",
+          "citation_count": 0
+        },
+        {
+          "id": "5b04f5fbed3d24fa93a7781f688a756510915af4",
+          "title": "Drivers of Seasonal Variations of Greenhouse Gas Fluxes from Sediment-Water and Water-Atmosphere Interfaces in Different Fish Culture Ponds.",
           "year": 2026,
           "journal": "Environmental Science and Technology",
           "authors": [
-            "Hongqiao Chen",
-            "Chun-Lin Song",
-            "Gen-Xu Wang"
+            "Yu-Qi Liu",
+            "Qing-Fei Zeng",
+            "Azizov Farukh Fathulloevich"
           ],
-          "doi": "10.1021/acs.est.6c08337",
-          "url": "https://www.semanticscholar.org/paper/9a3588fb5762db2667c36e4344126cfed096e252",
+          "doi": "10.1021/acs.est.6c05696",
+          "url": "https://www.semanticscholar.org/paper/5b04f5fbed3d24fa93a7781f688a756510915af4",
           "citation_count": 0
         },
         {
-          "id": "f682d2f99fb0825fe5146ef7cf9e11d620cfed8c",
-          "title": "Constructed floating wetlands cut greenhouse gas emissions from wastewater lagoons.",
+          "id": "f2b83b3f0b43a3074da99f0c5cf4f69c77f41ec4",
+          "title": "Anthropogenic disturbance transforms small agricultural irrigation impoundments into overlooked greenhouse gas hotspots.",
           "year": 2026,
-          "journal": "Journal of Environmental Management",
+          "journal": "Environmental Research",
           "authors": [
-            "L. Schuster",
-            "P. Macreadie",
-            "J. Awad"
+            "Xi Bai",
+            "Yue-Wei Zhang",
+            "Shuang-Shuang Liu"
           ],
-          "doi": "10.1016/j.jenvman.2026.130663",
-          "url": "https://www.semanticscholar.org/paper/f682d2f99fb0825fe5146ef7cf9e11d620cfed8c",
+          "doi": "10.1016/j.envres.2026.125654",
+          "url": "https://www.semanticscholar.org/paper/f2b83b3f0b43a3074da99f0c5cf4f69c77f41ec4",
           "citation_count": 0
         },
         {
-          "id": "94ee087ed0ece0a9447fab5fba5f277776231d72",
-          "title": "Elevated water levels drive greenhouse gas mitigation in the riparian zone profile.",
+          "id": "4270142cb71ae09c05cc183d139c90c89e46da01",
+          "title": "Water quality data from the Paute and Jubones river systems of Ecuador",
           "year": 2026,
-          "journal": "Journal of Environmental Management",
+          "journal": "Scientific Data",
           "authors": [
-            "Qingbang Du",
-            "Ruiliang Xu",
-            "Yu Qin"
+            "W. Van Echelpoel",
+            "D. Vimos-Lojano",
+            "Karem Pollette Ramírez Pozo"
           ],
-          "doi": "10.1016/j.jenvman.2026.130803",
-          "url": "https://www.semanticscholar.org/paper/94ee087ed0ece0a9447fab5fba5f277776231d72",
-          "citation_count": 0
-        },
-        {
-          "id": "adbf6bd22ec71df37456b0c0a91299cb331cda8d",
-          "title": "Environmental controls over greenhouse gas dynamics of tropical peatlands of the Central Congo Basin.",
-          "year": 2026,
-          "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
-          "authors": [
-            "N. Girkin",
-            "Alice S. A. Johnston",
-            "Hayley Curran"
-          ],
-          "doi": "10.1098/rstb.2024.0482",
-          "url": "https://www.semanticscholar.org/paper/adbf6bd22ec71df37456b0c0a91299cb331cda8d",
-          "citation_count": 1
-        },
-        {
-          "id": "4c5980fd8808effe5d60454237dd81155e03589e",
-          "title": "Modelling of Greenhouse Gas Emissions in Irrigated Lowland Rice by the Alternate Wetting-Drying (AWD) System",
-          "year": 2026,
-          "journal": "BIO Web of Conferences",
-          "authors": [
-            "Sitti Filzha Fitrya Ginoga",
-            "Chusnul Arif",
-            "J. L. Siangliw"
-          ],
-          "doi": "10.1051/bioconf/202625303004",
-          "url": "https://www.semanticscholar.org/paper/4c5980fd8808effe5d60454237dd81155e03589e",
+          "doi": "10.1038/s41597-026-08536-x",
+          "url": "https://www.semanticscholar.org/paper/4270142cb71ae09c05cc183d139c90c89e46da01",
           "citation_count": 0
         }
       ],
@@ -235399,7 +235396,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/f1d7151896d62697d7f3757acab94d6339dd5998",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2019",
-      "semantic_recommendations_enriched_at": "2026-10-08T01:37:36.768880+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "38b767674a73d6b952581cbcd0c3c7ad54f76323",
@@ -235553,7 +235550,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/e80c1eb1a83dc27f5e968f4e344cbcc22a769fb8",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-11-01T01:03:01.583408+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "9998f1b25a23e131a9d16ba341d0d8d89d8c156b",
@@ -235628,71 +235625,69 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
-          "id": "9a3588fb5762db2667c36e4344126cfed096e252",
-          "title": "Recent Increase of Greenhouse Gas Emissions from Cryosphere-Influenced Reservoirs under Climate Change.",
+          "id": "43d3e1e5ee2c85c25ab8b5d0e62b4d81e3592903",
+          "title": "Spatial and Temporal Dynamics of Methane and Nitrous Oxide Emissions from Livestock Management in Poland",
           "year": 2026,
-          "journal": "Environmental Science and Technology",
+          "journal": "Energies",
           "authors": [
-            "Hongqiao Chen",
-            "Chun-Lin Song",
-            "Gen-Xu Wang"
+            "A. Wysocka-Czubaszek"
           ],
-          "doi": "10.1021/acs.est.6c08337",
-          "url": "https://www.semanticscholar.org/paper/9a3588fb5762db2667c36e4344126cfed096e252",
+          "doi": "10.3390/en19204753",
+          "url": "https://www.semanticscholar.org/paper/43d3e1e5ee2c85c25ab8b5d0e62b4d81e3592903",
           "citation_count": 0
         },
         {
-          "id": "202fbcd200754d96f047943a8bc40c1bdb5909b9",
-          "title": "Structural Vulnerabilities and GHG Emissions in Ecuador’s Electricity Generation (2003–2024): A Diagnostic Approach",
+          "id": "7e73a89517e94c0ab7bfd5006a71c256ded72e6e",
+          "title": "Comparative Analysis of the Carbon Emissions from Rice and Soybean Fields in a Diversified Cropping System",
           "year": 2026,
-          "journal": "Electronics",
+          "journal": "Archives of Current Research International",
           "authors": [
-            "Martin Ortega",
-            "L. I. Minchala",
-            "Paul Arevalo Cordero"
+            "Hari Singh",
+            "Narendra Yadav",
+            "Brijesh"
           ],
-          "doi": "10.3390/electronics15163697",
-          "url": "https://www.semanticscholar.org/paper/202fbcd200754d96f047943a8bc40c1bdb5909b9",
+          "doi": "10.9734/acri/2026/v26i102233",
+          "url": "https://www.semanticscholar.org/paper/7e73a89517e94c0ab7bfd5006a71c256ded72e6e",
           "citation_count": 0
         },
         {
-          "id": "ccf532673ae26a4611ce86013268c32d01ca52fb",
-          "title": "Uncovering the Underestimated Greenhouse Gas Emissions of Hydropower Reservoirs: A Global Synthesis",
+          "id": "31b9d7ec714db9dab257a37dabe138431a104b8f",
+          "title": "Tracking the Emission Levels of Greenhouse Gases from Agricultural Activities in Nigeria for Global Climate Action",
           "year": 2026,
-          "journal": "Global Biogeochemical Cycles",
+          "journal": "International Journal of Environment and Climate Change",
           "authors": [
-            "Xin Liu",
-            "W. Wong",
-            "S. Poh"
+            "G. Buluku",
+            "M. S. Shiada",
+            "Usman Salifu Oma"
           ],
-          "doi": "10.1029/2026GB009359",
-          "url": "https://www.semanticscholar.org/paper/ccf532673ae26a4611ce86013268c32d01ca52fb",
+          "doi": "10.9734/ijecc/2026/v16i105745",
+          "url": "https://www.semanticscholar.org/paper/31b9d7ec714db9dab257a37dabe138431a104b8f",
           "citation_count": 0
         },
         {
-          "id": "65db67b2c3532a69d125794ed1fb64e4a1b07535",
-          "title": "Greenhouse Gas Balance of Rewetted Peatland Ecosystems",
+          "id": "7ddfb153753069b68ec246ea69e582efdbab3faa",
+          "title": "Annual methane emission from pig manure in Korea is less than the estimate of Intergovernmental Panel on Climate Change.",
           "year": 2026,
-          "journal": "Eduschool Journal of Environmental Research Studies (EJERS)",
+          "journal": "Animal bioscience",
           "authors": [
-            "S. C"
+            "DongHyeon Lee",
+            "Beob Gyun Kim"
           ],
-          "doi": "10.63090/ejers/3139.9207.0007",
-          "url": "https://www.semanticscholar.org/paper/65db67b2c3532a69d125794ed1fb64e4a1b07535",
+          "doi": "10.5713/ab.260674",
+          "url": "https://www.semanticscholar.org/paper/7ddfb153753069b68ec246ea69e582efdbab3faa",
           "citation_count": 0
         },
         {
-          "id": "9873b79a2abcbe0aa8037919f137991f9ee42719",
-          "title": "Methane Emissions\nfrom Postmeter Residential Natural\nGas Infrastructure: Integrating Existing Data to Inform California’s\nStatewide Inventory",
+          "id": "5cadab056a775b6ebb710dfd66823cd3df0619bf",
+          "title": "Forecasting greenhouse gas emissions from municipal waste management under alternative scenarios: a country-level study",
           "year": 2026,
-          "journal": "ACS ES&amp;T Air",
+          "journal": "Clean Technologies and Environmental Policy",
           "authors": [
-            "Bijay Sharma",
-            "W. Chan",
-            "W. Delp"
+            "M. Abbasi",
+            "Seyed Mostafa Mehrdad"
           ],
-          "doi": "10.1021/acsestair.6c00131",
-          "url": "https://www.semanticscholar.org/paper/9873b79a2abcbe0aa8037919f137991f9ee42719",
+          "doi": "10.1007/s10098-026-03571-z",
+          "url": "https://www.semanticscholar.org/paper/5cadab056a775b6ebb710dfd66823cd3df0619bf",
           "citation_count": 0
         }
       ],
@@ -235712,7 +235707,7 @@ window.PAPER_TRACKER_DATA = {
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/9998f1b25a23e131a9d16ba341d0d8d89d8c156b",
       "semantic_detail_enriched_at": "2026-11-02T01:39:31.466848+00:00",
       "year": "2018",
-      "semantic_recommendations_enriched_at": "2026-10-08T01:37:36.768880+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "72cfb4d22564b285a17e174be31a7a1cb0e228ed",
@@ -235749,72 +235744,71 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "5c1500cda23442031601695eea729b6c70c05200",
-          "title": "Attributing Runoff and Non‐Point Source Pollution Changes to Climate and Human Drivers in the Weihe River Basin, China",
+          "id": "f5664527337ec560a2744c69394a47e819751bbb",
+          "title": "Assessing Hydrological Impacts of Deforestation and Land Use Change in the Tel River Basin",
           "year": 2026,
-          "journal": "Water Resources Research",
+          "journal": "Journal of Geomatics",
           "authors": [
-            "Yu-Han Shen",
-            "De-Hong Li",
-            "Dengke Qing"
+            "Triparna Sett",
+            "B. Nikam",
+            "Vaibhav Garg"
           ],
-          "doi": "10.1029/2026WR043466",
-          "url": "https://www.semanticscholar.org/paper/5c1500cda23442031601695eea729b6c70c05200",
+          "doi": "10.58825/jog.2026.20.2.346",
+          "url": "https://www.semanticscholar.org/paper/f5664527337ec560a2744c69394a47e819751bbb",
           "citation_count": 0
         },
         {
-          "id": "bd99b02c10b1e63069a2b363c8636c4b42e5800e",
-          "title": "Combined Impacts of Climate and Land-Use/Land-Cover Changes on the Flow Regime and Ecological Diversity in the Songkhram River Basin, A Tributary of the Mekong River",
+          "id": "f9efb6c35be91875676bded471eddc5fc37a4bc5",
+          "title": "Land use dynamics and hydro-climatic variability to hydrological responses in Tawa River Basin, central India",
           "year": 2026,
-          "journal": "Earth Systems and Environment",
+          "journal": "Discover Environment",
           "authors": [
-            "T. Baghel",
-            "M. Babel",
-            "Dibesh Khadka"
+            "P. Rajput"
           ],
-          "doi": "10.1007/s41748-026-01331-z",
-          "url": "https://www.semanticscholar.org/paper/bd99b02c10b1e63069a2b363c8636c4b42e5800e",
+          "doi": "10.1007/s44274-026-01182-5",
+          "url": "https://www.semanticscholar.org/paper/f9efb6c35be91875676bded471eddc5fc37a4bc5",
           "citation_count": 0
         },
         {
-          "id": "232f735f9006f5ffd6eff5648d0249c9c0763170",
-          "title": "Contrasting Impacts of Climate and Vegetation Changes on Water Yield Across Global and Regional Scales",
+          "id": "685021e7167fe7d45e3ec4600951f7a6a8ed8dc3",
+          "title": "Attributing Global Changes in Flood Seasonality to Anthropogenic Climate Change and Land-Surface Human Activities",
           "year": 2026,
-          "journal": "Water Resources Research",
+          "journal": "Hydrology",
           "authors": [
-            "Si-Yu Liu",
-            "Tao Lin",
-            "Zi-Xu Jia"
+            "Yun Wang",
+            "Shuang-Yun-Min Wang",
+            "Yan-Lai Zhou"
           ],
-          "doi": "10.1029/2025WR042668",
-          "url": "https://www.semanticscholar.org/paper/232f735f9006f5ffd6eff5648d0249c9c0763170",
+          "doi": "10.3390/hydrology13100270",
+          "url": "https://www.semanticscholar.org/paper/685021e7167fe7d45e3ec4600951f7a6a8ed8dc3",
           "citation_count": 0
         },
         {
-          "id": "27e3311ba35d17625b2338cec61cb749e6007f76",
-          "title": "Climate change assessment on river flows and downstream lakes from mountainous basins: A SWAT and CMIP6 scenarios modeling",
+          "id": "be518390299452e9b91d23522a671c9c0cca8bac",
+          "title": "THE CONTRIBUTION OF CLIMATE CHANGE AND HUMAN ACTIVITIES TO VEGETATION CHANGE: A CASE STUDY IN HEBEI PROVINCE, CHINA",
           "year": 2026,
-          "journal": "Journal of Mountain Science",
+          "journal": "Applied Ecology and Environmental Research",
           "authors": [
-            "H. Motiee",
-            "Soroush Motiee",
-            "Sajad Rahab Rajaei"
+            "Y.-F. Zhang",
+            "L. Zhao",
+            "J.-Y. Zhang"
           ],
-          "doi": "10.1007/s11629-025-0015-4",
-          "url": "https://www.semanticscholar.org/paper/27e3311ba35d17625b2338cec61cb749e6007f76",
+          "doi": "10.15666/aeer/2405_1068910714",
+          "url": "https://www.semanticscholar.org/paper/be518390299452e9b91d23522a671c9c0cca8bac",
           "citation_count": 0
         },
         {
-          "id": "75a3d4a4a3cfb5dc28967f1255c57ce3019f219c",
-          "title": "Vegetation gross primary productivity simulation and its driving factors in the Three-North Shelterbelt Forest Program Region based on dynamic changes in vegetation types",
+          "id": "ae106cbc42d4129c100a3a2d32f4cab880421291",
+          "title": "Evaluating the Combined Impacts of Anthropogenic Disturbances and Climate Change on Future Streamflow Variations in the Minjiang River Basin",
           "year": 2026,
-          "journal": "Science China. Earth Sciences",
+          "journal": "Hydrology",
           "authors": [
-            "Yi Xiao",
-            "Guang-Sheng Zhou"
+            "Ming-Hao Chen",
+            "Kai-Jie Chen",
+            "Tai-Hua Wang"
           ],
-          "doi": "10.1007/s11430-026-2016-x",
-          "url": "https://www.semanticscholar.org/paper/75a3d4a4a3cfb5dc28967f1255c57ce3019f219c",
+          "doi": "10.3390/hydrology13090247",
+          "url": "https://www.semanticscholar.org/paper/ae106cbc42d4129c100a3a2d32f4cab880421291",
           "citation_count": 0
         }
       ],
@@ -235832,7 +235826,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/72cfb4d22564b285a17e174be31a7a1cb0e228ed",
       "semantic_detail_enriched_at": "2026-10-20T00:53:19.339745+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-08T01:37:36.768880+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "c1c631522ca36cc9639c3e39061127ba223d365c",
@@ -235856,30 +235850,17 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [
         {
-          "id": "ed99a8e21f97893bddaa952a719bfcb2178545ba",
-          "title": "Raw Gas Treatment and Conditioning for Methanol Production from Biomass and Waste Gasification",
+          "id": "12804d952d4685ba9dafaf6519f7320fd28ee19a",
+          "title": "THERMODYNAMIC ANALYSIS ON HYDROGEN PRODUCTION THROUGH GASIFICATION OF COCONUT SHELL USING A SWIRL FIXED BED GASIFIER",
           "year": 2026,
-          "journal": "ACS Omega",
+          "journal": "Jurnal Teknologi",
           "authors": [
-            "Y. Ganjkhanlou",
-            "P. Abelha",
-            "C. M. van der Meijden"
+            "Muhammad Roslan Rahim",
+            "N. Othman",
+            "Alaa Salahuddin Araibi"
           ],
-          "doi": "10.1021/acsomega.6c05837",
-          "url": "https://www.semanticscholar.org/paper/ed99a8e21f97893bddaa952a719bfcb2178545ba",
-          "citation_count": 0
-        },
-        {
-          "id": "853cc64be1e12d5a3d2635cc583edb20c2955ccb",
-          "title": "Enhancing Conversion Of Flared Natural Gas Into Liquefied Petroleum Gas For Industrial And Domestic Energy Use",
-          "year": 2026,
-          "journal": "Journal of Technology Informatics and Engineering",
-          "authors": [
-            "G. Nonju",
-            "H. Oritom"
-          ],
-          "doi": "10.51903/jtie.v5i2.551",
-          "url": "https://www.semanticscholar.org/paper/853cc64be1e12d5a3d2635cc583edb20c2955ccb",
+          "doi": "10.11113/jurnalteknologi.v88.25641",
+          "url": "https://www.semanticscholar.org/paper/12804d952d4685ba9dafaf6519f7320fd28ee19a",
           "citation_count": 0
         },
         {
@@ -235895,29 +235876,41 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "332efd8f5c1cd393a866605d8f49c56a98c8650f",
-          "title": "Sustainable hydrogen production from oily wastewater by supercritical water gasification",
+          "id": "6c054076450a8be42d23c05e9e5868aea1d6e327",
+          "title": "Thermodynamic Analysis of Methanation of Pyrolysis Gas from Anthropogenic Residues",
           "year": 2026,
-          "journal": "International Journal of Green Energy",
+          "journal": "Gases",
           "authors": [
-            "Zhang-Jian Li",
-            "Qiu-Yang Zhao",
-            "Guo-Zhu Wang"
+            "C. Freda",
+            "Emanuele Fanelli",
+            "Orfeo Trezza"
           ],
-          "doi": "10.1080/15435075.2026.2728010",
-          "url": "https://www.semanticscholar.org/paper/332efd8f5c1cd393a866605d8f49c56a98c8650f",
+          "doi": "10.3390/gases6030043",
+          "url": "https://www.semanticscholar.org/paper/6c054076450a8be42d23c05e9e5868aea1d6e327",
           "citation_count": 0
         },
         {
-          "id": "b4284f9e7f568ccd2d91982659768e1d64258723",
-          "title": "Advanced Sustainable Process Integration and Comprehensive Techno-Economic Evaluation of Polystyrene Waste Upcycling into Methanol as a Clean Alternative Fuel",
-          "year": 2026,
-          "journal": "ChemEngineering",
+          "id": "57bc37639247d1de888fc761943664e63c34892f",
+          "title": "Simulation on hydrogen production with gasification from high-volatile bituminous coal from china",
+          "year": null,
+          "journal": "",
           "authors": [
-            "Usama Ahmed"
+            "Fang-Bing Zhang"
           ],
-          "doi": "10.3390/chemengineering10080101",
-          "url": "https://www.semanticscholar.org/paper/b4284f9e7f568ccd2d91982659768e1d64258723",
+          "doi": "10.58837/chula.the.2026.10",
+          "url": "https://www.semanticscholar.org/paper/57bc37639247d1de888fc761943664e63c34892f",
+          "citation_count": 0
+        },
+        {
+          "id": "4dbe350fd04be8ecc516a43174f2aba84edaab55",
+          "title": "Power-to-Fuel Pathway: Sustainable E-Fuel Production Using Green Hydrogen and CO2 Capture",
+          "year": 2026,
+          "journal": "The University of Ha’il Journal of Science (UOHJS)",
+          "authors": [
+            "Bilel Hadrich"
+          ],
+          "doi": "10.64518/uohjs.2026.05",
+          "url": "https://www.semanticscholar.org/paper/4dbe350fd04be8ecc516a43174f2aba84edaab55",
           "citation_count": 0
         }
       ],
@@ -235939,7 +235932,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/c1c631522ca36cc9639c3e39061127ba223d365c",
       "semantic_detail_enriched_at": "2026-10-20T00:53:19.339745+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-08T01:37:36.768880+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "45682f6236221c46bea895dca71ff8a1d7bb720a",
@@ -236018,17 +236011,17 @@ window.PAPER_TRACKER_DATA = {
       ],
       "similar_papers": [
         {
-          "id": "86fc72d05db515eb3a703397ec6257b7ea9e41cc",
-          "title": "When seeps give ANME-SRB the cold shoulder: putative role of denitrification mediated methane oxidation in an Antarctic Cold Seep",
+          "id": "3123a466ad77757eca8dda0c90ba2c5a1d475eb4",
+          "title": "ANME-2a perform methane oxidation in brackish coastal sediments via multiple pathways",
           "year": 2026,
-          "journal": "bioRxiv",
+          "journal": "Science Advances",
           "authors": [
-            "J. H. Wynne",
-            "R. Mclachlan",
-            "A. Thurber"
+            "R. Klomp",
+            "Anna J. Wallenius",
+            "Merijn A. W. Schutgens"
           ],
-          "doi": "10.64898/2026.08.07.738775",
-          "url": "https://www.semanticscholar.org/paper/86fc72d05db515eb3a703397ec6257b7ea9e41cc",
+          "doi": "10.1126/sciadv.aei5868",
+          "url": "https://www.semanticscholar.org/paper/3123a466ad77757eca8dda0c90ba2c5a1d475eb4",
           "citation_count": 0
         },
         {
@@ -236046,20 +236039,6 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "4700bc8c8d65cdada9787199613c66a3494f8078",
-          "title": "Divergent Responses of Methane Emission to Warming in Waterlogged Versus Drained Alpine Peatlands",
-          "year": 2026,
-          "journal": "Global Change Biology",
-          "authors": [
-            "Cheng-Zhu Liu",
-            "Guohua Dai",
-            "Zong-Guang Liu"
-          ],
-          "doi": "10.1111/gcb.71088",
-          "url": "https://www.semanticscholar.org/paper/4700bc8c8d65cdada9787199613c66a3494f8078",
-          "citation_count": 0
-        },
-        {
           "id": "5034f51316f7387017ab3e5948b1d07df7de3953",
           "title": "Impacts of temperature on hydrogenotrophic denitrifying aquifer microbiota",
           "year": 2026,
@@ -236074,17 +236053,31 @@ window.PAPER_TRACKER_DATA = {
           "citation_count": 0
         },
         {
-          "id": "fec43695b66e32e9fd2be603a5ec726b4deb5a53",
-          "title": "Genome-resolved metagenomics reveals microbial potential for CO2 and CH4 emissions in prawn ponds",
+          "id": "fb11aa9b704e7b1bfd2ce449949e56d9fd419441",
+          "title": "Archaeal methanogenesis in a deep terrestrial aquifer driven by Methanothermobacter tomskensis sp. nov.",
+          "year": 2026,
+          "journal": "Frontiers in Microbiology",
+          "authors": [
+            "V. Trubitsyn",
+            "I. Rusanov",
+            "V. Rechkina"
+          ],
+          "doi": "10.3389/fmicb.2026.1973590",
+          "url": "https://www.semanticscholar.org/paper/fb11aa9b704e7b1bfd2ce449949e56d9fd419441",
+          "citation_count": 0
+        },
+        {
+          "id": "d462da95256e0359f0dc58716a3a7e01085ab735",
+          "title": "Bacterial fermentation dominates over respiration in upland soils during hypoxia",
           "year": 2026,
           "journal": "bioRxiv",
           "authors": [
-            "A. Bashar",
-            "A. M. Djurhuus",
-            "P. Browne"
+            "Thanh Nguyen-Dinh",
+            "TE Hutchinson",
+            "Pok M. Leung"
           ],
-          "doi": "10.64898/2026.08.18.745432",
-          "url": "https://www.semanticscholar.org/paper/fec43695b66e32e9fd2be603a5ec726b4deb5a53",
+          "doi": "10.64898/2026.10.24.761498",
+          "url": "https://www.semanticscholar.org/paper/d462da95256e0359f0dc58716a3a7e01085ab735",
           "citation_count": 0
         }
       ],
@@ -236107,7 +236100,7 @@ window.PAPER_TRACKER_DATA = {
       ],
       "semantic_scholar_url": "https://www.semanticscholar.org/paper/45682f6236221c46bea895dca71ff8a1d7bb720a",
       "semantic_detail_enriched_at": "2026-10-12T00:57:18.064042+00:00",
-      "semantic_recommendations_enriched_at": "2026-10-08T01:37:36.768880+00:00"
+      "semantic_recommendations_enriched_at": "2026-11-09T01:45:08.131076+00:00"
     },
     {
       "id": "0eba1b4c55a8a7392bdbafa29f0d1f895e07acf9",
@@ -257703,8 +257696,8 @@ window.PAPER_TRACKER_DATA = {
       "year": "2016"
     },
     {
-      "id": "1ac9cc221b81bb2a60927ecc7d9f45f644606078",
-      "semantic_scholar_id": "1ac9cc221b81bb2a60927ecc7d9f45f644606078",
+      "id": "47fc345070df4167179086911aa78cd0bebb901e",
+      "semantic_scholar_id": "47fc345070df4167179086911aa78cd0bebb901e",
       "source": "Semantic Scholar",
       "pmid": "",
       "doi": "",
@@ -257716,11 +257709,11 @@ window.PAPER_TRACKER_DATA = {
       "year": 2016,
       "publication_date": "2016-01-01",
       "abstract": "",
-      "url": "https://www.semanticscholar.org/paper/1ac9cc221b81bb2a60927ecc7d9f45f644606078",
+      "url": "https://www.semanticscholar.org/paper/47fc345070df4167179086911aa78cd0bebb901e",
       "pdf_url": "",
       "citation_count": 0,
       "influential_citation_count": 0,
-      "reference_count": 4,
+      "reference_count": 1,
       "references": [],
       "similar_papers": [],
       "fields_of_study": [],
@@ -257734,8 +257727,8 @@ window.PAPER_TRACKER_DATA = {
         "process",
         "wetland"
       ],
-      "semantic_scholar_url": "https://www.semanticscholar.org/paper/1ac9cc221b81bb2a60927ecc7d9f45f644606078",
-      "semantic_detail_enriched_at": "2026-11-07T01:37:39.942410+00:00"
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/47fc345070df4167179086911aa78cd0bebb901e",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "b858bff67f7c9a68ee6a6ef06a4624a23172a683",
@@ -259204,7 +259197,9 @@ window.PAPER_TRACKER_DATA = {
         "ghg",
         "inland_water"
       ],
-      "seed": true
+      "seed": true,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/1131d23550cd0cd40b92cde58e8b095e3e041969",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "e155afa1ba1ef62d82c14d34e1181f153d6257c7",
@@ -260336,7 +260331,9 @@ window.PAPER_TRACKER_DATA = {
         "ghg",
         "river_stream"
       ],
-      "seed": true
+      "seed": true,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/32e5ae582153edd3536354da2fff053289ff0bc8",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "756a7343b6a3d00f56f094eed6440f51c453f37c",
@@ -270516,7 +270513,9 @@ window.PAPER_TRACKER_DATA = {
         "inland_water",
         "urban"
       ],
-      "seed": true
+      "seed": true,
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/3a0fa9d9e0b0f4079ebb5ed74934f334b43f9649",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "9acc03a41512c37f7532eb65923e77dde0e5f68e",
@@ -298776,23 +298775,20 @@ window.PAPER_TRACKER_DATA = {
       "semantic_detail_enriched_at": "2026-10-13T03:29:29.810739+00:00"
     },
     {
-      "id": "456199e8939236a2df6775774f502f74c65e1369",
-      "semantic_scholar_id": "456199e8939236a2df6775774f502f74c65e1369",
+      "id": "7f4cf521711ed821b12149f3ba5b37c4d5d063fe",
+      "semantic_scholar_id": "7f4cf521711ed821b12149f3ba5b37c4d5d063fe",
       "source": "Semantic Scholar",
       "pmid": "",
       "doi": "",
       "title": "Interactive comment on “ Organic matter sources , fluxes and greenhouse gas exchange in the Oubangui River ( Congo River basin ) ” by S .",
       "authors": [
-        "C. Salimon",
-        "J. Richey",
-        "G. Holtgrieve",
-        "A. Krusche"
+        "0. License."
       ],
       "journal": "",
       "year": "",
       "publication_date": "",
       "abstract": "",
-      "url": "https://www.semanticscholar.org/paper/456199e8939236a2df6775774f502f74c65e1369",
+      "url": "https://www.semanticscholar.org/paper/7f4cf521711ed821b12149f3ba5b37c4d5d063fe",
       "pdf_url": "",
       "citation_count": 0,
       "influential_citation_count": 0,
@@ -298807,7 +298803,9 @@ window.PAPER_TRACKER_DATA = {
         "flux",
         "ghg",
         "river_stream"
-      ]
+      ],
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/7f4cf521711ed821b12149f3ba5b37c4d5d063fe",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "aceb93b865bb859e7c969f54f308066919ae8d53",
@@ -335123,24 +335121,33 @@ window.PAPER_TRACKER_DATA = {
       "semantic_detail_enriched_at": "2026-10-15T00:17:37.877665+00:00"
     },
     {
-      "id": "0c4b981009673ff186fe24bce010b987cfbf0884",
-      "semantic_scholar_id": "0c4b981009673ff186fe24bce010b987cfbf0884",
+      "id": "a9e498ba49ae475dcc1a2bbe0b80aef8b50699ad",
+      "semantic_scholar_id": "a9e498ba49ae475dcc1a2bbe0b80aef8b50699ad",
       "source": "Semantic Scholar",
       "pmid": "",
       "doi": "",
       "title": "Interactive comment on “CO2 partial pressure and CO2 emissions from the lower Red River (Vietnam)” by Thi Phuong Quynh Le et al",
       "authors": [
-        "J. Crawford"
+        "P. Le",
+        "C. Marchand",
+        "C. T. Ho",
+        "Nhu Da Le",
+        "T. Duong",
+        "T. Nguyen",
+        "Xi-Xi Lu",
+        "P. Doan",
+        "Thi Mai Huong Nguyen",
+        "D. Vu"
       ],
       "journal": "",
       "year": 2018,
       "publication_date": "2018-01-01",
       "abstract": "",
-      "url": "https://www.semanticscholar.org/paper/0c4b981009673ff186fe24bce010b987cfbf0884",
+      "url": "https://www.semanticscholar.org/paper/a9e498ba49ae475dcc1a2bbe0b80aef8b50699ad",
       "pdf_url": "",
       "citation_count": 0,
       "influential_citation_count": 0,
-      "reference_count": 0,
+      "reference_count": 1,
       "references": [],
       "similar_papers": [],
       "fields_of_study": [],
@@ -335150,8 +335157,11 @@ window.PAPER_TRACKER_DATA = {
       "tags": [
         "co2",
         "flux",
+        "pond_ditch",
         "river_stream"
-      ]
+      ],
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/a9e498ba49ae475dcc1a2bbe0b80aef8b50699ad",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "2afda87c2289ff6f9ef38a3ee959e8edf6ce8165",
@@ -362390,18 +362400,20 @@ window.PAPER_TRACKER_DATA = {
       "semantic_detail_enriched_at": "2026-10-17T00:03:48.505123+00:00"
     },
     {
-      "id": "2f32b33a7727f7c93ae8b4d8831dd99731bcb169",
-      "semantic_scholar_id": "2f32b33a7727f7c93ae8b4d8831dd99731bcb169",
+      "id": "3fe3b26af214911cd176fa14192a6555207c8b55",
+      "semantic_scholar_id": "3fe3b26af214911cd176fa14192a6555207c8b55",
       "source": "Semantic Scholar",
       "pmid": "",
       "doi": "",
       "title": "Interactive comment on “ Quantifying methane emissions from rice fields in Tai-Lake region , China by coupling detailed soil database with biogeochemical model ” by L .",
-      "authors": [],
+      "authors": [
+        "L. Zhang"
+      ],
       "journal": "",
       "year": 2009,
       "publication_date": "2009-01-01",
       "abstract": "",
-      "url": "https://www.semanticscholar.org/paper/2f32b33a7727f7c93ae8b4d8831dd99731bcb169",
+      "url": "https://www.semanticscholar.org/paper/3fe3b26af214911cd176fa14192a6555207c8b55",
       "pdf_url": "",
       "citation_count": 0,
       "influential_citation_count": 0,
@@ -362409,15 +362421,18 @@ window.PAPER_TRACKER_DATA = {
       "references": [],
       "similar_papers": [],
       "fields_of_study": [],
-      "publication_types": [],
+      "publication_types": [
+        "Review"
+      ],
       "tldr": "",
       "metrics_source": "Semantic Scholar",
       "tags": [
         "ch4",
         "flux",
-        "ghg",
         "lake_reservoir"
-      ]
+      ],
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/3fe3b26af214911cd176fa14192a6555207c8b55",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "2e13d950adf6f498e3f554c4c92c03ae89f43f9b",
@@ -377697,8 +377712,8 @@ window.PAPER_TRACKER_DATA = {
       "semantic_detail_enriched_at": "2026-07-17T22:16:32.690202+00:00"
     },
     {
-      "id": "bd73062b682ac8ecdf03a5dcfae60f83707dbc3b",
-      "semantic_scholar_id": "bd73062b682ac8ecdf03a5dcfae60f83707dbc3b",
+      "id": "bd3f6479114f6a0e1a875d1a77b603049b186411",
+      "semantic_scholar_id": "bd3f6479114f6a0e1a875d1a77b603049b186411",
       "source": "Semantic Scholar",
       "pmid": "",
       "doi": "",
@@ -377708,7 +377723,7 @@ window.PAPER_TRACKER_DATA = {
       "year": "",
       "publication_date": "",
       "abstract": "",
-      "url": "https://www.semanticscholar.org/paper/bd73062b682ac8ecdf03a5dcfae60f83707dbc3b",
+      "url": "https://www.semanticscholar.org/paper/bd3f6479114f6a0e1a875d1a77b603049b186411",
       "pdf_url": "",
       "citation_count": 0,
       "influential_citation_count": 0,
@@ -377724,8 +377739,8 @@ window.PAPER_TRACKER_DATA = {
         "flux",
         "lake_reservoir"
       ],
-      "semantic_scholar_url": "https://www.semanticscholar.org/paper/bd73062b682ac8ecdf03a5dcfae60f83707dbc3b",
-      "semantic_detail_enriched_at": "2026-11-07T01:37:39.942410+00:00"
+      "semantic_scholar_url": "https://www.semanticscholar.org/paper/bd3f6479114f6a0e1a875d1a77b603049b186411",
+      "semantic_detail_enriched_at": "2026-11-09T01:44:47.152479+00:00"
     },
     {
       "id": "5b0e265bde69d74d11bee4fab391cdbd76bb1acf",
